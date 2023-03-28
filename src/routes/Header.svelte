@@ -10,15 +10,15 @@
 	</div>
 
 	<ul class="menu menu-horizontal bg-base-100 rounded-box">
-		<li class="uppercase font-bold"><a>Home</a></li>
-		<li class="uppercase font-bold"><a>About Us</a></li>
-		<li class="uppercase font-bold"><a>Courses</a></li>
-		<li class="uppercase font-bold"><a>Achievements</a></li>
-		<li class="uppercase font-bold"><a>Student activities</a></li>
-		<li class="uppercase font-bold"><a>Admission</a></li>
-		<li class="uppercase font-bold"><a>campus</a></li>
-		<li class="uppercase font-bold"><a>downloads</a></li>
-		<li class="uppercase font-bold"><a>alumni</a></li>
-		<li class="uppercase font-bold"><a>circulars</a></li>
+		<li class="uppercase font-semibold"><a>Home</a></li>
+		<li class="uppercase font-semibold"><a>About us</a></li>
+		<li class="uppercase font-semibold"><a>Courses</a></li>
+		<li class="uppercase font-semibold"><a>Achievements</a></li>
+		<li class="uppercase font-semibold"><a>Student activities</a></li>
+		<li class="uppercase font-semibold"><a>Admission</a></li>
+		<li class="uppercase font-semibold"><a>Campus</a></li>
+		<li class="uppercase font-semibold"><a>Downloads</a></li>
+		<li class="uppercase font-semibold"><a>Alumni</a></li>
+		<li class="uppercase font-semibold"><a>Circulars</a></li>
 	</ul>
 </div>
