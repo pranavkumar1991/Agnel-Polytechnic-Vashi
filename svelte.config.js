@@ -4,15 +4,15 @@ import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  kit: {
-    adapter: adapter()
-  },
-  preprocess: [
-    vitePreprocess(),
-    preprocess({
-      postcss: true
-    })
-  ],
+	kit: {
+		adapter: adapter()
+	},
+	preprocess: [
+		vitePreprocess(),
+		preprocess({
+			postcss: true
+		})
+	]
 };
 
 export default config;
