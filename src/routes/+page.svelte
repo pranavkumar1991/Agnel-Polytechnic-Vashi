@@ -3,5 +3,6 @@
 	import Slideshow from './Slideshow.svelte';
 </script>
 
-<Header />
-<Slideshow />
+<Header>
+	<Slideshow />
+</Header>
