@@ -13,4 +13,5 @@
 	<swiper-slide><img src="uba_banner-7.jpg" alt="banner" class="mx-auto" /></swiper-slide>
 	<swiper-slide><img src="uba_banner-10.jpg" alt="banner" class="mx-auto" /></swiper-slide>
 	<swiper-slide><img src="uba_banner-11.jpg" alt="banner" class="mx-auto" /></swiper-slide>
+	<swiper-slide><img src="uba_banner-12.jpg" alt="banner" class="mx-auto" /></swiper-slide>
 </swiper-container>
