@@ -1,4 +1,4 @@
-<div class="card lg:card-side bg-base-100 shadow-xl max-w-screen-2xl mx-auto my-12 w-full border">
+<div class="card lg:card-side bg-base-100 shadow-xl max-w-screen-2xl mx-auto mt-12 w-full border">
 	<figure class="w-full"><img src="/agnel_campus.webp" alt="campus" /></figure>
 	<div class="card-body">
 		<h2 class="card-title text-3xl font-bold">About Agnels</h2>
