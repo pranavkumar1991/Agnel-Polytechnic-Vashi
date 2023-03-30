@@ -8,3 +8,4 @@
 <li class="uppercase font-semibold"><a href="/">Downloads</a></li>
 <li class="uppercase font-semibold"><a href="/">Alumni</a></li>
 <li class="uppercase font-semibold"><a href="/">Circulars</a></li>
+<li class="uppercase font-semibold"><a href="/">Contact Us</a></li>
