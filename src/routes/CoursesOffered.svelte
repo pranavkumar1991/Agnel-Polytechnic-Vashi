@@ -1,4 +1,4 @@
-<div class="w-full max-w-5xl mx-auto shadow-md shadow-stone-700 p-3">
+<div class="w-full max-w-5xl mx-auto shadow-lg border p-3">
 	<h3 class="mx-auto text-2xl uppercase font-bold flex w-fit bg-primary text-white py-3 px-16 mb-2 rounded-md">Courses offered</h3>
 	<div class="overflow-x-auto">
 		<table class="table table-compact w-full max-w-7xl mx-auto">
