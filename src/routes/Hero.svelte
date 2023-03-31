@@ -4,7 +4,7 @@
 			<div class="hero-overlay bg-opacity-60" />
 			<div class="hero-content text-center text-neutral-content">
 				<div class="max-w-xl">
-					<img src="/apv_logo.png" alt="logo" class="w-32 md:w-48 mx-auto">
+					<img src="/apv_logo.png" alt="logo" class="w-32 md:w-48 mx-auto" />
 					<h1 class="mb-5 text-4xl md:text-5xl font-bold">Agnel Polytechnic, Vashi</h1>
 					<p class="mb-5 text-sm md:text-base">
 						( Approved by AICTE / Govt. of Maharashtra / DTE & affiliated to MSBTE )
@@ -16,7 +16,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-2/3 md:top-1/2">
+		<div
+			class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-2/3 md:top-1/2"
+		>
 			<a href="#slide4" class="btn btn-circle">❮</a>
 			<a href="#slide2" class="btn btn-circle">❯</a>
 		</div>
