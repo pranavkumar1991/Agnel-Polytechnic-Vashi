@@ -3,7 +3,7 @@
 	import FaPhoneAlt from 'svelte-icons/fa/FaPhoneAlt.svelte';
 </script>
 
-<div class="navbar bg-base-100 md:w-auto md:left-20 md:right-20 xl:left-40 xl:right-40 top-10 absolute z-10 rounded-lg">
+<div class="navbar bg-base-100 md:w-auto md:left-20 md:right-20 xl:left-40 xl:right-40 top-3 md:top-7 lg:top-10 absolute z-10 rounded-lg">
 	<div class="navbar-start">
 		<div class="dropdown">
 			<button class="btn btn-ghost btn-sm xl:hidden" tabindex="0">
