@@ -1,4 +1,4 @@
-<h3 class="text-center text-4xl font-bold my-16 uppercase divider">COURSES</h3>
+<h3 class="text-center text-4xl font-bold mb-16 uppercase divider">COURSES</h3>
 <div class="grid gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 max-w-4xl xl:max-w-7xl mx-auto justify-items-center">
 	<div class="card w-96 bg-base-100 shadow-xl">
 		<figure><img src="/AN_logo.png" alt="artificial intelligence" /></figure>
