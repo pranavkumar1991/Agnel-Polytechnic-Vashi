@@ -11,15 +11,15 @@
 <footer class="footer p-10 bg-accent text-white mt-10">
 	<div class="max-w-sm">
 		<img src="/apv_logo.png" alt="Father Agnel Logo" class="w-16" />
-		<h4 class="font-semibold text-lg">Agnel Polytechnic, Vashi</h4>
-		<h6 class="text-justify">
+		<h1 class="font-semibold text-lg">Agnel Polytechnic, Vashi</h1>
+		<h2 class="text-justify">
 			What makes Agnel Polytechnic a unique institution in Mumbai is its discipline and culture and
 			the dedication of the faculty imparting knowledge and expertise to the students in a
 			cosmopolitan atmosphereF
-		</h6>
+		</h2>
 	</div>
 	<div class="max-w-sm">
-		<span class="footer-title">Featured Links</span>
+		<span class="footer-title opacity-100 underline underline-offset-4">Featured Links</span>
 		<ul class="grid grid-cols-2 gap-1">
 			<li><a class="link link-hover" href="/">&gt; Home</a></li>
 			<li><a class="link link-hover">&gt; Admissions</a></li>
@@ -32,7 +32,7 @@
 		</ul>
 	</div>
 	<div class="max-w-sm">
-		<span class="footer-title">Information</span>
+		<span class="footer-title opacity-100 underline underline-offset-4">Information</span>
 		<a class="link link-hover flex items-center gap-2" href="https://www.google.com/maps/place/Fr.+Agnel+Polytechnic/@19.0755441,72.9890864,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c135baaaaaab:0x931cf32f3e166f1f!8m2!3d19.075539!4d72.9912751!16s%2Fm%2F0bmhdtb">
             <div class="basis-5 shrink-0">
                 <FaPaperPlane />
@@ -59,7 +59,7 @@
         </a>
 	</div>
 	<div class="max-w-sm">
-		<span class="footer-title">Social</span>
+		<span class="footer-title opacity-100 underline underline-offset-4">Social</span>
 		<div class="grid grid-flow-col grid-rows-2 gap-4">
 			<a class="w-8 cursor-pointer"><FaInstagram /></a>
 			<a class="w-8 cursor-pointer"><FaFacebook /></a>

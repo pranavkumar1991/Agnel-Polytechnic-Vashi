@@ -7,11 +7,11 @@
 					<img src="/apv_logo.png" alt="logo" class="w-32 md:w-48 mx-auto" />
 					<h1 class="mb-5 text-4xl md:text-5xl font-bold">Agnel Polytechnic, Vashi</h1>
 					<p class="mb-5 text-sm md:text-base">
-						( Approved by AICTE / Govt. of Maharashtra / DTE & affiliated to MSBTE )
+						( Approved by AICTE | Govt. of Maharashtra | DTE & affiliated to MSBTE )
 						<br />
 						Accredited by NBA (CE & ME)
 						<br />
-						DTE Code: 3258 / District - Thane
+						DTE Code: 3258 | District: Thane
 					</p>
 				</div>
 			</div>
@@ -24,7 +24,7 @@
 		</div>
 	</div>
 	<div id="slide2" class="carousel-item relative w-full">
-		<div class="hero min-h-screen" style="background-image: url(/library.jpeg);">
+		<div class="hero min-h-screen" style="background-image: url(/library.webp);">
 			<div class="hero-overlay bg-opacity-60" />
 			<div class="hero-content text-center text-neutral-content">
 				<div class="max-w-md">
@@ -42,7 +42,7 @@
 		</div>
 	</div>
 	<div id="slide3" class="carousel-item relative w-full">
-		<div class="hero min-h-screen" style="background-image: url(/library.jpeg);">
+		<div class="hero min-h-screen" style="background-image: url(/library.webp);">
 			<div class="hero-overlay bg-opacity-60" />
 			<div class="hero-content text-center text-neutral-content">
 				<div class="max-w-md">
@@ -60,7 +60,7 @@
 		</div>
 	</div>
 	<div id="slide4" class="carousel-item relative w-full">
-		<div class="hero min-h-screen" style="background-image: url(/library.jpeg);">
+		<div class="hero min-h-screen" style="background-image: url(/library.webp);">
 			<div class="hero-overlay bg-opacity-60" />
 			<div class="hero-content text-center text-neutral-content">
 				<div class="max-w-md">

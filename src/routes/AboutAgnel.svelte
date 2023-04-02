@@ -1,9 +1,9 @@
-<div class="hero h-fit mt-10 text-primary w-full">
+<div class="hero h-fit mt-10 w-full text-black">
 	<div class="hero-content bg-secondary rounded-lg flex-col lg:flex-row-reverse p-8 shadow-xl">
 		<img src="/agnelCampus.webp" alt="campus"/>
 		<div>
 			<h1 class="text-5xl font-bold">About Agnels</h1>
-			<p class="py-6">
+			<p class="py-6 font-semibold">
 				The founder of Agnel ashram, Fr. C. Rodrigues was a great visionary. His vision was to
 				foster love and understanding among the various communities in India and to contribute to
 				the development of self-reliance among the youth through education.
