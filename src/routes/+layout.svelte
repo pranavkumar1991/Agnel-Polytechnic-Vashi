@@ -27,11 +27,11 @@
 				class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-semibold"
 			>
 				<li><a href="/">HOME</a></li>
-				<li><a href="/">ABOUT US</a></li>
-				<li><a href="/">COURSES</a></li>
-				<li><a href="/">GALLERY</a></li>
-				<li><a href="/">NEWS</a></li>
-				<li><a href="/">CONTACT US</a></li>
+				<li><a href="">ABOUT US</a></li>
+				<li><a href="">COURSES</a></li>
+				<li><a href="">GALLERY</a></li>
+				<li><a href="">NEWS</a></li>
+				<li><a href="">CONTACT US</a></li>
 			</ul>
 		</div>
 		<a class="btn btn-ghost normal-case text-xl gap-2" href="/">
@@ -43,11 +43,11 @@
 	<div class="navbar-center hidden xl:flex">
 		<ul class="menu menu-horizontal px-1 font-semibold">
 			<li><a href="/">HOME</a></li>
-			<li><a href="/">ABOUT US</a></li>
-			<li><a href="/">COURSES</a></li>
-			<li><a href="/">GALLERY</a></li>
-			<li><a href="/">NEWS</a></li>
-			<li><a href="/">CONTACT US</a></li>
+			<li><a href="">ABOUT US</a></li>
+			<li><a href="">COURSES</a></li>
+			<li><a href="">GALLERY</a></li>
+			<li><a href="">NEWS</a></li>
+			<li><a href="">CONTACT US</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end">

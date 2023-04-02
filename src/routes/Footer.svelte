@@ -1,0 +1,70 @@
+<script>
+	import FaInstagram from 'svelte-icons/fa/FaInstagram.svelte';
+	import FaFacebook from 'svelte-icons/fa/FaFacebook.svelte';
+	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
+	import FaTwitter from 'svelte-icons/fa/FaTwitter.svelte';
+    import FaPhoneAlt from 'svelte-icons/fa/FaPhoneAlt.svelte'
+    import FaPaperPlane from 'svelte-icons/fa/FaPaperPlane.svelte'
+    import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte'
+</script>
+
+<footer class="footer p-10 bg-base-200 text-base-content mt-10">
+	<div class="max-w-sm">
+		<img src="/Agnel_logo.png" alt="Father Agnel Logo" />
+		<h4 class="font-semibold text-lg">Agnel Polytechnic, Vashi</h4>
+		<h6 class="text-justify">
+			What makes Agnel Polytechnic a unique institution in Mumbai is its discipline and culture and
+			the dedication of the faculty imparting knowledge and expertise to the students in a
+			cosmopolitan atmosphereF
+		</h6>
+	</div>
+	<div class="max-w-sm">
+		<span class="footer-title">Featured Links</span>
+		<ul class="grid grid-cols-2 gap-1">
+			<li><a class="link link-hover" href="/"><span class="text-primary">&gt;</span> Home</a></li>
+			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Admissions</a></li>
+			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Alumni</a></li>
+			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Gallery</a></li>
+			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Visionaries</a></li>
+			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Placement</a></li>
+			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Contact us</a></li>
+			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Anti-Ragging</a></li>
+		</ul>
+	</div>
+	<div class="max-w-sm">
+		<span class="footer-title">Information</span>
+		<a class="link link-hover flex items-center gap-2" href="https://www.google.com/maps/place/Fr.+Agnel+Polytechnic/@19.0755441,72.9890864,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c135baaaaaab:0x931cf32f3e166f1f!8m2!3d19.075539!4d72.9912751!16s%2Fm%2F0bmhdtb">
+            <div class="basis-5 shrink-0">
+                <FaPaperPlane />
+            </div>
+            Agnel Technical Education Complex, Sector 9A, Vashi, Navi Mumbai - 400703
+        </a>
+		<a class="link link-hover flex items-center gap-2" href="tel:02241611000">
+            <div class="basis-5 shrink-0">
+                <FaPhoneAlt />
+            </div>
+            022 4161 1000
+        </a>
+		<a class="link link-hover flex items-center gap-2" href="mailto:423agnel@gmail.com">
+            <div class="basis-5 shrink-0">
+                <FaEnvelope />
+            </div>
+            423agnel@gmail.com
+        </a>
+		<a class="link link-hover flex items-center gap-2" href="tel:02227771000">
+            <div class="basis-5 shrink-0">
+                <FaPhoneAlt />
+            </div>
+            022 2777 1000
+        </a>
+	</div>
+	<div class="max-w-sm">
+		<span class="footer-title">Social</span>
+		<div class="grid grid-flow-col grid-rows-2 gap-4">
+			<a class="w-8 cursor-pointer"><FaInstagram /></a>
+			<a class="w-8 cursor-pointer"><FaFacebook /></a>
+			<a class="w-8 cursor-pointer"><FaLinkedin /></a>
+			<a class="w-8 cursor-pointer"><FaTwitter /></a>
+		</div>
+	</div>
+</footer>
