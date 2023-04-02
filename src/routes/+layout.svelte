@@ -15,7 +15,7 @@
 >
 	<div class="navbar-start">
 		<div class="dropdown">
-			<button class="btn btn-ghost btn-sm xl:hidden" tabindex="0">
+			<button class="btn btn-ghost btn-sm xl:hidden" tabindex="0" aria-label="Menu">
 				<IoMdMenu />
 			</button>
 			<ul
@@ -30,7 +30,7 @@
 			</ul>
 		</div>
 		<a class="btn btn-ghost normal-case text-xl gap-2" href="/">
-			<img src="/Agnel_logo.png" alt="Logo" class="w-12" />
+			<img src="/apv_logo.png" alt="Logo" class="w-12" />
 			<h1 class="text-left 2xl:hidden">APV</h1>
 			<h1 class="text-left hidden 2xl:block">Agnel Polytechnic</h1>
 		</a>
