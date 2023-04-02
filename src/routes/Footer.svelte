@@ -8,9 +8,9 @@
     import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte'
 </script>
 
-<footer class="footer p-10 bg-base-200 text-base-content mt-10">
+<footer class="footer p-10 bg-accent text-white mt-10">
 	<div class="max-w-sm">
-		<img src="/Agnel_logo.png" alt="Father Agnel Logo" />
+		<img src="/apv_logo.png" alt="Father Agnel Logo" class="w-16" />
 		<h4 class="font-semibold text-lg">Agnel Polytechnic, Vashi</h4>
 		<h6 class="text-justify">
 			What makes Agnel Polytechnic a unique institution in Mumbai is its discipline and culture and
@@ -21,14 +21,14 @@
 	<div class="max-w-sm">
 		<span class="footer-title">Featured Links</span>
 		<ul class="grid grid-cols-2 gap-1">
-			<li><a class="link link-hover" href="/"><span class="text-primary">&gt;</span> Home</a></li>
-			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Admissions</a></li>
-			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Alumni</a></li>
-			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Gallery</a></li>
-			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Visionaries</a></li>
-			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Placement</a></li>
-			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Contact us</a></li>
-			<li><a class="link link-hover"><span class="text-primary">&gt;</span> Anti-Ragging</a></li>
+			<li><a class="link link-hover" href="/">&gt; Home</a></li>
+			<li><a class="link link-hover">&gt; Admissions</a></li>
+			<li><a class="link link-hover">&gt; Alumni</a></li>
+			<li><a class="link link-hover">&gt; Gallery</a></li>
+			<li><a class="link link-hover">&gt; Visionaries</a></li>
+			<li><a class="link link-hover">&gt; Placement</a></li>
+			<li><a class="link link-hover">&gt; Contact us</a></li>
+			<li><a class="link link-hover">&gt; Anti-Ragging</a></li>
 		</ul>
 	</div>
 	<div class="max-w-sm">

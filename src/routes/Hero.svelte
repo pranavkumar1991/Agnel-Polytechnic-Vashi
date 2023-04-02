@@ -1,9 +1,9 @@
-<div class="carousel w-full">
+<div class="carousel w-full text-white text-opacity-90">
 	<div id="slide1" class="carousel-item relative w-full">
 		<div class="hero min-h-screen" style="background-image: url(/library.jpeg);">
 			<div class="hero-overlay bg-opacity-60" />
-			<div class="hero-content text-center text-neutral-content">
-				<div class="max-w-xl">
+			<div class="hero-content text-center">
+				<div class="max-w-">
 					<img src="/apv_logo.png" alt="logo" class="w-32 md:w-48 mx-auto" />
 					<h1 class="mb-5 text-4xl md:text-5xl font-bold">Agnel Polytechnic, Vashi</h1>
 					<p class="mb-5 text-sm md:text-base">
