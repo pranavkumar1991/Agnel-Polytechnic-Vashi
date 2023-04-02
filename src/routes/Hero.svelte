@@ -1,6 +1,6 @@
 <div class="carousel w-full text-white text-opacity-90">
 	<div id="slide1" class="carousel-item relative w-full">
-		<div class="hero min-h-screen" style="background-image: url(/library.jpeg);">
+		<div class="hero min-h-screen" style="background-image: url(/library.webp);">
 			<div class="hero-overlay bg-opacity-60" />
 			<div class="hero-content text-center">
 				<div class="max-w-">
