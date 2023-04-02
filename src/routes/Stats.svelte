@@ -1,21 +1,22 @@
-<div class="flex justify-center items-center mt-10">
+<script>
+	import { fade } from "svelte/transition";
+</script>
+
+<div class="flex justify-center items-center mt-10" transition:fade>
 	<div class="stats stats-vertical lg:stats-horizontal shadow border-4 border-secondary ring-8 ring-secondary">
 		<div class="stat">
-			<div class="stat-title">Downloads</div>
-			<div class="stat-value">31K</div>
-			<div class="stat-desc">Jan 1st - Feb 1st</div>
+			<div class="stat-title">Visitors</div>
+			<div class="stat-value">5,000</div>
 		</div>
 
 		<div class="stat">
-			<div class="stat-title">New Users</div>
-			<div class="stat-value">4,200</div>
-			<div class="stat-desc">↗︎ 400 (22%)</div>
+			<div class="stat-title">Students</div>
+			<div class="stat-value">360</div>
 		</div>
 
 		<div class="stat">
-			<div class="stat-title">New Registers</div>
-			<div class="stat-value">1,200</div>
-			<div class="stat-desc">↘︎ 90 (14%)</div>
+			<div class="stat-title">Faculty</div>
+			<div class="stat-value">123</div>
 		</div>
 	</div>
 </div>
