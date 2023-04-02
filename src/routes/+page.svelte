@@ -11,5 +11,5 @@
 <FloatingButtons />
 <AllCourses />
 <AboutAgnel />
-<Footer />
 <Stats />
+<Footer />
