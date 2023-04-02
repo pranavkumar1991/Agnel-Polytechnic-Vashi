@@ -2,10 +2,16 @@
 	import '../app.postcss';
 	import FaPhoneAlt from 'svelte-icons/fa/FaPhoneAlt.svelte';
 	import IoMdMenu from 'svelte-icons/io/IoMdMenu.svelte';
+	import { fade } from 'svelte/transition';
+
+	let animateNow = false;
+	setTimeout(() => {animateNow = true}, 1)
 </script>
 
+{#if animateNow}
 <div
 	class="navbar bg-primary md:w-auto md:left-20 md:right-20 xl:left-40 xl:right-40 top-3 md:top-7 lg:top-10 absolute z-10 rounded-lg border-2 border-black shadow-lg"
+	in:fade
 >
 	<div class="navbar-start">
 		<div class="dropdown">
@@ -48,4 +54,5 @@
 		</a>
 	</div>
 </div>
+{/if}
 <slot />
