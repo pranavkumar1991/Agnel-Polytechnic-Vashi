@@ -1,27 +1,16 @@
 <script>
 	import '../app.postcss';
 	import FaPhoneAlt from 'svelte-icons/fa/FaPhoneAlt.svelte';
+	import IoMdMenu from 'svelte-icons/io/IoMdMenu.svelte';
 </script>
 
 <div
-	class="navbar bg-base-100 md:w-auto md:left-20 md:right-20 xl:left-40 xl:right-40 top-3 md:top-7 lg:top-10 absolute z-10 rounded-lg border-2 border-black shadow-lg"
+	class="navbar bg-primary md:w-auto md:left-20 md:right-20 xl:left-40 xl:right-40 top-3 md:top-7 lg:top-10 absolute z-10 rounded-lg border-2 border-black shadow-lg"
 >
 	<div class="navbar-start">
 		<div class="dropdown">
 			<button class="btn btn-ghost btn-sm xl:hidden" tabindex="0">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke="currentColor"
-					><path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d="M4 6h16M4 12h8m-8 6h16"
-					/></svg
-				>
+				<IoMdMenu />
 			</button>
 			<ul
 				class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-semibold"
@@ -51,7 +40,7 @@
 		</ul>
 	</div>
 	<div class="navbar-end">
-		<a class="btn gap-3 rounded-sm" href="tel:02241611000">
+		<a class="btn gap-3 rounded-sm btn-accent" href="tel:02241611000">
 			<div class="w-5">
 				<FaPhoneAlt />
 			</div>
