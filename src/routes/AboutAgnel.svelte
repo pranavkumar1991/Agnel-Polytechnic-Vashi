@@ -1,5 +1,5 @@
-<div class="hero h-fit bg-base-200 mt-10">
-	<div class="hero-content flex-col lg:flex-row-reverse">
+<div class="hero h-fit mt-10 text-primary w-full">
+	<div class="hero-content bg-secondary rounded-lg flex-col lg:flex-row-reverse p-8 shadow-xl">
 		<img src="/agnelCampus.webp" alt="campus"/>
 		<div>
 			<h1 class="text-5xl font-bold">About Agnels</h1>
@@ -19,7 +19,7 @@
 				the dedication of the faculty in imparting knowledge and expertise to the students in a cosmopolitan
 				atmosphere.
 			</p>
-			<a class="btn btn-primary">Read More</a>
+			<a class="btn btn-accent">Read More</a>
 		</div>
 	</div>
 </div>
