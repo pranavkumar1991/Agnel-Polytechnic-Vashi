@@ -5,11 +5,13 @@
 	import AboutAgnel from './AboutAgnel.svelte';
 	import Footer from './Footer.svelte';
 	import Stats from './Stats.svelte';
+	import PlacementStats from './PlacementStats.svelte';
 </script>
 
 <Hero />
 <FloatingButtons />
 <AllCourses />
 <AboutAgnel />
+<PlacementStats />
 <Stats />
 <Footer />
