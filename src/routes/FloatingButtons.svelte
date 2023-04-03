@@ -5,14 +5,19 @@
 	import { fly } from 'svelte/transition';
 
 	let animateNow = false;
-	setTimeout(() => {animateNow = true}, 1)
+	setTimeout(() => {
+		animateNow = true;
+	}, 1);
 </script>
 
 {#if animateNow}
 	<div
 		class="btn-group btn-group-vertical lg:btn-group-horizontal grid grid-cols-1 gap-3 md:grid-cols-1 relative lg:grid-cols-3 lg:-top-64 max-w-3xl px-3 my-10 lg:my-0 lg:max-w-6xl mx-auto"
 	>
-		<button class="btn btn-secondary h-max border-none animate-none" in:fly={{ x: -200, y: 400, duration: 1000 }}>
+		<button
+			class="btn btn-secondary h-max border-none animate-none"
+			in:fly={{ x: -200, y: 400, duration: 1000 }}
+		>
 			<div class="card card-side text-black">
 				<figure class="w-24"><FaBookOpen /></figure>
 				<div class="card-body">
@@ -23,7 +28,10 @@
 				</div>
 			</div>
 		</button>
-		<button class="btn btn-secondary h-max border-none animate-none" in:fly={{y: 400, duration: 1500 }}>
+		<button
+			class="btn btn-secondary h-max border-none animate-none"
+			in:fly={{ y: 400, duration: 1500 }}
+		>
 			<div class="card card-side text-black">
 				<figure class="w-24"><GoBeaker /></figure>
 				<div class="card-body">
@@ -34,7 +42,10 @@
 				</div>
 			</div>
 		</button>
-		<button class="btn btn-secondary h-max border-none animate-none" in:fly={{ x: 200, y: 400, duration: 1750 }}>
+		<button
+			class="btn btn-secondary h-max border-none animate-none"
+			in:fly={{ x: 200, y: 400, duration: 1750 }}
+		>
 			<div class="card card-side text-black">
 				<figure class="w-24"><MdPeople /></figure>
 				<div class="card-body">

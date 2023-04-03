@@ -3,9 +3,9 @@
 	import FaFacebook from 'svelte-icons/fa/FaFacebook.svelte';
 	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaTwitter from 'svelte-icons/fa/FaTwitter.svelte';
-    import FaPhoneAlt from 'svelte-icons/fa/FaPhoneAlt.svelte'
-    import FaPaperPlane from 'svelte-icons/fa/FaPaperPlane.svelte'
-    import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte'
+	import FaPhoneAlt from 'svelte-icons/fa/FaPhoneAlt.svelte';
+	import FaPaperPlane from 'svelte-icons/fa/FaPaperPlane.svelte';
+	import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte';
 </script>
 
 <footer class="footer p-10 bg-accent text-white mt-10">
@@ -33,30 +33,33 @@
 	</div>
 	<div class="max-w-sm">
 		<span class="footer-title opacity-100 underline underline-offset-4">Information</span>
-		<a class="link link-hover flex items-center gap-2" href="https://www.google.com/maps/place/Fr.+Agnel+Polytechnic/@19.0755441,72.9890864,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c135baaaaaab:0x931cf32f3e166f1f!8m2!3d19.075539!4d72.9912751!16s%2Fm%2F0bmhdtb">
-            <div class="basis-5 shrink-0">
-                <FaPaperPlane />
-            </div>
-            Agnel Technical Education Complex, Sector 9A, Vashi, Navi Mumbai - 400703
-        </a>
+		<a
+			class="link link-hover flex items-center gap-2"
+			href="https://www.google.com/maps/place/Fr.+Agnel+Polytechnic/@19.0755441,72.9890864,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c135baaaaaab:0x931cf32f3e166f1f!8m2!3d19.075539!4d72.9912751!16s%2Fm%2F0bmhdtb"
+		>
+			<div class="basis-5 shrink-0">
+				<FaPaperPlane />
+			</div>
+			Agnel Technical Education Complex, Sector 9A, Vashi, Navi Mumbai - 400703
+		</a>
 		<a class="link link-hover flex items-center gap-2" href="tel:02241611000">
-            <div class="basis-5 shrink-0">
-                <FaPhoneAlt />
-            </div>
-            022 4161 1000
-        </a>
+			<div class="basis-5 shrink-0">
+				<FaPhoneAlt />
+			</div>
+			022 4161 1000
+		</a>
 		<a class="link link-hover flex items-center gap-2" href="mailto:423agnel@gmail.com">
-            <div class="basis-5 shrink-0">
-                <FaEnvelope />
-            </div>
-            423agnel@gmail.com
-        </a>
+			<div class="basis-5 shrink-0">
+				<FaEnvelope />
+			</div>
+			423agnel@gmail.com
+		</a>
 		<a class="link link-hover flex items-center gap-2" href="tel:02227771000">
-            <div class="basis-5 shrink-0">
-                <FaPhoneAlt />
-            </div>
-            022 2777 1000
-        </a>
+			<div class="basis-5 shrink-0">
+				<FaPhoneAlt />
+			</div>
+			022 2777 1000
+		</a>
 	</div>
 	<div class="max-w-sm">
 		<span class="footer-title opacity-100 underline underline-offset-4">Social</span>
