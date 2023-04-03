@@ -1,6 +1,6 @@
 <script>
 	import FaBookOpen from 'svelte-icons/fa/FaBookOpen.svelte';
-	import GoBeaker from 'svelte-icons/go/GoBeaker.svelte';
+	import IoIosFlask from 'svelte-icons/io/IoIosFlask.svelte'
 	import MdPeople from 'svelte-icons/md/MdPeople.svelte';
 	import { fly } from 'svelte/transition';
 
@@ -19,7 +19,7 @@
 			in:fly={{ x: -200, y: 400, duration: 1000 }}
 		>
 			<div class="card card-side text-black">
-				<figure class="w-24"><FaBookOpen /></figure>
+				<figure class="basis-1/3 shrink-0 px-2"><FaBookOpen /></figure>
 				<div class="card-body">
 					<h2 class="card-title">All Courses</h2>
 					<div class="card-actions">
@@ -33,7 +33,7 @@
 			in:fly={{ y: 400, duration: 1500 }}
 		>
 			<div class="card card-side text-black">
-				<figure class="w-24"><GoBeaker /></figure>
+				<figure class="basis-1/3 shrink-0 px-1"><IoIosFlask /></figure>
 				<div class="card-body">
 					<h2 class="card-title">Laboratories</h2>
 					<div class="card-actions">
@@ -47,7 +47,7 @@
 			in:fly={{ x: 200, y: 400, duration: 1750 }}
 		>
 			<div class="card card-side text-black">
-				<figure class="w-24"><MdPeople /></figure>
+				<figure class="basis-1/3 shrink-0"><MdPeople /></figure>
 				<div class="card-body">
 					<h2 class="card-title">Our Staff</h2>
 					<div class="card-actions">
