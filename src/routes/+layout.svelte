@@ -41,7 +41,13 @@
 		<div class="navbar-center hidden xl:flex">
 			<ul class="menu menu-horizontal px-1 font-semibold">
 				<li><a href="/">HOME</a></li>
-				<li><a href="">ABOUT US</a></li>
+				<li class="dropdown dropdown-hover">
+					<button tabindex="0">ABOUT US</button>
+					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2">
+						<li><a href="/about_us/message_from_managing_director">Message from managing director</a></li>
+						<li><a href="/about_us/message_from_principal">Message from principal</a></li>
+					</ul>
+				</li>
 				<li><a href="">COURSES</a></li>
 				<li><a href="">GALLERY</a></li>
 				<li><a href="">NEWS</a></li>

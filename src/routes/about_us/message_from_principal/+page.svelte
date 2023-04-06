@@ -1,4 +1,4 @@
-<div class="flex flex-col w-full border-opacity-50 mt-40">
+<div class="flex flex-col w-full border-opacity-50 mt-36">
 	<div class="lg:divider text-5xl font-bold px-2">Message from Principal</div>
 </div>
 <div class="hero max-w-7xl mx-auto ring-secondary ring-8 rounded-xl shadow-2xl m-10">
@@ -12,8 +12,8 @@
 			</div>
 		</div>
 		<div>
-			<h1 class="text-5xl font-bold">Welcome to Agnel Family</h1>
-			<p class="py-6 text-lg">
+			<h1 class="text-3xl font-bold">Welcome to Agnel Family</h1>
+			<p class="py-6">
 				Agnel Polytechnic was established in 1983 by Agnel Ashram Fathers as the first unit of Agnel
 				Technical Education Complex. The Complex has grown over the years and has shown marked
 				progress in various fields due to the dedicated service and leadership of Rev. Fr. Orlando
