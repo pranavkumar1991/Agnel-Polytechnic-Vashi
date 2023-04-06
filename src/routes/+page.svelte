@@ -16,4 +16,3 @@
 <Events />
 <PlacementStats />
 <Stats />
-<Footer />

@@ -3,6 +3,7 @@
 	import FaPhoneAlt from 'svelte-icons/fa/FaPhoneAlt.svelte';
 	import IoMdMenu from 'svelte-icons/io/IoMdMenu.svelte';
 	import { fade } from 'svelte/transition';
+	import Footer from './Footer.svelte';
 
 	let animateNow = false;
 	setTimeout(() => {
@@ -58,3 +59,4 @@
 	</div>
 {/if}
 <slot />
+<Footer />
