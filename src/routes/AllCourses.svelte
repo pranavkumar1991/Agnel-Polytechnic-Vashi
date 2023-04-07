@@ -1,4 +1,6 @@
-<h3 class="text-center text-4xl font-bold mb-12 lg:-mt-20 divider">All Courses</h3>
+<h3 class="text-center text-4xl font-bold mb-12 lg:-mt-20 divider max-w-7xl mx-auto">
+	All Courses
+</h3>
 <div
 	class="grid gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 max-w-4xl xl:max-w-7xl mx-auto justify-items-center bg-primary"
 >
