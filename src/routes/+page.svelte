@@ -8,10 +8,12 @@
 	import PlacementStats from './PlacementStats.svelte';
 </script>
 
-<Hero />
-<FloatingButtons />
-<AllCourses />
-<AboutAgnel />
-<Events />
-<PlacementStats />
-<Stats />
+<div class="-mt-36">
+	<Hero />
+	<FloatingButtons />
+	<AllCourses />
+	<AboutAgnel />
+	<Events />
+	<PlacementStats />
+	<Stats />
+</div>
