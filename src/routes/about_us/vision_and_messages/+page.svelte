@@ -4,7 +4,7 @@
 	import VisionAndMission from './VisionAndMission.svelte';
 </script>
 
-<div class="grid gap-20">
+<div class="flex flex-col gap-20">
 	<VisionAndMission />
 	<MessageFromPrincipal />
 	<MessageFromManagingDirector />
