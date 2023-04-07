@@ -47,10 +47,8 @@
 						class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2"
 					>
 						<li>
-							<a href="/about_us/message_from_managing_director">Message from managing director</a>
+							<a href="/about_us/vision_and_messages">Vision and messages</a>
 						</li>
-						<li><a href="/about_us/message_from_principal">Message from principal</a></li>
-						<li><a href="/about_us/vision_mission">Vision and mission</a></li>
 					</ul>
 				</li>
 				<li><a href="">COURSES</a></li>
