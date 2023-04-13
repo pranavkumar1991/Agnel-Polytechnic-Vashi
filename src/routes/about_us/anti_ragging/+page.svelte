@@ -1,472 +1,85 @@
+<script>
+	import StaffMember from './StaffMember.svelte';
+	let staffs = [
+		['Representative Of The Management', 'Principal', 'Mrs. Saly Antony', '9757352380'],
+		['Representative Of The Police Dept.', 'Sr. Police Inspector', 'Mr. Sanjay Dhumal', '27820468'],
+		['Department Representative', 'HOD Mechanical Engg.', 'Mrs. Beenu Johnkutty', '9869441160'],
+		['-Do-', 'HOD Civil Engg.', 'Mr. Manvendra Sinha', '9819763770'],
+		['-Do-', 'HOD Electronics & Telecommunication', 'Mrs. Raji M. P.', '9867803820'],
+		['-Do-', 'HOD Humanities', 'Mr. Venu Gopala Kurup', '9869353658'],
+		['-Do-', 'I/c HOD Automobile Engg.', 'Mr. Nitin Kulkarni', '7021337916'],
+		['Teachers’ Representative', 'Lecturer', 'Mr. Lewis A.', '9004897775'],
+		['Non-Reaching Representative', 'Registrar', 'Mrs. Swapnali Thottam', '9969895227'],
+		['Parents’ Representative (Gents)', 'Parent (ME3I)', 'Mr. Suday Yande', '9821855002'],
+		['Parents’ Representative (Ladies)', 'Parent (TE3I)', 'Dr. Kharade', '9594649029'],
+		['Students’ Representative', 'Student ( AE-5 )', 'Mr. Jayendra RavindraSankpal', '7400338773'],
+		['Students’ Representative', 'Student (ME-3)', 'Mr. Sangam Yadav', '9372607856'],
+		['Students’ Representative', 'Student (EJ-5)', 'Ms. Swarali Kharche', '9623164810'],
+		['Students’ Representative', 'Student (CE-3)', 'Mr. Ritesh Ambedkar', '9324321515']
+	];
+
+	let squad = [
+		['Representative of Faculty', 'Lecturer', 'Mr. Satish Eandole', '9834833416'],
+		['Local Media', 'DNA Paper Press Correspondent', 'Mr. Kishore Rathod', '9820003636'],
+		['Parent Representative', 'Sr. Police Inspector', 'Mr. Dattatrey Shinde', '9821940300'],
+		['Police Administrator', 'PSI of Vashi Police Station', 'As Per Availability', '27820468']
+	];
+</script>
+
 <div class="flex flex-col gap-10 items-center justify-center">
 	<h2 class="text-5xl font-bold lg:col-span-2 lg:divider">Anti-Ragging</h2>
 	<ul class="list-decimal ml-2 text-lg px-6 md:px-10 lg:px-16 xl:px-24">
 		<li>
-			As per Order of the Joint Director of Technical Education No 1/ROM/TE/088 DATED 28-5-1999, it is hereby informed that MAHARASHTRA PROHIBITION
-			RAGGING ACT-1999 is in force.
+			As per Order of the Joint Director of Technical Education No 1/ROM/TE/088 DATED 28-5-1999, it
+			is hereby informed that MAHARASHTRA PROHIBITION RAGGING ACT-1999 is in force.
 		</li>
 		<li>As per this Act, Ragging within or outside any educational institution is prohibited.</li>
 		<li>
-			Whosoever directly or indirectly commits, participates in, abets or propagates ragging within or outside any educational institution shall be
-			punished with imprisonment for a term which may extend to two years and shall also be liable to a fine to the extent of ten thousand rupees.
+			Whosoever directly or indirectly commits, participates in, abets or propagates ragging within
+			or outside any educational institution shall be punished with imprisonment for a term which
+			may extend to two years and shall also be liable to a fine to the extent of ten thousand
+			rupees.
 		</li>
 		<li>
-			Any student convicted of an offense of ragging under section 4 shall bue dismissed from the educational institution and such a student shall not
-			be admitted in any other educational institution for a period of five years from the date of order of such dismissal.
+			Any student convicted of an offense of ragging under section 4 shall bue dismissed from the
+			educational institution and such a student shall not be admitted in any other educational
+			institution for a period of five years from the date of order of such dismissal.
 		</li>
 	</ul>
 	<div class="overflow-x-auto w-full">
-		<h1 class="text-center bg-accent text-white w-max mx-auto p-3 text-lg font-bold mb-10 rounded-lg">ANTI RAGGING COMMITTEE :2022-23 (ARC)</h1>
 		<table class="table w-full">
 			<thead>
 				<tr>
-					<th>Particular</th>
+					<th>Name of the staff</th>
 					<th>Designation</th>
-					<th>Name</th>
-					<th>Contact No.</th>
-					<th />
+					<th>Contact Number</th>
 				</tr>
 			</thead>
-			<tbody>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">Representative of the Management</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						Principal
-						<br />
-					</td>
-					<td>Mrs. Saly Antony</td>
-					<th>
-						<button class="btn btn-ghost btn-xs">9757352380</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-3@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">Representative of the Police Dept.</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						Sr. Police Inspector
-						<br />
-					</td>
-					<td> Mr. Sanjay Dhumal</td>
-					<th>
-						<button class="btn btn-ghost btn-xs">27820468</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">Department Representative</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						HOD Mechanical Engg.
-						<br />
-					</td>
-					<td>Mrs. Beenu Johnkutty</td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 9869441160</button>
-					</th>
-				</tr>
-
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">-do-</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						HOD Civil Engg.
-						<br />
-					</td>
-					<td>Mr. Manvendra Sinha</td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 9819763770</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">-do-</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						HOD Electronics & Telecommunication
-						<br />
-					</td>
-					<td> Mrs. Raji M. P.</td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 9867803820</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">-do-</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						HOD Humanities
-						<br />
-					</td>
-					<td> Mr. Venu Gopala Kurup</td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 9869353658</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">-do-</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						I/c HOD Automobile Engg.
-						<br />
-					</td>
-					<td> Mr. Nitin Kulkarni</td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 7021337916</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">Teachers’ Representative</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						Lecturer
-						<br />
-					</td>
-					<td> Mr. Lewis A.</td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 9004897775</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">Non-Reaching Representative</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						Registrar
-						<br />
-					</td>
-					<td> Mrs. Swapnali Thottam</td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 9969895227</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">Parents’ Representative (Gents)</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						Parent (ME3I)
-						<br />
-					</td>
-					<td> Mr. Suday Yande </td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 9821855002</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">Parents’ Representative (Ladies)</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						Parent (TE3I)
-						<br />
-					</td>
-					<td> Dr. Kharade </td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 9594649029</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">Students’ Representative</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						Student ( AE-5 )
-						<br />
-					</td>
-					<td> Mr. Jayendra RavindraSankpal </td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 7400338773</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">Students’ Representative</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						Student ( ME-5 )
-						<br />
-					</td>
-					<td> Mr. Sangam Yadav</td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 9372607856</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">Students’ Representative</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						Student (EJ-5)
-						<br />
-					</td>
-					<td> Ms. Swarali Kharche</td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 9623164810</button>
-					</th>
-				</tr>
-				<tr>
-					<td>
-						<div class="flex items-center space-x-3">
-							<div class="avatar">
-								<div class="mask mask-squircle w-12 h-12">
-									<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-								</div>
-							</div>
-							<div>
-								<div class="font-bold">Students’ Representative</div>
-							</div>
-						</div>
-					</td>
-					<td>
-						Student (CE-3)
-						<br />
-					</td>
-					<td> Mr. Ritesh Ambedkar</td>
-					<th>
-						<button class="btn btn-ghost btn-xs"> 9324321515</button>
-					</th>
-				</tr>
-			</tbody>
+			<StaffMember data={staffs} />
 		</table>
-		<h1 class="text-center bg-accent text-white w-max mx-auto p-3 text-lg font-bold mb-10 rounded-lg">ANTI RAGGING SQUAD 2022-23 (ARS)</h1>
-		<div class="overflow-x-auto w-full">
-			<table class="table w-full">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Designation</th>
-						<th>Particulars</th>
-						<th>Contact No. </th></tr
-					>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							<div class="flex items-center space-x-3">
-								<div class="avatar">
-									<div class="mask mask-squircle w-12 h-12">
-										<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-									</div>
-								</div>
-								<div>
-									<div class="font-bold">Mr. Satish Eandole</div>
-								</div>
-							</div>
-						</td>
-						<td>
-							Lecturer
-							<br />
-						</td>
-						<td> Representative of Faculty</td>
-						<th>
-							<button class="btn btn-ghost btn-xs"> 9834833416</button>
-						</th>
-					</tr>
-					<tr>
-						<td>
-							<div class="flex items-center space-x-3">
-								<div class="avatar">
-									<div class="mask mask-squircle w-12 h-12">
-										<img src="/tailwind-css-component-profile-3@56w.png" alt="Avatar Tailwind CSS Component" />
-									</div>
-								</div>
-								<div>
-									<div class="font-bold">Mr. Kishore Rathod</div>
-								</div>
-							</div>
-						</td>
-						<td>
-							DNA Paper Press Correspondent
-							<br />
-						</td>
-						<td>Local Media</td>
-						<th>
-							<button class="btn btn-ghost btn-xs"> 9820003636</button>
-						</th>
-					</tr>
-					<tr>
-						<td>
-							<div class="flex items-center space-x-3">
-								<div class="avatar">
-									<div class="mask mask-squircle w-12 h-12">
-										<img src="/tailwind-css-component-profile-4@56w.png" alt="Avatar Tailwind CSS Component" />
-									</div>
-								</div>
-								<div>
-									<div class="font-bold">Mr. Dattatrey Shinde</div>
-								</div>
-							</div>
-						</td>
-						<td>
-							Sr. Police Inspector
-							<br />
-						</td>
-						<td>Parent Representative</td>
-						<th>
-							<button class="btn btn-ghost btn-xs">9821940300</button>
-						</th>
-					</tr>
-					<tr>
-						<td>
-							<div class="flex items-center space-x-3">
-								<div class="avatar">
-									<div class="mask mask-squircle w-12 h-12">
-										<img src="/tailwind-css-component-profile-5@56w.png" alt="Avatar Tailwind CSS Component" />
-									</div>
-								</div>
-								<div>
-									<div class="font-bold">As per availability</div>
-								</div>
-							</div>
-						</td>
-						<td>
-							PSI of Vashi Police Station
-							<br />
-						</td>
-						<td> Police Administrator </td>
-						<th>
-							<button class="btn btn-ghost btn-xs"> 27820468</button>
-						</th>
-					</tr>
-				</tbody>
-			</table>
-		</div>
 	</div>
-	<div class="flex gap-2 btn-group btn-group-vertical lg:btn-group-horizontal">
-		<a href="http://antiragging.in/" class="btn btn-secondary text-black normal-case text-lg" target="_blank">Visit Anti-Ragging</a>
-		<a href="https://www.amanmovement.org/" class="btn btn-secondary text-black normal-case text-lg" target="_blank">Visit AmanMovement</a>
+	<div class="overflow-x-auto w-full">
+		<table class="table w-full">
+			<thead>
+				<tr>
+					<th>Name of the staff</th>
+					<th>Designation</th>
+					<th>Contact Number</th>
+				</tr>
+			</thead>
+			<StaffMember data={squad} />
+		</table>
+	</div>
+	<div class="flex gap-5 btn-group btn-group-vertical lg:btn-group-horizontal">
+		<a
+			href="http://antiragging.in/"
+			class="btn btn-secondary text-lg text-black border-none"
+			target="_blank">Visit Anti-Ragging</a
+		>
+		<a
+			href="https://www.amanmovement.org/"
+			class="btn btn-secondary text-lg text-black border-none"
+			target="_blank">Visit AmanMovement</a
+		>
 	</div>
 </div>
