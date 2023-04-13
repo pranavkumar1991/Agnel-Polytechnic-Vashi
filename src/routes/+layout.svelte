@@ -13,7 +13,7 @@
 
 {#if animateNow}
 	<div
-		class="navbar bg-primary md:w-auto md:left-20 md:right-20 xl:left-40 xl:right-40 top-3 md:top-7 lg:top-10 absolute z-10 rounded-lg border-2 border-black shadow-lg"
+		class="navbar bg-primary md:w-auto md:left-20 md:right-20 xl:left-40 xl:right-40 top-3 md:top-7 lg:top-10 absolute z-50 rounded-lg border-2 border-black shadow-lg"
 		in:fade
 	>
 		<div class="navbar-start">
@@ -21,9 +21,7 @@
 				<button class="btn btn-ghost btn-sm xl:hidden" tabindex="0" aria-label="Menu">
 					<IoMdMenu />
 				</button>
-				<ul
-					class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-semibold"
-				>
+				<ul class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-semibold">
 					<li><a href="/">HOME</a></li>
 					<li><a href="">ABOUT US</a></li>
 					<li><a href="">COURSES</a></li>
@@ -43,11 +41,11 @@
 				<li><a href="/">HOME</a></li>
 				<li class="dropdown dropdown-hover">
 					<button tabindex="0">ABOUT US</button>
-					<ul
-						class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2"
-					>
+					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2">
 						<li>
 							<a href="/about_us/vision_and_messages">Vision and messages</a>
+							<a href="/about_us/staff_details">Staff details</a>
+							<a href="/about_us/anti_ragging">Anti ragging</a>
 						</li>
 					</ul>
 				</li>
