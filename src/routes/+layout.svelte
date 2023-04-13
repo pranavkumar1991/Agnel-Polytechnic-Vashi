@@ -23,7 +23,7 @@
 				</button>
 				<ul class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-semibold">
 					<li><a href="/">HOME</a></li>
-					<li><a href="">ABOUT US</a></li>
+					<li><a href="/about_us">ABOUT US</a></li>
 					<li><a href="">COURSES</a></li>
 					<li><a href="">GALLERY</a></li>
 					<li><a href="">NEWS</a></li>
