@@ -14,10 +14,7 @@
 	<div
 		class="btn-group btn-group-vertical lg:btn-group-horizontal grid grid-cols-1 gap-3 md:grid-cols-1 relative lg:grid-cols-3 lg:-top-64 max-w-3xl px-3 my-10 lg:my-0 lg:max-w-6xl mx-auto"
 	>
-		<a
-			class="btn btn-secondary h-max border-none animate-none"
-			in:fly={{ x: -200, y: 400, duration: 1000 }}
-		>
+		<a class="btn btn-secondary h-max border-none animate-none" in:fly={{ x: -200, y: 400, duration: 1000 }}>
 			<div class="card card-side text-black">
 				<figure class="basis-1/3 shrink-0 px-2"><FaBookOpen /></figure>
 				<div class="card-body">
@@ -39,10 +36,7 @@
 				</div>
 			</div>
 		</a>
-		<a
-			class="btn btn-secondary h-max border-none animate-none"
-			in:fly={{ x: 200, y: 400, duration: 1750 }}
-		>
+		<a class="btn btn-secondary h-max border-none animate-none" in:fly={{ x: 200, y: 400, duration: 1750 }}>
 			<div class="card card-side text-black">
 				<figure class="basis-1/3 shrink-0"><MdPeople /></figure>
 				<div class="card-body">

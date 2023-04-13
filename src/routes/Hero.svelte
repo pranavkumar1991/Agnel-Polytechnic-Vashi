@@ -16,9 +16,7 @@
 				</div>
 			</div>
 		</div>
-		<div
-			class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-2/3 md:top-1/2"
-		>
+		<div class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-2/3 md:top-1/2">
 			<a href="#slide4" class="btn btn-circle">❮</a>
 			<a href="#slide2" class="btn btn-circle">❯</a>
 		</div>
@@ -30,8 +28,8 @@
 				<div class="max-w-md">
 					<h1 class="mb-5 text-5xl font-bold">Agnel Polytechnic , Vashi</h1>
 					<p class="mb-5">
-						Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-						exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+						Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
+						id nisi.
 					</p>
 				</div>
 			</div>
@@ -48,8 +46,8 @@
 				<div class="max-w-md">
 					<h1 class="mb-5 text-5xl font-bold">Agnel Polytechnic , Vashi</h1>
 					<p class="mb-5">
-						Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-						exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+						Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
+						id nisi.
 					</p>
 				</div>
 			</div>
@@ -66,8 +64,8 @@
 				<div class="max-w-md">
 					<h1 class="mb-5 text-5xl font-bold">Agnel Polytechnic , Vashi</h1>
 					<p class="mb-5">
-						Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-						exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+						Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
+						id nisi.
 					</p>
 				</div>
 			</div>
