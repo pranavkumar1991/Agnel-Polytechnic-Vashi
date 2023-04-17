@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let data: string[][];
+	export let data: (string | string[])[][];
 	export let tableHeading: string;
 </script>
 
@@ -24,7 +24,11 @@
 			<td>
 				{member[1]}
 				<br />
-				<span class="badge badge-ghost badge-sm">{member[2]}</span>
+				<div class="flex flex-wrap gap-1">
+					{#each member[2] as badge}
+						<span class="badge badge-ghost badge-sm">{badge}</span>
+					{/each}
+				</div>
 			</td>
 			<td class="capitalize">{member[3]}</td>
 			<td>{member[4]}</td>
