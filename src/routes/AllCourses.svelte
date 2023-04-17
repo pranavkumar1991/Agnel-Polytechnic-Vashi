@@ -1,4 +1,4 @@
-<h3 class="text-center text-4xl font-bold mb-12 lg:-mt-20 divider max-w-7xl mx-auto">All Courses</h3>
+<h3 class="text-center text-4xl font-bold mb-12 divider max-w-7xl mx-auto">All Courses</h3>
 <div class="grid gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 max-w-4xl xl:max-w-7xl mx-auto justify-items-center bg-primary">
 	<div class="card w-96 bg-accent text-white shadow-xl">
 		<figure><img src="/dept_thumbnails/AN_logo.png" alt="artificial intelligence" /></figure>

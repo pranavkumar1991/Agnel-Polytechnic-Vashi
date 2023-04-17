@@ -12,7 +12,7 @@
 
 {#if animateNow}
 	<div
-		class="btn-group btn-group-vertical lg:btn-group-horizontal grid grid-cols-1 gap-3 md:grid-cols-1 relative lg:grid-cols-3 lg:-top-64 max-w-3xl px-3 my-10 lg:my-0 lg:max-w-6xl mx-auto"
+		class="btn-group btn-group-vertical lg:btn-group-horizontal grid grid-cols-1 gap-3 md:grid-cols-1 lg:grid-cols-3 max-w-3xl px-3 my-10 lg:max-w-6xl mx-auto"
 	>
 		<a class="btn btn-secondary h-max border-none animate-none" in:fly={{ x: -200, y: 400, duration: 1000 }}>
 			<div class="card card-side text-black">
