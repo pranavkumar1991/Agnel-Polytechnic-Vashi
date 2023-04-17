@@ -1,5 +1,5 @@
 <section class="max-w-7xl mx-auto">
-	<h2 class="text-5xl font-bold lg:divider">Message from Managing Director</h2>
+	<h2 class="divider-heading">Message from Managing Director</h2>
 	<div class="card md:card-side shadow-xl bg-secondary text-black mt-16">
 		<figure class="basis-1/3 shrink-0 flex flex-col lg:ml-5">
 			<img src="/managing_director.png" alt="managing director" />

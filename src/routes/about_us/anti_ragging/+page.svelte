@@ -27,7 +27,7 @@
 </script>
 
 <div class="flex flex-col gap-10 items-center justify-center">
-	<h2 class="text-5xl font-bold lg:col-span-2 lg:divider">Anti-Ragging</h2>
+	<h2 class="lg:col-span-2 divider-heading">Anti-Ragging</h2>
 	<ul class="list-decimal ml-2 text-lg px-6 md:px-10 lg:px-16 xl:px-24">
 		<li>
 			As per Order of the Joint Director of Technical Education No 1/ROM/TE/088 DATED 28-5-1999, it is hereby informed that MAHARASHTRA PROHIBITION

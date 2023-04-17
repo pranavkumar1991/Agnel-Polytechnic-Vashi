@@ -11,7 +11,7 @@
 </script>
 
 <div class="overflow-x-auto w-full flex flex-col gap-8 items-center">
-	<h2 class="text-5xl font-bold lg:col-span-2 lg:divider">Students Mentoring and Grievance Cell</h2>
+	<h2 class="divider-heading lg:col-span-2">Students Mentoring and Grievance Cell</h2>
 	<p class="max-w-7xl text-center">
 		Students Mentoring and Grievance Cell have been formed in order to solve the problems of the students and to motivate them to do well in Academic
 		as well as extra/ Co-curricular activities.
