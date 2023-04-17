@@ -15,39 +15,39 @@
 
 	let automobile_engineering_teaching_staff = [
 		['Mr. Nitin Kulkarni', 'Head of Department (Regular)', ['Masters in Engineering', 'Mechanical'], '10/07/2006', '24 years'],
-		['Mr. Dinesh Patil', 'Lecturer (Regular)', 'Masters in Technology. (Mech)', '04/06/2007', '15 years'],
-		['Ms. Sonal Kapadia', 'Lecturer (Regular)', 'Masters in Technology. (Mech)', '04/07/2008', '14 years'],
-		['Ms. Cige Louis', 'Lecturer (Regular)', 'B.E. (Prodn.)', '03/01/2011', '11 years'],
-		['Mr. Satish Eandole', 'Lecturer (Regular)', 'B.E. (Mech)', '09/01/2012', '12 years'],
-		['Mr. Syed Mohammed Arif', 'Lecturer (Adhoc)', 'M.E.', '03/07/2019', '9 years'],
-		['Mr. Mahesh Vhanmane', 'Lecturer (Adhoc)', 'B.E. (Automobile)', '05/07/2019', '8 years']
+		['Mr. Dinesh Patil', 'Lecturer (Regular)', ['Masters in Technology', 'Mechanical'], '04/06/2007', '15 years'],
+		['Ms. Sonal Kapadia', 'Lecturer (Regular)', ['Masters in Technology', 'Mechanical'], '04/07/2008', '14 years'],
+		['Ms. Cige Louis', 'Lecturer (Regular)', ['Bachelors in Engineering', 'Production'], '03/01/2011', '11 years'],
+		['Mr. Satish Eandole', 'Lecturer (Regular)', ['Bachelors in Engineering', 'Mechanical'], '09/01/2012', '12 years'],
+		['Mr. Syed Mohammed Arif', 'Lecturer (Adhoc)', ['Masters in Engineering'], '03/07/2019', '9 years'],
+		['Mr. Mahesh Vhanmane', 'Lecturer (Adhoc)', ['Bachelors in Engineering', 'Automobile'], '05/07/2019', '8 years']
 	];
 
 	let electronics_telecommunication_teaching_staff = [
-		['Ms. Raji M.P', 'H.O.D. (Regular)', 'M.E. (Electrical)', '06/06/1995', '25 years'],
-		['Ms. Jewel Samantha', 'Training and Placement Officer (Regular)', 'Masters in Technology.( Electronics Engineering)', '07/01/1997', '23 years'],
-		['Ms. Suahasini David Sekhar', 'Lecturer (Selec. Gr) (Regular)', 'Masters in Technology (Electrical)', '06/01/1998', '22 years'],
-		['Mr. Umesh Mhapankar', 'Lecturer ( Sr. Scale) (Regular)', 'M.E. (Electronics)', '12/01/2003', '17 years'],
-		['Ms. Archana Wasule', 'Lecturer (Regular)', 'Masters in Technology.(Electronics)', '14/12/2004', '16 years'],
-		['Ms. Soanli Sherigar', 'Lecturer (Regular)', 'Masters in Technology ( Electronics Engg)', '07/02/2007', '20 years'],
-		['Ms. Varsha Meshram', 'Lecturer (Regular)', 'M. Tech (Electronics)', '14/06/2010', '12 years'],
-		['Mr. Amol Suryavanshi', 'Lecturer (Regular)', 'ME (EXTC)', '18/08/2011', '9 years']
+		['Ms. Raji M.P', 'H.O.D. (Regular)', ['Masters in Engineering', 'Electrical'], '06/06/1995', '25 years'],
+		['Ms. Jewel Samantha', 'Training and Placement Officer (Regular)', ['Masters in Engineering', 'Electronics'], '07/01/1997', '23 years'],
+		['Ms. Suahasini David Sekhar', 'Lecturer (Selec. Gr) (Regular)', ['Masters in Technology', 'Electrical'], '06/01/1998', '22 years'],
+		['Mr. Umesh Mhapankar', 'Lecturer ( Sr. Scale) (Regular)', ['Masters in Engineering', 'Electronics'], '12/01/2003', '17 years'],
+		['Ms. Archana Wasule', 'Lecturer (Regular)', ['Masters in Engineering', 'Electronics'], '14/12/2004', '16 years'],
+		['Ms. Soanli Sherigar', 'Lecturer (Regular)', ['Masters in Technology', 'Electronics'], '07/02/2007', '20 years'],
+		['Ms. Varsha Meshram', 'Lecturer (Regular)', ['Masters in Technology', 'Electronics'], '14/06/2010', '12 years'],
+		['Mr. Amol Suryavanshi', 'Lecturer (Regular)', ['Masters in Engineering', 'Electronics'], '18/08/2011', '9 years']
 	];
 
 	let mechanical_engineering_teaching_staff = [
-		['Ms. Beenu Johnkutty', 'H.O.D (Regular)', 'Masters in Technology. (Machine Design) (Regular)', '17/08/2006', '22 years'],
-		['Mr. Yogesh Vishwakarma', 'Lecturer (Regular)', 'M.E. (Automobile)', '07/02/2003', '19 years'],
-		['Ms. Pratima A. Kokate', 'Lecturer (Regular)', 'M. Tech. ( Machine Design)', '03/07/2007', '17 years'],
-		['Mr. Ravindra Dhawale', 'Lecturer (Regular)', 'Masters in Technology (Production)', '01/12/2007', '20 years'],
-		['Mr. Uday Gudsoorkar', 'Workshop Sup. (Regular)', 'M.E.(Manufacturing System)', '17/12/2007', '28 years'],
-		['Ms. Suvarchala M.', 'Lecturer (Regular)', 'M. Tech.( Production)', '15/01/2008', '14 years'],
-		['Mr. Vivek Fegade', 'Lecturer (Regular)', 'M.E (CAD CAM)', '01/02/2009', '15 years'],
-		['Mr. Milind Shrirao', 'Lecturer (Regular)', 'B.E. (MECH.)', '27/07/2009', '13 years'],
-		['Mr. Ganesh Gawande', 'Lecturer (Regular)', 'B.E. (MECH.)', '15/12/2010', '12 years'],
-		['Ms. Madhuri Jadhav', 'Lecturer (Regular)', 'M.E. (Manufacturing)', '16/06/2011', '11 years'],
-		['Mr. Chetan Baviskar', 'Lecturer (Regular)', 'Masters in Technology. (Machine Design)', '20/06/2011', '11 years'],
-		['Mr. Premkumar Joshi', 'Lecturer (Regular)', 'M.E (Manufacturing System)', '15/07/2013', '17 years'],
-		['Mr. Momin Musheer Anwar', 'Lecturer (Regular)', 'B. Tech. (Production)', '19/09/2016', '13 years']
+		['Ms. Beenu Johnkutty', 'H.O.D (Regular)', ['Masters in Technology', 'Machine Design'], '17/08/2006', '22 years'],
+		['Mr. Yogesh Vishwakarma', 'Lecturer (Regular)', ['Masters in Engineering', 'Automobile'], '07/02/2003', '19 years'],
+		['Ms. Pratima A. Kokate', 'Lecturer (Regular)', ['Masters in Technology', 'Machine Design'], '03/07/2007', '17 years'],
+		['Mr. Ravindra Dhawale', 'Lecturer (Regular)', ['Masters in Technology', 'Production'], '01/12/2007', '20 years'],
+		['Mr. Uday Gudsoorkar', 'Workshop Sup. (Regular)', ['Masters in Engineering', 'Manufacturing System'], '17/12/2007', '28 years'],
+		['Ms. Suvarchala M.', 'Lecturer (Regular)', ['Masters in Technology', 'Production'], '15/01/2008', '14 years'],
+		['Mr. Vivek Fegade', 'Lecturer (Regular)', ['Masters in Engineering', 'CAD/CAM'], '01/02/2009', '15 years'],
+		['Mr. Milind Shrirao', 'Lecturer (Regular)', ['Bachelors in Engineering', 'Mechanical'], '27/07/2009', '13 years'],
+		['Mr. Ganesh Gawande', 'Lecturer (Regular)', ['Bachelors in Engineering', 'Mechanical'], '15/12/2010', '12 years'],
+		['Ms. Madhuri Jadhav', 'Lecturer (Regular)', ['Masters in Engineering', 'Manufacturing System'], '16/06/2011', '11 years'],
+		['Mr. Chetan Baviskar', 'Lecturer (Regular)', ['Masters in Technology', 'Machine Design'], '20/06/2011', '11 years'],
+		['Mr. Premkumar Joshi', 'Lecturer (Regular)', ['Masters in Engineering', 'Manufacturing System'], '15/07/2013', '17 years'],
+		['Mr. Momin Musheer Anwar', 'Lecturer (Regular)', ['Bachelors in Technology', 'Production'], '19/09/2016', '13 years']
 	];
 
 	let humanities_department = [
