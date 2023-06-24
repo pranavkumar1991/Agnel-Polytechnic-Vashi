@@ -21,12 +21,12 @@
 				<button class="btn btn-ghost btn-sm xl:hidden" aria-label="Menu">
 					<IoMdMenu />
 				</button>
-				<ul class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-semibold">
+				<ul class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-semibold border border-black">
 					<li><a href="/">HOME</a></li>
 					<li>
 						<details class="dropdown">
 							<summary class="">ABOUT US</summary>
-							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 border border-black">
 								<li>
 									<a href="/about_us/vision_and_messages">Vision and messages</a>
 									<a href="/about_us/staff_details">Staff details</a>
