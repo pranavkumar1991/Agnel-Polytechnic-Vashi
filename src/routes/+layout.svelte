@@ -18,13 +18,41 @@
 	>
 		<div class="navbar-start">
 			<div class="dropdown">
-				<button class="btn btn-ghost btn-sm xl:hidden" tabindex="0" aria-label="Menu">
+				<button class="btn btn-ghost btn-sm xl:hidden" aria-label="Menu">
 					<IoMdMenu />
 				</button>
 				<ul class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-semibold">
 					<li><a href="/">HOME</a></li>
-					<li><a href="/about_us">ABOUT US</a></li>
-					<li><a href="">COURSES</a></li>
+					<li>
+						<details class="dropdown">
+							<summary class="">ABOUT US</summary>
+							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+								<li>
+									<a href="/about_us/vision_and_messages">Vision and messages</a>
+									<a href="/about_us/staff_details">Staff details</a>
+									<a href="/about_us/anti_ragging">Anti ragging</a>
+									<a href="/about_us/ladies_grievance">Ladies grievance</a>
+									<a href="/about_us/prevention_of_sexual_harassment">Prevention of sexual harassment</a>
+									<a href="/about_us/students_mentoring">Students mentoring</a>
+									<a href="/about_us/institution_innovation_council">Institution innovation council</a>
+								</li>
+							</ul>
+						</details>
+					</li>
+					<li>
+						<details class="dropdown">
+							<summary class="">COURSES</summary>
+							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+								<li>
+									<a href="/courses/artificial_intelligence">Artificial Intelligence</a>
+									<a href="/courses/electroncis_and_computer_engineering">Electronics & Computer Engineering</a>
+									<a href="/courses/civil_engineering">Civil Engineering</a>
+									<a href="/courses/automobile_engineering">Automobile Engineering</a>
+									<a href="/courses/mechanical_engineering">Mechanical Engineering</a>
+								</li>
+							</ul>
+						</details>
+					</li>
 					<li><a href="">GALLERY</a></li>
 					<li><a href="">NEWS</a></li>
 					<li><a href="">CONTACT US</a></li>
@@ -53,7 +81,18 @@
 						</li>
 					</ul>
 				</li>
-				<li><a href="">COURSES</a></li>
+				<li class="dropdown dropdown-hover">
+					<button tabindex="0">COURSES</button>
+					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2">
+						<li>
+							<a href="/courses/artificial_intelligence">Artificial Intelligence</a>
+							<a href="/courses/electroncis_and_computer_engineering">Electronics & Computer Engineering</a>
+							<a href="/courses/civil_engineering">Civil Engineering</a>
+							<a href="/courses/automobile_engineering">Automobile Engineering</a>
+							<a href="/courses/mechanical_engineering">Mechanical Engineering</a>
+						</li>
+					</ul>
+				</li>
 				<li><a href="">GALLERY</a></li>
 				<li><a href="">NEWS</a></li>
 				<li><a href="">CONTACT US</a></li>
