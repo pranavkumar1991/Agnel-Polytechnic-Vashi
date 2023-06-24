@@ -3,13 +3,13 @@ import type { PageServerLoad } from './$types';
 import { data } from '../data';
 
 export const load = (async ({ params }) => {
-    const deptData = data[params.course];
+	const deptData = data[params.course];
 
-    if (deptData === undefined) {
-        throw error(404, 'Not found');
-    }
+	if (deptData === undefined) {
+		throw error(404, 'Not found');
+	}
 
-    return {
-        deptData
-    }
+	return {
+		deptData
+	};
 }) satisfies PageServerLoad;
