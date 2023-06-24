@@ -3,7 +3,7 @@
 	<div class="card md:card-side shadow-xl bg-accent text-white mt-16">
 		<figure class="basis-1/3 shrink-0 flex flex-col lg:ml-5">
 			<img src="/principal.png" alt="Principal madam" />
-			<p class="h-fit w-full bg-white text-black font-semibold p-2 text-lg ">Ms. Saly Antony</p>
+			<p class="h-fit w-full bg-white text-black font-semibold p-2 text-lg">Ms. Saly Antony</p>
 		</figure>
 		<div class="card-body">
 			<h1 class="text-3xl font-bold">Welcome to Agnel Family</h1>
