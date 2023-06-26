@@ -13,12 +13,12 @@
 
 {#if animateNow}
 	<div
-		class="navbar bg-primary md:w-auto md:left-20 md:right-20 xl:left-40 xl:right-40 top-3 md:top-7 lg:top-10 absolute z-50 rounded-lg border-2 border-black shadow-lg"
+		class="navbar bg-primary md:w-auto md:left-20 md:right-20 2xl:left-40 2xl:right-40 top-3 md:top-7 lg:top-10 absolute z-50 rounded-lg border-2 border-black shadow-lg"
 		in:fade
 	>
 		<div class="navbar-start">
 			<div class="dropdown">
-				<button class="btn btn-ghost btn-sm xl:hidden" aria-label="Menu">
+				<button class="btn btn-ghost btn-sm 2xl:hidden" aria-label="Menu">
 					<IoMdMenu />
 				</button>
 				<ul class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-semibold border border-black">
@@ -54,17 +54,27 @@
 						</details>
 					</li>
 					<li><a href="">GALLERY</a></li>
-					<li><a href="">NEWS</a></li>
+					<li><a href="/admission">ADMISSION</a></li>
+					<li>
+						<details class="dropdown">
+							<summary class="">DOWNLOADS</summary>
+							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 border border-black">
+								<li>
+									<a href="/downloads/syllabus">Syllabus</a>
+								</li>
+							</ul>
+						</details>
+					</li>
 					<li><a href="">CONTACT US</a></li>
 				</ul>
 			</div>
 			<a class="btn btn-ghost normal-case text-xl gap-2" href="/">
 				<img src="/apv_logo.png" alt="Logo" class="w-12" />
-				<h1 class="text-left 2xl:hidden">APV</h1>
-				<h1 class="text-left hidden 2xl:block">Agnel Polytechnic</h1>
+				<h1 class="text-left 22xl:hidden">APV</h1>
+				<h1 class="text-left hidden 22xl:block">Agnel Polytechnic</h1>
 			</a>
 		</div>
-		<div class="navbar-center hidden xl:flex">
+		<div class="navbar-center hidden 2xl:flex">
 			<ul class="menu menu-horizontal px-1 font-semibold">
 				<li><a href="/">HOME</a></li>
 				<li class="dropdown dropdown-hover">
@@ -94,7 +104,15 @@
 					</ul>
 				</li>
 				<li><a href="">GALLERY</a></li>
-				<li><a href="">NEWS</a></li>
+				<li><a href="/admission">ADMISSION</a></li>
+				<li>
+					<button tabindex="0">DOWNLOADS</button>
+					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2">
+						<li>
+							<a href="/downloads/syllabus">Syllabus</a>
+						</li>
+					</ul>
+				</li>
 				<li><a href="">CONTACT US</a></li>
 			</ul>
 		</div>
