@@ -13,13 +13,15 @@
 	];
 </script>
 
-<div class="overflow-x-auto w-full flex flex-col gap-8 items-center">
+<div class="flex flex-col mb-8 gap-4">
 	<h2 class="lg:col-span-2 divider-heading">Ladies Grievance Cell</h2>
-	<p class="max-w-7xl text-center">
+	<p class="max-w-7xl">
 		The Teaching and Non-Teaching Staff members of the polytechnic are hereby informed that as per the directives received from Joint Director,
 		Technical Education, Regional Office, Maharashtra State, the following staff members have been nominated to the LADIES STAFF COMPLAINT REDRESSAL
 		COMMITTEE with immediate effect.
 	</p>
+</div>
+<div class="overflow-x-auto w-full">
 	<table class="table w-full">
 		<thead>
 			<tr>
