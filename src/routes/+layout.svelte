@@ -42,10 +42,10 @@
 					<li>
 						<details class="dropdown">
 							<summary class="">COURSES</summary>
-							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 border border-black">
 								<li>
 									<a href="/courses/artificial_intelligence">Artificial Intelligence</a>
-									<a href="/courses/electroncis_and_computer_engineering">Electronics & Computer Engineering</a>
+									<a href="/courses/electronics_and_computer_engineering">Electronics & Computer Engineering</a>
 									<a href="/courses/civil_engineering">Civil Engineering</a>
 									<a href="/courses/automobile_engineering">Automobile Engineering</a>
 									<a href="/courses/mechanical_engineering">Mechanical Engineering</a>
@@ -86,7 +86,7 @@
 					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2">
 						<li>
 							<a href="/courses/artificial_intelligence">Artificial Intelligence</a>
-							<a href="/courses/electroncis_and_computer_engineering">Electronics & Computer Engineering</a>
+							<a href="/courses/electronics_and_computer_engineering">Electronics & Computer Engineering</a>
 							<a href="/courses/civil_engineering">Civil Engineering</a>
 							<a href="/courses/automobile_engineering">Automobile Engineering</a>
 							<a href="/courses/mechanical_engineering">Mechanical Engineering</a>
