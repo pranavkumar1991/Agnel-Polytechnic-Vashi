@@ -18,9 +18,9 @@
 		<br />
 		<br />
 		The IIC promotes innovation in the Institution through multitudinous modes leading to an innovation promotion eco-system in the campus. Last year for
-		the National Innovation Contest a total of 947 PoCs were submitted by IICs all over India including IITs, NITs, Engg Colleges, etc. We are glad to announce
-		that the PoC submitted by our students “Early detection of cancer with non-invasive technique” from the Electronics Department under the guidance of
-		Mr. Umesh Mhapankar got selected for the National Boot Camp and ours was the only Polytechnic in the selected list.
+		the National Innovation Contest a total of 947 PoCs were submitted by IICs all over India including IITs, NITs, Engg Colleges, etc. We are glad to
+		announce that the PoC submitted by our students “Early detection of cancer with non-invasive technique” from the Electronics Department under the guidance
+		of Mr. Umesh Mhapankar got selected for the National Boot Camp and ours was the only Polytechnic in the selected list.
 	</p>
 	<h2 class="lg:col-span-2 divider-heading">IIC committee</h2>
 </div>

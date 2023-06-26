@@ -13,8 +13,8 @@
 <div class="flex flex-col gap-8 mb-8">
 	<h2 class="divider-heading lg:col-span-2">Students Mentoring and Grievance Cell</h2>
 	<p class="max-w-7xl">
-		Students Mentoring and Grievance Cell have been formed in order to solve the problems of the students and to motivate them to do well in Academic as
-		well as extra/Co-curricular activities.
+		Students Mentoring and Grievance Cell have been formed in order to solve the problems of the students and to motivate them to do well in Academic
+		as well as extra/Co-curricular activities.
 		<br />
 		<br />
 		The following are the members of this cell and students are requested to contact them in case of any difficulty/Suggestions.
