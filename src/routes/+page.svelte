@@ -15,5 +15,4 @@
 	<AboutAgnel />
 	<Events />
 	<PlacementStats />
-	<Stats />
 </div>
