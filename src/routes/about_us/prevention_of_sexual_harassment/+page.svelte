@@ -13,7 +13,7 @@
 	];
 </script>
 
-<h2 class="divider-heading lg:col-span-2 mb-8">ICC – Prevention of sexual harassment</h2>
+<h2 class="divider-heading lg:col-span-2 mb-8 px-2">ICC – Prevention of sexual harassment</h2>
 <div class="overflow-x-auto w-full">
 	<table class="table w-full">
 		<thead>

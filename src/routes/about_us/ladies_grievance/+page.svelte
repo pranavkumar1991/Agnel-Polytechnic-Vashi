@@ -1,19 +1,19 @@
 <script lang="ts">
 	import Staff from './Staff.svelte';
 	let staff = [
-		['Mrs. Jewel Samantha', 'CHAIRMAN'],
-		['Mrs. Roopa Shetty', 'MEMBER'],
-		['Mr. Seema Kshirsagar', 'MEMBER'],
-		['Mrs.Malini Pawande', 'MEMBER'],
-		['Mr.Amarpreet Kaur', 'MEMBER'],
-		['Mr. Nitin Kulkarni', 'MEMBER'],
-		['Mr.Upendra Rai', 'MEMBER'],
-		['Mr.Rajan Walinjkar', 'MEMBER'],
-		['Mrs.Saly Antony', '	MEMBER']
+		['Mrs. Jewel Samantha', 'Chairman'],
+		['Mrs. Roopa Shetty', 'Member'],
+		['Mr. Seema Kshirsagar', 'Member'],
+		['Mrs.Malini Pawande', 'Member'],
+		['Mr.Amarpreet Kaur', 'Member'],
+		['Mr. Nitin Kulkarni', 'Member'],
+		['Mr.Upendra Rai', 'Member'],
+		['Mr.Rajan Walinjkar', 'Member'],
+		['Mrs.Saly Antony', '	Member']
 	];
 </script>
 
-<div class="flex flex-col mb-8 gap-4">
+<div class="flex flex-col mb-8 gap-4 px-2">
 	<h2 class="lg:col-span-2 divider-heading">Ladies Grievance Cell</h2>
 	<p class="max-w-7xl">
 		The Teaching and Non-Teaching Staff members of the polytechnic are hereby informed that as per the directives received from Joint Director,
