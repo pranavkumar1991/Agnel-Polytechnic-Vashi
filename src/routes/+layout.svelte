@@ -65,7 +65,7 @@
 							</ul>
 						</details>
 					</li>
-					<li><a href="">CONTACT US</a></li>
+					<li><a href="/contact_us">CONTACT US</a></li>
 				</ul>
 			</div>
 			<a class="btn btn-ghost normal-case text-xl gap-2" href="/">
@@ -113,7 +113,7 @@
 						</li>
 					</ul>
 				</li>
-				<li><a href="">CONTACT US</a></li>
+				<li><a href="/contact_us">CONTACT US</a></li>
 			</ul>
 		</div>
 		<div class="navbar-end">
