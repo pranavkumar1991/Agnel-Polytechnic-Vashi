@@ -9,10 +9,10 @@
 	];
 </script>
 
-<div class="overflow-x-auto w-full flex flex-col gap-8 items-center">
+<div class="flex flex-col gap-4 mb-8">
 	<h2 class="divider-heading lg:col-span-2">Institution’s Innovation Council (IIC)</h2>
-	<img src="/icc_image.jpg" alt="" />
-	<p class="max-w-7xl text-center">
+	<img src="/icc_image.jpg" alt="IIC logo" />
+	<p class="max-w-7xl">
 		Established Institution’s Innovation Council under ‘MHRD’s Innovation Cell (MIC) to systematically foster the culture of Innovation amongst
 		students.
 		<br />
@@ -23,7 +23,8 @@
 		of Mr. Umesh Mhapankar got selected for the National Boot Camp and ours was the only Polytechnic in the selected list.
 	</p>
 	<h2 class="lg:col-span-2 divider-heading">IIC committee</h2>
-
+</div>
+<div class="overflow-x-auto w-full">
 	<table class="table w-full">
 		<thead>
 			<tr>

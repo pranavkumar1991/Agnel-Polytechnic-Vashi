@@ -43,7 +43,7 @@
 			be admitted in any other educational institution for a period of five years from the date of order of such dismissal.
 		</li>
 	</ul>
-	<h2 class="text-3xl font-bold lg:col-span-2 lg:divider">Anti Ragging Committee 2022-23 (ARC)</h2>
+	<h2 class="text-3xl font-bold lg:col-span-2 lg:divider px-2">Anti Ragging Committee 2022-23 (ARC)</h2>
 	<div class="overflow-x-auto w-full">
 		<table class="table w-full">
 			<thead>
@@ -56,7 +56,7 @@
 			<StaffMember data={staffs} />
 		</table>
 	</div>
-	<h2 class="text-3xl font-bold lg:col-span-2 lg:divider">Anti Ragging Squad (ARS)</h2>
+	<h2 class="text-3xl font-bold lg:col-span-2 lg:divider px-2">Anti Ragging Squad (ARS)</h2>
 	<div class="overflow-x-auto w-full">
 		<table class="table w-full">
 			<thead>
@@ -69,7 +69,7 @@
 			<StaffMember data={squad} />
 		</table>
 	</div>
-	<div class="flex gap-5 btn-group btn-group-vertical lg:btn-group-horizontal">
+	<div class="flex btn-group btn-group-vertical lg:btn-group-horizontal gap-0.5">
 		<a href="http://antiragging.in/" class="btn btn-secondary text-lg text-black border-none normal-case" target="_blank">Visit Anti-Ragging</a>
 		<a href="https://www.amanmovement.org/" class="btn btn-secondary text-lg text-black border-none normal-case" target="_blank">Visit AmanMovement</a
 		>

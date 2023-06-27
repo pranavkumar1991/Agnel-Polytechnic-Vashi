@@ -62,6 +62,7 @@
 	];
 </script>
 
+<h3 class="divider-heading pb-12 pt-6 px-2">Staff details</h3>
 <div class="overflow-x-auto w-full">
 	<table class="table w-full">
 		<thead>

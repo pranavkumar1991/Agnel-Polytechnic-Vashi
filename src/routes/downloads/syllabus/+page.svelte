@@ -18,14 +18,14 @@
 		<tbody>
 			<tr>
 				<td>Automobile Engineering (AE)</td>
-                <td rowspan="5" class="border">
-                    <a href="/downloads/syllabus/IScheme-1stSemester.pdf" class="btn btn-ghost flex-nowrap gap-2 normal-case">
-                        <span class="w-6">
-                            <FaFilePdf />
-                        </span>
-                        Common for all I-scheme
-                    </a>
-                </td>
+				<td rowspan="5" class="border">
+					<a href="/downloads/syllabus/IScheme-1stSemester.pdf" class="btn btn-ghost flex-nowrap gap-2 normal-case">
+						<span class="w-6">
+							<FaFilePdf />
+						</span>
+						Common for all I-scheme
+					</a>
+				</td>
 				{#each ['AE-2I', 'AE-3I', 'AE-4I', 'AE-5I', 'AE-6I'] as item}
 					<td class="border">
 						<a href="/downloads/syllabus/{item}.pdf" class="btn btn-ghost flex-nowrap gap-2">
