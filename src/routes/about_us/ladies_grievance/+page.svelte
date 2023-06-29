@@ -4,12 +4,12 @@
 		['Mrs. Jewel Samantha', 'Chairman'],
 		['Mrs. Roopa Shetty', 'Member'],
 		['Mr. Seema Kshirsagar', 'Member'],
-		['Mrs.Malini Pawande', 'Member'],
-		['Mr.Amarpreet Kaur', 'Member'],
+		['Mrs. Malini Pawande', 'Member'],
+		['Mr. Amarpreet Kaur', 'Member'],
 		['Mr. Nitin Kulkarni', 'Member'],
-		['Mr.Upendra Rai', 'Member'],
-		['Mr.Rajan Walinjkar', 'Member'],
-		['Mrs.Saly Antony', '	Member']
+		['Mr. Upendra Rai', 'Member'],
+		['Mr. Rajan Walinjkar', 'Member'],
+		['Mrs. Saly Antony', '	Member']
 	];
 </script>
 
