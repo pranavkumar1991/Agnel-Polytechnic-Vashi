@@ -75,11 +75,11 @@
 	<section class="flex flex-col gap-6">
 		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Non-Teaching Faculty</h4>
 		<div class="flex flex-wrap gap-5 mx-auto justify-center">
-			{#each deptData.nonTeachingFaculty as profile}
+			{#each deptData.nonTeachingFaculty as name}
 				<div class="card card-compact w-96 bg-base-100 shadow-xl">
-					<figure><img src={profile.profilePicture} alt={`${profile.name} picture`} /></figure>
+					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} /></figure>
 					<div class="card-body">
-						<h2 class="card-title">{profile.name}</h2>
+						<h2 class="card-title">{name}</h2>
 					</div>
 				</div>
 			{/each}
