@@ -1,6 +1,14 @@
 <script lang="ts">
 	export let data;
 	$: deptData = data.deptData;
+
+	import { page } from '$app/stores';
+
+	function removeExtension(filename: string) {
+		var lastDotPosition = filename.lastIndexOf('.');
+		if (lastDotPosition === -1) return filename;
+		else return filename.substring(0, lastDotPosition);
+	}
 </script>
 
 <div class="flex flex-col gap-12">
@@ -54,11 +62,11 @@
 	<section class="flex flex-col gap-6">
 		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Teaching Faculty</h4>
 		<div class="flex flex-wrap gap-5 mx-auto justify-center mb-16">
-			{#each deptData.teachingFaculty as profile}
-				<div class="card card-compact w-96 bg-base-100 shadow-xl">
-					<figure><img src={profile.profilePicture} alt={`${profile.name} picture`} /></figure>
-					<div class="card-body">
-						<h2 class="card-title">{profile.name}</h2>
+			{#each deptData.teachingFaculty as name}
+				<div class="card card-compact w-64 bg-base-100 shadow-xl">
+					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} /></figure>
+					<div class="card-body shrink justify-end">
+						<h2 class="card-title">{name}</h2>
 					</div>
 				</div>
 			{/each}
@@ -67,18 +75,18 @@
 	<section class="flex flex-col gap-6">
 		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Non-Teaching Faculty</h4>
 		<div class="flex flex-wrap gap-5 mx-auto justify-center">
-			{#each deptData.nonTeachingFaculty as profile}
+			{#each deptData.nonTeachingFaculty as name}
 				<div class="card card-compact w-96 bg-base-100 shadow-xl">
-					<figure><img src={profile.profilePicture} alt={`${profile.name} picture`} /></figure>
+					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} /></figure>
 					<div class="card-body">
-						<h2 class="card-title">{profile.name}</h2>
+						<h2 class="card-title">{name}</h2>
 					</div>
 				</div>
 			{/each}
 		</div>
 	</section>
-	<section class="flex flex-col gap-6">
-		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Academic Toppers</h4>
+	<!-- TODO <section class="flex flex-col gap-6">
+		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">TODO: Academic Toppers</h4>
 		<div class="flex flex-wrap gap-5 mx-auto justify-center">
 			{#each deptData.academicToppers as topper}
 				<div class="card card-compact w-96 bg-base-100 shadow-xl">
@@ -90,83 +98,22 @@
 				</div>
 			{/each}
 		</div>
-	</section>
-	<section class="flex flex-col gap-6">
-		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Student Achievements</h4>
-		<div class="flex flex-wrap gap-5 mx-auto justify-center">
-			{#each deptData.studentAchievements as achievement}
-				<div class="card card-compact w-96 bg-base-100 shadow-xl">
-					<figure><img src={achievement.image} alt={`${achievement.name} picture`} /></figure>
-					<div class="card-body">
-						<h2 class="card-title">{achievement.name}</h2>
+	</section> -->
+	{#each Object.keys(data.items) as directory}
+		<section class="flex flex-col gap-6">
+			<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">{directory}</h4>
+			<div class="flex flex-wrap gap-5 mx-auto justify-center">
+				{#each data.items[directory] as item}
+					<div class="card card-compact w-96 bg-base-100 shadow-xl">
+						<figure>
+							<img src="/courses/{$page.params.course}/{directory}/{item}" alt={`${item} picture`} />
+						</figure>
+						<div class="card-body">
+							<h2 class="card-title">{removeExtension(item)}</h2>
+						</div>
 					</div>
-				</div>
-			{/each}
-		</div>
-	</section>
-	<section class="flex flex-col gap-6">
-		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Laboratories</h4>
-		<div class="flex flex-wrap gap-5 mx-auto justify-center">
-			{#each deptData.laboratories as lab}
-				<div class="card card-compact w-96 bg-base-100 shadow-xl">
-					<figure><img src={lab.image} alt={`${lab.name} picture`} /></figure>
-					<div class="card-body">
-						<h2 class="card-title">{lab.name}</h2>
-					</div>
-				</div>
-			{/each}
-		</div>
-	</section>
-	<section class="flex flex-col gap-6">
-		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Projects</h4>
-		<div class="flex flex-wrap gap-5 mx-auto justify-center">
-			{#each deptData.projects as project}
-				<div class="card card-compact w-96 bg-base-100 shadow-xl">
-					<figure><img src={project.image} alt={`${project.name} picture`} /></figure>
-					<div class="card-body">
-						<h2 class="card-title">{project.name}</h2>
-					</div>
-				</div>
-			{/each}
-		</div>
-	</section>
-	<section class="flex flex-col gap-6">
-		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Workshops</h4>
-		<div class="flex flex-wrap gap-5 mx-auto justify-center">
-			{#each deptData.workshops as item}
-				<div class="card card-compact w-96 bg-base-100 shadow-xl">
-					<figure><img src={item.image} alt={`${item.name} picture`} /></figure>
-					<div class="card-body">
-						<h2 class="card-title">{item.name}</h2>
-					</div>
-				</div>
-			{/each}
-		</div>
-	</section>
-	<section class="flex flex-col gap-6">
-		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Industrial Visits</h4>
-		<div class="flex flex-wrap gap-5 mx-auto justify-center">
-			{#each deptData.industrialVisits as item}
-				<div class="card card-compact w-96 bg-base-100 shadow-xl">
-					<figure><img src={item.image} alt={`${item.name} picture`} /></figure>
-					<div class="card-body">
-						<h2 class="card-title">{item.name}</h2>
-					</div>
-				</div>
-			{/each}
-		</div>
-	</section>
-	<section class="flex flex-col gap-6">
-		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Expert Lectures</h4>
-		<div class="flex flex-wrap gap-5 mx-auto justify-center">
-			{#each deptData.expertLectures as item}
-				<div class="card card-compact w-96 bg-base-100 shadow-xl">
-					<figure><img src={item.image} alt={`${item.name} picture`} /></figure>
-					<div class="card-body">
-						<h2 class="card-title">{item.name}</h2>
-					</div>
-				</div>
-			{/each}
-		</div>
-	</section>
+				{/each}
+			</div>
+		</section>
+	{/each}
 </div>
