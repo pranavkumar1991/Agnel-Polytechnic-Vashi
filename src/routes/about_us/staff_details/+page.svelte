@@ -24,12 +24,12 @@
 	];
 
 	let electronics_telecommunication_teaching_staff = [
-		['Ms. Raji M.P', 'Head of Department', ['Masters in Engineering', 'Electrical'], '06/06/1995', '25 years'],
-		['Ms. Jewel Samantha', 'Training and Placement Officer', ['Masters in Engineering', 'Electronics'], '07/01/1997', '23 years'],
-		['Ms. Suahasini David Sekhar', 'Lecturer', ['Masters in Technology', 'Electrical'], '06/01/1998', '22 years'],
+		['Mrs. Raji MP', 'Head of Department', ['Masters in Engineering', 'Electrical'], '06/06/1995', '25 years'],
+		['Mrs. Jewel Samantha', 'Training and Placement Officer', ['Masters in Engineering', 'Electronics'], '07/01/1997', '23 years'],
+		['Mrs. Suhasini David Sekhar', 'Lecturer', ['Masters in Technology', 'Electrical'], '06/01/1998', '22 years'],
 		['Mr. Umesh Mhapankar', 'Lecturer', ['Masters in Engineering', 'Electronics'], '12/01/2003', '17 years'],
-		['Ms. Archana Wasule', 'Lecturer', ['Masters in Engineering', 'Electronics'], '14/12/2004', '16 years'],
-		['Ms. Soanli Sherigar', 'Lecturer', ['Masters in Technology', 'Electronics'], '07/02/2007', '20 years'],
+		['Mrs. Archana Wasule', 'Lecturer', ['Masters in Engineering', 'Electronics'], '14/12/2004', '16 years'],
+		['Ms. Sonali Sherigar', 'Lecturer', ['Masters in Technology', 'Electronics'], '07/02/2007', '20 years'],
 		['Ms. Varsha Meshram', 'Lecturer', ['Masters in Technology', 'Electronics'], '14/06/2010', '12 years'],
 		['Mr. Amol Suryavanshi', 'Lecturer', ['Masters in Engineering', 'Electronics'], '18/08/2011', '9 years']
 	];
@@ -79,7 +79,7 @@
 					<div class="flex items-center space-x-3">
 						<div class="avatar">
 							<div class="mask mask-squircle w-12 h-12">
-								<img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
+								<img src="/staff/Ms. Saly Antony.jpg" alt="Avatar Tailwind CSS Component" />
 							</div>
 						</div>
 						<div class="font-bold">Ms. Saly Antony</div>

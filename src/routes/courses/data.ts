@@ -32,7 +32,7 @@ export const data: Record<string, DeptData> = {
 			'To develop technical skills in-line with current industry trends through effective teaching and industry-institute interaction'
 		],
 		teachingFaculty: ['Mrs. Raji MP', 'Mr. Pranavkumar Bhorde', 'Mrs. Rashmi Dhake', 'Mrs. Ashwini Baviskar', 'Mrs. Ashwini Patil'],
-		nonTeachingFaculty: [],
+		nonTeachingFaculty: ['Mrs. Kiran', 'Mr. Sadiq'],
 		academicToppers: []
 	},
 	electronics_and_computer_engineering: {
@@ -51,15 +51,15 @@ export const data: Record<string, DeptData> = {
 		],
 		teachingFaculty: [
 			'Mrs. Raji MP',
-			'Mrs. Jewel Samanta',
+			'Mrs. Jewel Samantha',
 			'Mrs. Suhasini David Sekhar',
 			'Mr. Umesh Mhapankar',
 			'Mrs. Archana Wasule',
 			'Ms. Sonali Sherigar',
 			'Ms. Varsha Meshram',
-			'Mr. Amol Surywanshi'
+			'Mr. Amol Suryavanshi'
 		],
-		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mr. Manoj Parthe', 'Mr. Kishor Barve', 'MR. Avadhut Ghadge'],
+		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge'],
 		academicToppers: []
 	},
 	automobile_engineering: {
@@ -81,15 +81,12 @@ export const data: Record<string, DeptData> = {
 			'Mr. Dinesh Patil',
 			'Ms. Sonal Kapadia',
 			'Mr. Umesh Mhapankar',
-			'Ms. Cige Lious',
+			'Ms. Cige Louis',
 			'Mr. Satish Endole',
 			'Mr. Syed Mohammed Arif',
 			'Mr. Mahesh Vhanmane'
 		],
-		nonTeachingFaculty: [
-			'Mr. Paresh Ranpura',
-			'Mr. Ganesh Rathod'
-		],
+		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod'],
 		academicToppers: [
 			{ name: 'KOTECHA PRATHAMESH', profilePicture: '', percentage: 90.38, semester: 'AE-6-I' },
 			{ name: 'KOLI TANISH', profilePicture: '', percentage: 79.29, semester: 'AE-4-I' },
@@ -111,24 +108,20 @@ export const data: Record<string, DeptData> = {
 		mission: [
 			'Empower the students to become diploma civil engineers of high caliber.',
 			'To provide sustained environment for learning, co-curricular and extra-curricular activities for overall personality development.',
-			'To develop students with skills of employability, entrepreneurship potential and professionally ethical citize.'
+			'To develop students with skills of employability, entrepreneurship potential and professional ethics.'
 		],
 		teachingFaculty: [
-			'Mr. MANVENDRA SINHA',
-			'Mr. SHASHIKANT SAWANT',
-			'Ms. NIRMALA MASCARENHAS',
-			'Ms. AMARPREET KAUR',
-			'Ms. SEEMA KSHIRSAGAR',
-			'Ms. PAPIYA BALA',
-			'Mr. VISHAL DALVI',
-			'Mr. LEWIS ANTHONY',
-			'Ms. RUCHIRA SHINDE'
+			'Mr. Manvendra Sinha',
+			'Mr. Shahsikant Sawant',
+			'Ms. Nirmala Mascarenhas',
+			'Ms. Amarpreet Kaur',
+			'Ms. Seema Kshirsagar',
+			'Ms. Papiya Bala',
+			'Mr. Vishal DalvI',
+			'Mr. Lewis Anthony',
+			'Ms. Ruchira Shinde'
 		],
-		nonTeachingFaculty: [
-			'Mr. Shrikant Shinde',
-			'Mr. Lahu Surve',
-			'Mr. Mahesh Suryavanshi'
-		],
+		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi'],
 		academicToppers: [
 			{ name: 'Raahil Patel', profilePicture: '', percentage: 90.84, semester: 'CE-6-I' },
 			{ name: 'Akash Kaulage', profilePicture: '', percentage: 81.13, semester: 'CE-4-I' },
@@ -139,7 +132,7 @@ export const data: Record<string, DeptData> = {
 		]
 	},
 	mechanical_engineering: {
-		name: 'MECHANICAL ENGINEERING (ME)',
+		name: 'Mechanical Engineering (ME)',
 		HOD: { name: 'Ms. Beenu Johnkutty', profilePicture: '' },
 		intake: 120,
 		duration: 3,
@@ -166,12 +159,7 @@ export const data: Record<string, DeptData> = {
 			'Mr. Momin M',
 			'Ms. Suvarchala M'
 		],
-		nonTeachingFaculty: [
-			'Mr. Mahesh Salunkhe',
-			'Mr. Avinash Jage',
-			'Mr. Shailesh Gawand',
-			'Mr. Mangesh Deshmukh'
-		],
+		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh'],
 		academicToppers: [
 			{ name: 'Siddik Shingare', profilePicture: '', percentage: 93.33, semester: 'ME-6-I' },
 			{ name: 'Dvij Koli', profilePicture: '', percentage: 89.63, semester: 'ME-4-I' },
