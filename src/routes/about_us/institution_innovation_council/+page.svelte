@@ -2,10 +2,10 @@
 	import Staff from './Staff.svelte';
 	let staff = [
 		['Mrs. Saly Antony', 'Principal'],
-		['Mrs. Raji M.P.', 'President'],
-		['Mrs Sonali Sherigar', 'Vice President'],
-		['Mr. Umesh. Mhapankar', 'Convener'],
-		['Mr. Satish Endole', 'Member']
+		['Mrs. Raji MP', 'President'],
+		['Ms. Sonali Sherigar', 'Vice President'],
+		['Mr. Umesh Mhapankar', 'Convener'],
+		['Mr. Satish Eandole', 'Member']
 	];
 </script>
 

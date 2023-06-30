@@ -3,9 +3,9 @@
 	let staff = [
 		['Mrs. Jewel Samantha', 'Chairman'],
 		['Mrs. Roopa Shetty', 'Member'],
-		['Mr. Seema Kshirsagar', 'Member'],
+		['Ms. Seema Kshirsagar', 'Member'],
 		['Mrs. Malini Pawande', 'Member'],
-		['Mr. Amarpreet Kaur', 'Member'],
+		['Ms. Amarpreet Kaur', 'Member'],
 		['Mr. Nitin Kulkarni', 'Member'],
 		['Mr. Upendra Rai', 'Member'],
 		['Mr. Rajan Walinjkar', 'Member'],

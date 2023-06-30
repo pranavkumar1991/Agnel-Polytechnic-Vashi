@@ -5,7 +5,7 @@
 		['Representative Of The Police Dept.', 'Sr. Police Inspector', 'Mr. Sanjay Dhumal', '27820468'],
 		['Department Representative', 'HOD Mechanical Engg.', 'Mrs. Beenu Johnkutty', '9869441160'],
 		['-Do-', 'HOD Civil Engg.', 'Mr. Manvendra Sinha', '9819763770'],
-		['-Do-', 'HOD Electronics & Telecommunication', 'Mrs. Raji M. P.', '9867803820'],
+		['-Do-', 'HOD Electronics & Telecommunication', 'Mrs. Raji MP', '9867803820'],
 		['-Do-', 'HOD Humanities', 'Mr. Venu Gopala Kurup', '9869353658'],
 		['-Do-', 'I/c HOD Automobile Engg.', 'Mr. Nitin Kulkarni', '7021337916'],
 		["Teachers' Representative", 'Lecturer', 'Mr. Lewis A.', '9004897775'],
