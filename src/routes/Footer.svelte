@@ -21,13 +21,11 @@
 		<span class="footer-title opacity-100 underline underline-offset-4">Featured Links</span>
 		<ul class="grid grid-cols-2 gap-1">
 			<li><a class="link link-hover" href="/">&gt; Home</a></li>
-			<li><a class="link link-hover">&gt; Admissions</a></li>
-			<li><a class="link link-hover">&gt; Alumni</a></li>
+			<li><a class="link link-hover" href="/admissions">&gt; Admissions</a></li>
 			<li><a class="link link-hover">&gt; Gallery</a></li>
-			<li><a class="link link-hover">&gt; Visionaries</a></li>
-			<li><a class="link link-hover">&gt; Placement</a></li>
-			<li><a class="link link-hover">&gt; Contact us</a></li>
-			<li><a class="link link-hover">&gt; Anti-Ragging</a></li>
+			<li><a class="link link-hover" href="/about_us/vision_and_messages">&gt; Vision & Mission</a></li>
+			<li><a class="link link-hover" href="/contact_us">&gt; Contact us</a></li>
+			<li><a class="link link-hover" href="/about_us/anti_ragging">&gt; Anti-Ragging</a></li>
 		</ul>
 	</div>
 	<div class="max-w-sm">

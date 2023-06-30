@@ -1,6 +1,6 @@
 type DeptData = {
 	name: string;
-	HOD: Profile;
+	HOD: string;
 	intake: number;
 	duration: number;
 	about: string;
@@ -11,15 +11,11 @@ type DeptData = {
 	academicToppers: object;
 };
 
-type Profile = {
-	name: string;
-	profilePicture: string;
-};
 
 export const data: Record<string, DeptData> = {
 	artificial_intelligence: {
 		name: 'Artificial Intelligence & Machine Learning (AN)',
-		HOD: { name: 'Mrs. Raji MP', profilePicture: '' },
+		HOD: 'Mrs. Raji MP',
 		intake: 60,
 		duration: 3,
 		about:
@@ -37,7 +33,7 @@ export const data: Record<string, DeptData> = {
 	},
 	electronics_and_computer_engineering: {
 		name: 'Electronics & Computer Engineering (TE)',
-		HOD: { name: 'Mrs. Raji MP', profilePicture: '' },
+		HOD: 'Mrs. Raji MP',
 		intake: 60,
 		duration: 3,
 		about:
@@ -64,7 +60,7 @@ export const data: Record<string, DeptData> = {
 	},
 	automobile_engineering: {
 		name: 'Automobile Engineering (AE)',
-		HOD: { name: 'Mr. Nitin Kulkarni', profilePicture: '' },
+		HOD: 'Mr. Nitin Kulkarni',
 		intake: 60,
 		duration: 3,
 		about:
@@ -98,7 +94,7 @@ export const data: Record<string, DeptData> = {
 	},
 	civil_engineering: {
 		name: 'Civil Engineering (CE)',
-		HOD: { name: 'Mr. Manvendra Sinha', profilePicture: '' },
+		HOD: 'Mr. Manvendra Sinha',
 		intake: 60,
 		duration: 3,
 		about:
@@ -133,7 +129,7 @@ export const data: Record<string, DeptData> = {
 	},
 	mechanical_engineering: {
 		name: 'Mechanical Engineering (ME)',
-		HOD: { name: 'Ms. Beenu Johnkutty', profilePicture: '' },
+		HOD: 'Ms. Beenu Johnkutty',
 		intake: 120,
 		duration: 3,
 		about:

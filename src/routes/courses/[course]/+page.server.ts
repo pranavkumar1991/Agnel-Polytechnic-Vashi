@@ -13,6 +13,9 @@ export const load = (async ({ params }) => {
 	const directories = fs.readdirSync(`./static/courses/${params.course}`);
 	const items: Record<string, string[]> = {};
 	directories.forEach((directory) => {
+		if (directory === 'HOD.jpg') {
+			return;
+		}
 		items[directory] = fs.readdirSync(`./static/courses/${params.course}/${directory}`);
 	});
 

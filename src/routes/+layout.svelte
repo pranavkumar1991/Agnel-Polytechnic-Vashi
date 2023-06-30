@@ -56,7 +56,7 @@
 						</details>
 					</li>
 					<li><a href="">GALLERY</a></li>
-					<li><a href="/admission">ADMISSION</a></li>
+					<li><a href="/admissions">ADMISSIONS</a></li>
 					<li>
 						<details class="dropdown">
 							<summary class="">DOWNLOADS</summary>
@@ -106,7 +106,7 @@
 					</ul>
 				</li>
 				<li><a href="">GALLERY</a></li>
-				<li><a href="/admission">ADMISSION</a></li>
+				<li><a href="/admissions">ADMISSIONS</a></li>
 				<li>
 					<button tabindex="0">DOWNLOADS</button>
 					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2">

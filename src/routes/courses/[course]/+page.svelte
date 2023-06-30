@@ -15,10 +15,10 @@
 	<section>
 		<h3 class="text-center text-4xl font-bold max-w-7xl mx-auto mb-4">{deptData.name}</h3>
 		<div class="card lg:card-side shadow-xl bg-accent max-w-7xl mx-auto p-5">
-			<div class="card card-compact w-96 bg-base-100 shadow-xl rounded-none">
-				<figure><img src={deptData.HOD.profilePicture} alt="HOD" /></figure>
+			<div class="card card-compact w-96 shrink-0 grow-0 bg-base-100 shadow-xl rounded-none">
+				<figure><img src='/courses/{$page.params.course}/HOD.jpg' alt="HOD" /></figure>
 				<div class="card-body">
-					<h2 class="card-title">{deptData.HOD.name}</h2>
+					<h2 class="card-title">{deptData.HOD}</h2>
 				</div>
 			</div>
 			<div class="card-body text-justify text-white">
@@ -26,10 +26,10 @@
 			</div>
 		</div>
 	</section>
-	<section class="flex justify-around items-center flex-wrap gap-6">
+	<section class="flex justify-around items-center flex-col gap-6">
 		<div class="grid lg:grid-cols-2 gap-x-8 gap-y-2 max-w-7xl">
 			<h2 class="text-center text-4xl font-bold max-w-7xl mx-auto lg:col-span-2 mb-4">Vision and Mission</h2>
-			<div class="card shadow-xl text-black border-2 border-secondary">
+			<div class="card shadow-xl text-black bg-secondary">
 				<div class="card-body">
 					<h2 class="card-title mx-auto text-4xl font-bold">Vision</h2>
 					<p class="text-lg text-justify">
@@ -37,7 +37,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="card shadow-xl text-black border-2 border-secondary">
+			<div class="card shadow-xl text-black bg-secondary">
 				<div class="card-body">
 					<h2 class="card-title mx-auto text-4xl font-bold">Mission</h2>
 					<ul class="text-lg list-disc mx-auto pl-2">
@@ -63,7 +63,7 @@
 		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Teaching Faculty</h4>
 		<div class="flex flex-wrap gap-5 mx-auto justify-center mb-16">
 			{#each deptData.teachingFaculty as name}
-				<div class="card card-compact w-64 bg-secondary text-black shadow-xl">
+				<div class="card card-compact w-64 shadow-xl">
 					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} /></figure>
 					<div class="card-body justify-end">
 						<h2 class="card-title">{name}</h2>
@@ -76,7 +76,7 @@
 		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Non-Teaching Faculty</h4>
 		<div class="flex flex-wrap gap-5 mx-auto justify-center">
 			{#each deptData.nonTeachingFaculty as name}
-				<div class="card card-compact w-64 bg-accent text-white shadow-xl">
+				<div class="card card-compact w-64 shadow-xl">
 					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} /></figure>
 					<div class="card-body justify-end">
 						<h2 class="card-title">{name}</h2>
@@ -104,7 +104,7 @@
 			<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">{directory}</h4>
 			<div class="flex flex-wrap gap-5 mx-auto justify-center">
 				{#each data.items[directory] as item}
-					<div class="card card-compact w-96 border-secondary border shadow-xl">
+					<div class="card card-compact w-96 shadow-xl">
 						<figure>
 							<img src="/courses/{$page.params.course}/{directory}/{item}" alt={`${item} picture`} />
 						</figure>
