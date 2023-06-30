@@ -31,7 +31,7 @@ export const data: Record<string, DeptData> = {
 			'To inculcate human values and ethical principles to cater to the societal needs.',
 			'To develop technical skills in-line with current industry trends through effective teaching and industry-institute interaction'
 		],
-		teachingFaculty: ['Mrs. Raji MP', 'Mr. Pranavkumar Bhorde', 'Mrs. Rashmi Dhake', 'Mrs. Ashwini Baviskar', 'Mrs. Ashwini Patil'],
+		teachingFaculty: ['Mrs. Raji MP', 'Mr. Pranavkumar Bhadane', 'Mrs. Rashmi Dhake', 'Mrs. Ashwini Baviskar', 'Mrs. Ashwini Patil'],
 		nonTeachingFaculty: ['Mrs. Kiran', 'Mr. Sadiq'],
 		academicToppers: []
 	},
@@ -82,7 +82,7 @@ export const data: Record<string, DeptData> = {
 			'Ms. Sonal Kapadia',
 			'Mr. Umesh Mhapankar',
 			'Ms. Cige Louis',
-			'Mr. Satish Endole',
+			'Mr. Satish Eandole',
 			'Mr. Syed Mohammed Arif',
 			'Mr. Mahesh Vhanmane'
 		],
@@ -112,12 +112,12 @@ export const data: Record<string, DeptData> = {
 		],
 		teachingFaculty: [
 			'Mr. Manvendra Sinha',
-			'Mr. Shahsikant Sawant',
+			'Mr. Shashikant Sawant',
 			'Ms. Nirmala Mascarenhas',
 			'Ms. Amarpreet Kaur',
 			'Ms. Seema Kshirsagar',
 			'Ms. Papiya Bala',
-			'Mr. Vishal DalvI',
+			'Mr. Vishal Dalvi',
 			'Mr. Lewis Anthony',
 			'Ms. Ruchira Shinde'
 		],
@@ -155,9 +155,9 @@ export const data: Record<string, DeptData> = {
 			'Mr. Ganesh Gawande',
 			'Ms. Madhuri Jadhav',
 			'Mr. Chetan Baviskar',
-			'Mr. Premkuar P Joshi',
-			'Mr. Momin M',
-			'Ms. Suvarchala M'
+			'Mr. Premkumar Joshi',
+			'Mr. Momin Musheer Anwar',
+			'Ms. Suvarchala M.'
 		],
 		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh'],
 		academicToppers: [
