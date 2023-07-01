@@ -14,12 +14,10 @@
 <div class="flex flex-col gap-12">
 	<section>
 		<h3 class="text-center text-4xl font-bold max-w-7xl mx-auto mb-4">{deptData.name}</h3>
-		<div class="card lg:card-side shadow-xl bg-accent max-w-7xl mx-auto p-5">
-			<div class="card card-compact w-96 shrink-0 grow-0 bg-base-100 shadow-xl rounded-none">
+		<div class="card lg:card-side shadow-xl bg-accent max-w-7xl mx-auto pt-2 lg:p-5 items-center justify-center">
+			<div class="card card-compact w-96 shrink-0 grow-0 bg-base-100 shadow-xl rounded-none h-fit my-auto">
 				<figure><img src='/courses/{$page.params.course}/HOD.jpg' alt="HOD" /></figure>
-				<div class="card-body">
-					<h2 class="card-title">{deptData.HOD}</h2>
-				</div>
+				<h2 class="card-title p-2.5">{deptData.HOD}</h2>
 			</div>
 			<div class="card-body text-justify text-white">
 				<p>{deptData.about}</p>
