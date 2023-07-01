@@ -26,7 +26,7 @@
 					<li>
 						<details class="dropdown">
 							<summary class="">ABOUT US</summary>
-							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 border border-black">
+							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-auto border border-black">
 								<li>
 									<a href="/about_us/vision_and_messages">Vision and messages</a>
 									<a href="/about_us/staff_details">Staff details</a>
@@ -42,7 +42,7 @@
 					<li>
 						<details class="dropdown">
 							<summary class="">COURSES</summary>
-							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 border border-black">
+							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-auto border border-black">
 								<li>
 									<a href="/courses/artificial_intelligence">Artificial Intelligence</a>
 									<a href="/courses/electronics_and_computer_engineering">Electronics & Computer Engineering</a>
@@ -53,7 +53,7 @@
 							</ul>
 						</details>
 					</li>
-					<li><a href="">GALLERY</a></li>
+					<li><a href="/gallery">GALLERY</a></li>
 					<li><a href="/admissions">ADMISSIONS</a></li>
 					<li>
 						<details class="dropdown">
@@ -103,10 +103,10 @@
 						</li>
 					</ul>
 				</li>
-				<li><a href="">GALLERY</a></li>
+				<li><a href="/gallery">GALLERY</a></li>
 				<li><a href="/admissions">ADMISSIONS</a></li>
-				<li>
-					<button tabindex="0">DOWNLOADS</button>
+				<li class="dropdown dropdown-hover">
+					<button>DOWNLOADS</button>
 					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2">
 						<li>
 							<a href="/downloads/syllabus">Syllabus</a>
