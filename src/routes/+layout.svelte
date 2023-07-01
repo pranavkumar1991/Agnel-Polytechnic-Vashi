@@ -9,8 +9,6 @@
 	setTimeout(() => {
 		animateNow = true;
 	}, 1);
-
-	export const prerender = true;
 </script>
 
 {#if animateNow}
