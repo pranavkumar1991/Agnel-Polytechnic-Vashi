@@ -62,8 +62,8 @@
 		<div class="flex flex-wrap gap-5 mx-auto justify-center mb-16">
 			{#each deptData.teachingFaculty as name}
 				<div class="card card-compact w-64 shadow-xl">
-					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} /></figure>
-					<div class="card-body justify-end">
+					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} class="aspect-square" /></figure>
+					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
 					</div>
 				</div>
@@ -75,8 +75,8 @@
 		<div class="flex flex-wrap gap-5 mx-auto justify-center">
 			{#each deptData.nonTeachingFaculty as name}
 				<div class="card card-compact w-64 shadow-xl">
-					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} /></figure>
-					<div class="card-body justify-end">
+					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} class="aspect-square" /></figure>
+					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
 					</div>
 				</div>
@@ -104,10 +104,10 @@
 				{#each data.items[directory] as item}
 					<div class="card card-compact w-96 shadow-xl">
 						<figure>
-							<img src="/courses/{$page.params.course}/{directory}/{item}" alt={`${item} picture`} />
+							<img src="/courses/{$page.params.course}/{directory}/{item}" alt={`${item} picture`} class="aspect-square" />
 						</figure>
-						<div class="card-body justify-end">
-							<h2 class="card-title">{removeExtension(item)}</h2>
+						<div class="card-body">
+							<h2 class="card-title text-base">{removeExtension(item)}</h2>
 						</div>
 					</div>
 				{/each}

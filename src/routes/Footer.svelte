@@ -14,7 +14,7 @@
 		<h1 class="font-semibold text-lg">Agnel Polytechnic, Vashi</h1>
 		<h2 class="text-justify">
 			What makes Agnel Polytechnic a unique institution in Mumbai is its discipline and culture and the dedication of the faculty imparting knowledge
-			and expertise to the students in a cosmopolitan atmosphereF
+			and expertise to the students in a cosmopolitan atmosphere
 		</h2>
 	</div>
 	<div class="max-w-sm">
@@ -22,7 +22,7 @@
 		<ul class="grid grid-cols-2 gap-1">
 			<li><a class="link link-hover" href="/">&gt; Home</a></li>
 			<li><a class="link link-hover" href="/admissions">&gt; Admissions</a></li>
-			<li><a class="link link-hover">&gt; Gallery</a></li>
+			<li><a class="link link-hover" href="/gallery">&gt; Gallery</a></li>
 			<li><a class="link link-hover" href="/about_us/vision_and_messages">&gt; Vision & Mission</a></li>
 			<li><a class="link link-hover" href="/contact_us">&gt; Contact us</a></li>
 			<li><a class="link link-hover" href="/about_us/anti_ragging">&gt; Anti-Ragging</a></li>
