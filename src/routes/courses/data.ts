@@ -11,7 +11,6 @@ type DeptData = {
 	academicToppers: object;
 };
 
-
 export const data: Record<string, DeptData> = {
 	artificial_intelligence: {
 		name: 'Artificial Intelligence & Machine Learning (AN)',

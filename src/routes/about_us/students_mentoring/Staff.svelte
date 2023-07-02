@@ -18,7 +18,7 @@
 			<td>
 				{member[1]}
 				<br />
-				<span class="badge badge-ghost badge-sm">{member[2]}</span>
+				<span class="badge badge-ghost badge-sm whitespace-nowrap">{member[2]}</span>
 			</td>
 			<td>{member[3]}</td>
 		</tr>

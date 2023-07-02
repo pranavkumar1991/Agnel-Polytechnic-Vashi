@@ -26,7 +26,7 @@
 				<br />
 				<div class="flex flex-wrap gap-1">
 					{#each member[2] as badge}
-						<span class="badge badge-ghost badge-sm">{badge}</span>
+						<span class="badge badge-ghost badge-sm whitespace-nowrap">{badge}</span>
 					{/each}
 				</div>
 			</td>
