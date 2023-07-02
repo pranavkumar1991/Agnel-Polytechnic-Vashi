@@ -128,7 +128,7 @@ export const data: Record<string, DeptData> = {
 	},
 	mechanical_engineering: {
 		name: 'Mechanical Engineering (ME)',
-		HOD: 'Ms. Beenu Johnkutty',
+		HOD: 'Mrs. Beenu Johnkutty',
 		intake: 120,
 		duration: 3,
 		about:
@@ -141,7 +141,7 @@ export const data: Record<string, DeptData> = {
 			'Provide opportunities to promote organizational and leadership skills through extra-curricular and co-curricular activities.'
 		],
 		teachingFaculty: [
-			'Ms. Beenu Johnkutty',
+			'Mrs. Beenu Johnkutty',
 			'Mr. Yogesh Vishwakarma',
 			'Ms. Pratima Kokate',
 			'Mr. Uday Gudsoorkar',

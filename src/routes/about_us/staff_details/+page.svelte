@@ -35,7 +35,7 @@
 	];
 
 	let mechanical_engineering_teaching_staff = [
-		['Ms. Beenu Johnkutty', 'Head of Department', ['Masters in Technology', 'Machine Design'], '17/08/2006', '22 years'],
+		['Mrs. Beenu Johnkutty', 'Head of Department', ['Masters in Technology', 'Machine Design'], '17/08/2006', '22 years'],
 		['Mr. Yogesh Vishwakarma', 'Lecturer', ['Masters in Engineering', 'Automobile'], '07/02/2003', '19 years'],
 		['Ms. Pratima Kokate', 'Lecturer', ['Masters in Technology', 'Machine Design'], '03/07/2007', '17 years'],
 		['Mr. Ravindra Dhawale', 'Lecturer', ['Masters in Technology', 'Production'], '01/12/2007', '20 years'],
