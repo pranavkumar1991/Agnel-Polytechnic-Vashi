@@ -1,6 +1,6 @@
 <div class="flex flex-col align-center justify-center p-10 gap-20">
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
-		<h1 class="text-5xl font-bold text-center">Admissions Procedure</h1>
+		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Admissions Procedure</h1>
 		<p class="text-lg">
 			For Admissions to CAP Seats as well as Institutional Quota, it is compulsory for all candidates to purchase an application kit and submit the
 			online application form. Please verify that your name appears in the merit list prepared by the Competent Authority nominated by the Govt. of
@@ -8,7 +8,7 @@
 		</p>
 	</div>
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
-		<h1 class="text-5xl font-bold text-center">Centralized Admissions Process (CAP)</h1>
+		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Centralized Admissions Process (CAP)</h1>
 		<p>
 			Centralized Admissions Process- (1) The Unaided Private Professional Education Institution shall admit Candidates through the Centralised
 			Admissions Process as per the rules. The stages of CAP shall be as stated below,-
@@ -33,7 +33,7 @@
 		</ul>
 	</div>
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
-		<h1 class="text-5xl font-bold text-center">During the CAP</h1>
+		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">During the CAP</h1>
 		<p>
 			Before accepting the allotted seat a Candidate can opt to ‘Freeze’, ‘Slide’ or ‘Float’ the choice of an academic program for the subsequent
 			round(s), if any, of seat allocation, as provided below:-
@@ -60,21 +60,21 @@
 		</ul>
 	</div>
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
-		<h1 class="text-5xl font-bold text-center">Admissions in Institutional Quota</h1>
+		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Admissions in Institutional Quota</h1>
 		<p>
 			The Institution can admit eligible candidates against 20% of sanctioned intake. Aspiring candidates can apply to the Principal for admission at
 			the Institute Level.
 		</p>
 	</div>
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
-		<h1 class="text-5xl font-bold text-center">Institute Level Round</h1>
+		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Institute Level Round</h1>
 		<p>
 			If the seats remain vacant after all CAP rounds, the said seats will be filled in by the Institution through the Institute Level round on the
 			basis of the Intense merit of the candidates applying for the same.
 		</p>
 	</div>
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
-		<h1 class="text-5xl font-bold text-center">Refund of Fees</h1>
+		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Refund of Fees</h1>
 		<p>Refund of fees after cancellation of admission by Institutions.</p>
 		<ul class="list-disc">
 			<li>
