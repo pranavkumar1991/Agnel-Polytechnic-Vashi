@@ -61,10 +61,10 @@
 	<div class="max-w-sm">
 		<span class="footer-title opacity-100 underline underline-offset-4">Social</span>
 		<div class="grid grid-flow-col grid-rows-2 gap-4">
-			<a class="w-8 cursor-pointer"><FaInstagram /></a>
-			<a class="w-8 cursor-pointer"><FaFacebook /></a>
-			<a class="w-8 cursor-pointer"><FaLinkedin /></a>
-			<a class="w-8 cursor-pointer"><FaTwitter /></a>
+			<a class="w-8 cursor-pointer" href="https://www.instagram.com/fatheragnelpolytechnic"><FaInstagram /></a>
+			<a class="w-8 cursor-pointer" href="https://www.facebook.com/people/Father-Agnel-Polytechnic/100065276178779"><FaFacebook /></a>
+			<a class="w-8 cursor-pointer" href="https://www.linkedin.com/company/father-agnel-polytechnic"><FaLinkedin /></a>
+			<a class="w-8 cursor-pointer" href="https://twitter.com/fatheragnel"><FaTwitter /></a>
 		</div>
 	</div>
 </footer>

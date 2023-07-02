@@ -2,7 +2,7 @@
 	<h2 class="divider-heading">Message from Managing Director</h2>
 	<div class="card md:card-side shadow-xl bg-secondary text-black mt-16">
 		<figure class="basis-1/3 shrink-0 flex flex-col lg:ml-5">
-			<img src="/managing_director.png" alt="managing director" />
+			<img src="/managing_director.jpg" alt="managing director" />
 			<p class="h-fit w-full bg-white text-black font-semibold p-2 text-lg">Rev. Fr. Saturnino Almeida</p>
 		</figure>
 		<div class="card-body">
