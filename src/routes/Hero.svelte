@@ -26,11 +26,12 @@
 			<div class="hero-overlay bg-opacity-50" />
 			<div class="hero-content text-center">
 				<div class="max-w-3xl">
-					<h1 class="mb-5 text-4xl md:text-5xl font-bold whitespace-nowrap">Agnel Polytechnic, Vashi</h1>
+					<h1 class="mb-5 text-4xl md:text-5xl font-bold whitespace-nowrap">Agnel Polytechnic,</h1>
+					<h1 class="mb-5 text-4xl md:text-5xl font-bold whitespace-nowrap">Vashi</h1>
 				</div>
 			</div>
 		</div>
-		<div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+		<div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-2/3 md:top-1/2">
 			<a href="#slide1" class="btn btn-circle">❮</a>
 			<a href="#slide3" class="btn btn-circle">❯</a>
 		</div>
@@ -40,11 +41,12 @@
 			<div class="hero-overlay bg-opacity-50" />
 			<div class="hero-content text-center">
 				<div class="max-w-3xl">
-					<h1 class="mb-5 text-4xl md:text-5xl font-bold whitespace-nowrap">Agnel Polytechnic, Vashi</h1>
+					<h1 class="mb-5 text-4xl md:text-5xl font-bold whitespace-nowrap">Agnel Polytechnic,</h1>
+					<h1 class="mb-5 text-4xl md:text-5xl font-bold whitespace-nowrap">Vashi</h1>
 				</div>
 			</div>
 		</div>
-		<div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+		<div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-2/3 md:top-1/2">
 			<a href="#slide2" class="btn btn-circle">❮</a>
 			<a href="#slide1" class="btn btn-circle">❯</a>
 		</div>
