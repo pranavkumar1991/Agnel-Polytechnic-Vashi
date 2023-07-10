@@ -17,7 +17,7 @@
 			</div>
 		</div>
 		<div class="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-2/3 md:top-1/2">
-			<a href="#slide4" class="btn btn-circle">❮</a>
+			<a href="#slide1" class="btn btn-circle">❮</a>
 			<a href="#slide2" class="btn btn-circle">❯</a>
 		</div>
 	</div>
@@ -46,7 +46,7 @@
 		</div>
 		<div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 			<a href="#slide2" class="btn btn-circle">❮</a>
-			<a href="#slide4" class="btn btn-circle">❯</a>
+			<a href="#slide1" class="btn btn-circle">❯</a>
 		</div>
 	</div>
 </div>
