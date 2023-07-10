@@ -5,7 +5,7 @@
 			<div class="hero-content text-center">
 				<div class="max-w-md">
 					<img src="/apv_logo.png" alt="logo" class="w-32 md:w-48 mx-auto" />
-					<h1 class="mb-5 text-4xl md:text-5xl font-bold">Agnel Polytechnic, Vashi</h1>
+					<h1 class="mb-5 text-4xl md:text-5xl font-bold white">Agnel Polytechnic, Vashi</h1>
 					<p class="mb-5 text-sm md:text-base">
 						( Approved by AICTE | Govt. of Maharashtra | DTE & affiliated to MSBTE )
 						<br />
@@ -26,14 +26,7 @@
 			<div class="hero-overlay bg-opacity-50" />
 			<div class="hero-content text-center">
 				<div class="max-w-md">
-					<h1 class="mb-5 text-4xl md:text-5xl font-bold">Agnel Polytechnic, Vashi</h1>
-					<p class="mb-5 text-sm md:text-base">
-						( Approved by AICTE | Govt. of Maharashtra | DTE & affiliated to MSBTE )
-						<br />
-						Accredited by NBA (CE & ME)
-						<br />
-						DTE Code: 3258 | District: Thane
-					</p>
+					<h1 class="mb-5 text-4xl md:text-5xl font-bold whitespace-nowrap">Agnel Polytechnic, Vashi</h1>
 				</div>
 			</div>
 		</div>
@@ -47,14 +40,7 @@
 			<div class="hero-overlay bg-opacity-50" />
 			<div class="hero-content text-center">
 				<div class="max-w-md">
-					<h1 class="mb-5 text-4xl md:text-5xl font-bold">Agnel Polytechnic, Vashi</h1>
-					<p class="mb-5 text-sm md:text-base">
-						( Approved by AICTE | Govt. of Maharashtra | DTE & affiliated to MSBTE )
-						<br />
-						Accredited by NBA (CE & ME)
-						<br />
-						DTE Code: 3258 | District: Thane
-					</p>
+					<h1 class="mb-5 text-4xl md:text-5xl font-bold whitespace-nowrap">Agnel Polytechnic, Vashi</h1>
 				</div>
 			</div>
 		</div>

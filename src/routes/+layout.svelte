@@ -55,16 +55,7 @@
 					</li>
 					<li><a href="/gallery">GALLERY</a></li>
 					<li><a href="/admissions">ADMISSIONS</a></li>
-					<li>
-						<details class="dropdown">
-							<summary class="">DOWNLOADS</summary>
-							<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 border border-black">
-								<li>
-									<a href="/downloads/syllabus">Syllabus</a>
-								</li>
-							</ul>
-						</details>
-					</li>
+					<li><a href="/syllabus">SYLLABUS</a></li>
 					<li><a href="/contact_us">CONTACT US</a></li>
 				</ul>
 			</div>
@@ -105,14 +96,7 @@
 				</li>
 				<li><a href="/gallery">GALLERY</a></li>
 				<li><a href="/admissions">ADMISSIONS</a></li>
-				<li class="dropdown dropdown-hover">
-					<button>DOWNLOADS</button>
-					<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2">
-						<li>
-							<a href="/downloads/syllabus">Syllabus</a>
-						</li>
-					</ul>
-				</li>
+				<li><a href="/syllabus">SYLLABUS</a></li>
 				<li><a href="/contact_us">CONTACT US</a></li>
 			</ul>
 		</div>
