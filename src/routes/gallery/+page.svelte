@@ -2,9 +2,11 @@
 	import { page } from '$app/stores';
 	export let data;
 
-	let selectedDirectory = $page.params['section'] ? $page.params['section'] : 'Facilities';
+	let section = $page.url.searchParams.get('section');
+	let selectedDirectory = section ? section : 'Facilities';
 </script>
 
+<p>{$page.url.searchParams.get('section')}</p>
 <div class="join flex justify-center border border-black p-2 bg-accent mx-auto w-full max-w-7xl overflow-x-auto">
 	{#each Object.keys(data.items) as directory}
 		<input
