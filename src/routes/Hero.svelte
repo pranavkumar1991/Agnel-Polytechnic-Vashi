@@ -3,7 +3,7 @@
 		<div class="hero min-h-screen" style="background-image: url(/heroImages/Hero1.JPG);">
 			<div class="hero-overlay bg-opacity-50" />
 			<div class="hero-content text-center">
-				<div class="max-w-xl">
+				<div class="max-w-3xl">
 					<img src="/apv_logo.png" alt="logo" class="w-32 md:w-48 mx-auto" />
 					<h1 class="mb-5 text-4xl md:text-5xl font-bold white">Agnel Polytechnic, Vashi</h1>
 					<p class="mb-5 text-sm md:text-base">
@@ -25,7 +25,7 @@
 		<div class="hero min-h-screen" style="background-image: url(/heroImages/Hero2.JPG);">
 			<div class="hero-overlay bg-opacity-50" />
 			<div class="hero-content text-center">
-				<div class="max-w-xl">
+				<div class="max-w-3xl">
 					<h1 class="mb-5 text-4xl md:text-5xl font-bold whitespace-nowrap">Agnel Polytechnic, Vashi</h1>
 				</div>
 			</div>
@@ -39,7 +39,7 @@
 		<div class="hero min-h-screen" style="background-image: url(/heroImages/Hero3.JPG);">
 			<div class="hero-overlay bg-opacity-50" />
 			<div class="hero-content text-center">
-				<div class="max-w-xl">
+				<div class="max-w-3xl">
 					<h1 class="mb-5 text-4xl md:text-5xl font-bold whitespace-nowrap">Agnel Polytechnic, Vashi</h1>
 				</div>
 			</div>
