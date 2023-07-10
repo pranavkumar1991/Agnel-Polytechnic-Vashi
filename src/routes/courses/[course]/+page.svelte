@@ -97,12 +97,12 @@
 			{/each}
 		</div>
 	</section> -->
-	{#each Object.keys(data.items) as directory}
+	{#each Object.keys(data.items) as directory, i}
 		<section class="flex flex-col gap-6">
 			<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">{directory}</h4>
 			<div class="flex flex-wrap gap-5 mx-auto justify-center">
 				{#each data.items[directory] as item}
-					<div class="card card-compact w-96 shadow-xl">
+					<div class="card card-compact w-96 shadow-xl {i % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
 						<figure>
 							<img src="/courses/{$page.params.course}/{directory}/{item}" alt={`${item} picture`} class="aspect-square" />
 						</figure>
