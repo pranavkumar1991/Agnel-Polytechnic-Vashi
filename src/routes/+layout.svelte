@@ -4,11 +4,42 @@
 	import IoMdMenu from 'svelte-icons/io/IoMdMenu.svelte';
 	import { fade } from 'svelte/transition';
 	import Footer from './Footer.svelte';
+	import { beforeNavigate, afterNavigate } from '$app/navigation';
 
 	let animateNow = false;
 	setTimeout(() => {
 		animateNow = true;
 	}, 1);
+
+	let scrollHistory = [];
+
+	beforeNavigate((navigation) => {
+		// I have everything wrapped in a `main` tag so that's the part I need to scroll
+		const main = document.querySelector('main');
+
+		scrollHistory.push({
+			to: navigation.to,
+			from: navigation.from,
+			scrollY: main.scrollTop
+		});
+	});
+
+	afterNavigate((navigation) => {
+		const main = document.querySelector('main');
+		const routeHistory = scrollHistory.find((history) => {
+			return history.from.url.pathname === navigation.to.url.pathname;
+		});
+
+		// I only want to revert the scroll when going back in the history
+		if (routeHistory && navigation.type == 'popstate') {
+			main.scrollTo(0, routeHistory.scrollY);
+			// I reset the scrollHistory here so that the array doesn't store lots of unneeded values, but could also just add and remove the necessary ones if the page structure is more complex
+			scrollHistory = [];
+		} else {
+			// if it's a page that isn't in the scrollHistory, simply scroll to the top of the page
+			main.scrollTo(0, 0);
+		}
+	});
 </script>
 
 {#if animateNow}
