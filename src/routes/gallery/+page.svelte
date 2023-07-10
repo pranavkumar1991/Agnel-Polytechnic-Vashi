@@ -17,7 +17,7 @@
 	{/each}
 </div>
 
-<div class="flex flex-wrap items-center justify-center gap-5 m-10">
+<div class="grid items-center grid-cols-2 gap-5 m-10">
 	{#each data.items[selectedDirectory] as imgName}
 		<img src="/gallery/{selectedDirectory}/{imgName}" alt={imgName} />
 	{/each}
