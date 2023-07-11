@@ -22,7 +22,7 @@
 		<ul class="grid grid-cols-2 gap-1">
 			<li><a class="link link-hover" href="/">&gt; Home</a></li>
 			<li><a class="link link-hover" href="/admissions">&gt; Admissions</a></li>
-			<li><a class="link link-hover" href="/gallery">&gt; Gallery</a></li>
+			<li><a class="link link-hover" href="/gallery/Facilities">&gt; Gallery</a></li>
 			<li><a class="link link-hover" href="/about_us/vision_and_messages">&gt; Vision & Mission</a></li>
 			<li><a class="link link-hover" href="/contact_us">&gt; Contact us</a></li>
 			<li><a class="link link-hover" href="/about_us/anti_ragging">&gt; Anti-Ragging</a></li>
