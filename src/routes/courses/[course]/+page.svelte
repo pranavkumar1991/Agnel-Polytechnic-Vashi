@@ -12,7 +12,7 @@
 </script>
 
 <div class="flex flex-col gap-12">
-	<section>
+	<section class="px-2">
 		<h3 class="text-center text-4xl font-bold max-w-7xl mx-auto mb-4">{deptData.name}</h3>
 		<div class="card lg:card-side shadow-xl bg-accent max-w-7xl mx-auto pt-2 lg:p-5 items-center justify-center">
 			<div class="card card-compact w-96 shrink-0 grow-0 bg-base-100 shadow-xl rounded-none h-fit my-auto">
@@ -24,7 +24,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="flex justify-around items-center flex-col gap-6">
+	<section class="flex justify-around items-center flex-col gap-6 px-2">
 		<div class="grid lg:grid-cols-2 gap-x-8 gap-y-2 max-w-7xl">
 			<h2 class="text-center text-4xl font-bold max-w-7xl mx-auto lg:col-span-2 mb-4">Vision and Mission</h2>
 			<div class="card shadow-xl text-black bg-secondary">
@@ -48,11 +48,11 @@
 		</div>
 		<div class="stats shadow h-fit border-2 border-accent">
 			<div class="stat">
-				<div class="stat-title text-black font-semibold underline">Intake</div>
+				<div class="stat-title text-black font-semibold">Intake</div>
 				<div class="stat-value font-bold">{deptData.intake} students</div>
 			</div>
 			<div class="stat">
-				<div class="stat-title text-black font-semibold underline">Duration</div>
+				<div class="stat-title text-black font-semibold">Duration</div>
 				<div class="stat-value font-bold">{deptData.duration} years</div>
 			</div>
 		</div>
