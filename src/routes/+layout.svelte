@@ -6,7 +6,7 @@
 </script>
 
 <nav
-	class="navbar bg-primary md:w-auto md:left-20 md:right-20 2xl:left-40 2xl:right-40 top-3 md:top-7 lg:top-10 absolute z-50 rounded-lg border-2 border-black shadow-lg"
+	class="navbar fixed bg-primary z-50 border-2 border-black shadow-lg"
 >
 	<div class="navbar-start">
 		<div class="dropdown">
@@ -101,7 +101,9 @@
 		</a>
 	</div>
 </nav>
-<main class="mt-36">
-	<slot />
-</main>
-<Footer />
+<div class="absolute w-full mt-36">
+	<main class="w-full">
+		<slot />
+	</main>
+	<Footer />
+</div>
