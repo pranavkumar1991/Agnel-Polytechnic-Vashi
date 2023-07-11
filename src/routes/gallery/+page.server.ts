@@ -12,3 +12,5 @@ export const load = (() => {
 		items
 	};
 }) satisfies PageServerLoad;
+
+export const prerender = false;
