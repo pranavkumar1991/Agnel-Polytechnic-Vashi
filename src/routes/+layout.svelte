@@ -5,9 +5,7 @@
 	import Footer from './Footer.svelte';
 </script>
 
-<nav
-	class="navbar fixed bg-primary z-50 border-b-2 border-black shadow-lg"
->
+<nav class="navbar fixed bg-primary z-50 border-b-2 border-black shadow-lg">
 	<div class="navbar-start">
 		<div class="dropdown">
 			<button class="btn btn-ghost btn-sm 2xl:hidden" aria-label="Menu">
