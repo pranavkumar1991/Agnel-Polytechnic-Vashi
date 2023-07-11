@@ -6,7 +6,7 @@
 </script>
 
 <nav
-	class="navbar fixed bg-primary z-50 border-2 border-black shadow-lg"
+	class="navbar fixed bg-primary z-50 border-b-2 border-black shadow-lg"
 >
 	<div class="navbar-start">
 		<div class="dropdown">
