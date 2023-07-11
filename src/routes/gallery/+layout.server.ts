@@ -1,4 +1,4 @@
-import type { PageServerLoad } from './$types';
+import type { LayoutServerLoad } from './$types';
 import fs from 'fs';
 
 export const load = (() => {
@@ -11,6 +11,4 @@ export const load = (() => {
 	return {
 		items
 	};
-}) satisfies PageServerLoad;
-
-export const prerender = false;
+}) satisfies LayoutServerLoad;
