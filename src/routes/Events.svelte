@@ -6,7 +6,7 @@
 			<h2 class="card-title text-xl lg:text-3xl">Resonance 2023</h2>
 			<p class="text-md lg:text-lg lg:pt-3">20th Feb - 24th Feb</p>
 			<div class="card-actions justify-end">
-				<a class="btn btn-primary btn-sm" href="/gallery?section=ResoZest2023">Gallery</a>
+				<a class="btn btn-primary btn-sm" href="/gallery/ResoZest2023">Gallery</a>
 			</div>
 		</div>
 	</div>
@@ -16,7 +16,7 @@
 			<h2 class="card-title text-xl lg:text-3xl">Zest 2023</h2>
 			<p class="text-md lg:text-lg lg:pt-3">20th Feb - 24th Feb</p>
 			<div class="card-actions justify-end">
-				<a class="btn btn-primary btn-sm" href="/gallery?section=ResoZest2023">Gallery</a>
+				<a class="btn btn-primary btn-sm" href="/gallery/ResoZest2023">Gallery</a>
 			</div>
 		</div>
 	</div>
