@@ -16,7 +16,7 @@
 				<div class="hero-overlay bg-opacity-50" />
 			</div>
 			<div class="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-2/3 md:top-1/2">
-				<a href="#slide1" class="btn btn-circle">❮</a>
+				<a href="#slide3" class="btn btn-circle">❮</a>
 				<a href="#slide2" class="btn btn-circle">❯</a>
 			</div>
 		</div>
