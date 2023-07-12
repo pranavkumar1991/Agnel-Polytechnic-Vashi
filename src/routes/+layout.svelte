@@ -3,6 +3,7 @@
 	import FaPhoneAlt from 'svelte-icons/fa/FaPhoneAlt.svelte';
 	import IoMdMenu from 'svelte-icons/io/IoMdMenu.svelte';
 	import Footer from './Footer.svelte';
+	import { onMount } from 'svelte';
 
 	let details1: HTMLDetailsElement;
 	let details2: HTMLDetailsElement;
@@ -15,16 +16,18 @@
 	}
 
 	let menuElement: HTMLDetailsElement;
-	document.addEventListener('click', (event) => {
-		const withinBoundaries = event.composedPath().includes(menuElement);
+	onMount(() => {
+		document.addEventListener('click', (event) => {
+			const withinBoundaries = event.composedPath().includes(menuElement);
 
-		if (!withinBoundaries) {
-			menuElement.open = false;
-		}
+			if (!withinBoundaries) {
+				menuElement.open = false;
+			}
+		});
 	});
 </script>
 
-<nav class="navbar fixed bg-primary border-b-2 border-black shadow-lg z-50">
+<nav class="navbar fixed bg-primary border-b-2 border-black shadow-lg z-50 left-0 right-0">
 	<div class="navbar-start">
 		<details class="dropdown" bind:this={menuElement}>
 			<summary class="btn btn-sm 2xl:hidden btn-ghost"> <IoMdMenu /> </summary>
