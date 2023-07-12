@@ -25,6 +25,12 @@
 			}
 		});
 	});
+
+	function closeMenu() {
+		menuElement.open = false;
+		details1.open = false;
+		details2.open = false;
+	}
 </script>
 
 <nav class="navbar fixed bg-primary border-b-2 border-black shadow-lg z-50 left-0 right-0">
@@ -32,7 +38,9 @@
 		<details class="dropdown" bind:this={menuElement}>
 			<summary class="btn btn-sm 2xl:hidden btn-ghost"> <IoMdMenu /> </summary>
 			<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 border border-accent font-semibold">
-				<li><a href="/">HOME</a></li>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+				<li on:click={closeMenu}><a href="/">HOME</a></li>
 				<li>
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
@@ -44,8 +52,8 @@
 						bind:this={details1}
 					>
 						<summary>ABOUT US</summary>
-						<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-fit border border-accent">
-							<li><a href="/about_us/vision_and_messages">Vision and messages</a></li>
+						<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-fit border border-accent" on:click={closeMenu}>
+							<li><a href="/about_us/vision_and_mission">Vision and mission</a></li>
 							<li><a href="/about_us/staff_details">Staff details</a></li>
 							<li><a href="/about_us/anti_ragging">Anti ragging</a></li>
 							<li><a href="/about_us/ladies_grievance">Ladies grievance</a></li>
@@ -66,7 +74,7 @@
 						bind:this={details2}
 					>
 						<summary>COURSES</summary>
-						<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-fit border border-accent">
+						<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-fit border border-accent" on:click={closeMenu}>
 							<li><a href="/courses/artificial_intelligence">Artificial Intelligence</a></li>
 							<li><a href="/courses/electronics_and_computer_engineering">Electronics & Computer Engineering</a></li>
 							<li><a href="/courses/civil_engineering">Civil Engineering</a></li>
@@ -75,10 +83,18 @@
 						</ul>
 					</details>
 				</li>
-				<li><a href="/gallery/Facilities">GALLERY</a></li>
-				<li><a href="/admissions">ADMISSIONS</a></li>
-				<li><a href="/syllabus">SYLLABUS</a></li>
-				<li><a href="/contact_us">CONTACT US</a></li>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+				<li on:click={closeMenu}><a href="/gallery/Facilities">GALLERY</a></li>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+				<li on:click={closeMenu}><a href="/admissions">ADMISSIONS</a></li>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+				<li on:click={closeMenu}><a href="/syllabus">SYLLABUS</a></li>
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+				<li on:click={closeMenu}><a href="/contact_us">CONTACT US</a></li>
 			</ul>
 		</details>
 		<a class="btn btn-ghost normal-case text-xl gap-2" href="/">
@@ -94,7 +110,7 @@
 				<button tabindex="0">ABOUT US</button>
 				<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2">
 					<li>
-						<a href="/about_us/vision_and_messages">Vision and messages</a>
+						<a href="/about_us/vision_and_misson">Vision and mission</a>
 						<a href="/about_us/staff_details">Staff details</a>
 						<a href="/about_us/anti_ragging">Anti ragging</a>
 						<a href="/about_us/ladies_grievance">Ladies grievance</a>
