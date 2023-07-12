@@ -107,7 +107,7 @@
 		</a>
 	</div>
 </nav>
-<div class="absolute w-full mt-36">
+<div class="absolute w-full">
 	<main class="w-full">
 		<slot />
 	</main>

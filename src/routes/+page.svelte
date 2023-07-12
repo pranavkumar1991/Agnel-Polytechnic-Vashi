@@ -6,7 +6,7 @@
 	import PlacementStats from './PlacementStats.svelte';
 </script>
 
-<div class="-mt-36">
+<div>
 	<Hero />
 	<AllCourses />
 	<AboutAgnel />
