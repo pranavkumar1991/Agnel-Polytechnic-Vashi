@@ -107,7 +107,7 @@
 		</a>
 	</div>
 </nav>
-<div class="absolute w-full">
+<div class="absolute w-full overflow-x-hidden">
 	<main class="w-full">
 		<slot />
 	</main>
