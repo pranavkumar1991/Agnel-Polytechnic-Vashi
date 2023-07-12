@@ -13,18 +13,33 @@
 			details2.open = false;
 		}
 	}
+
+	let menuElement: HTMLDetailsElement;
+	document.addEventListener('click', (event) => {
+		const withinBoundaries = event.composedPath().includes(menuElement);
+
+		if (!withinBoundaries) {
+			menuElement.open = false;
+		}
+	});
 </script>
 
 <nav class="navbar fixed bg-primary border-b-2 border-black shadow-lg z-50">
 	<div class="navbar-start">
-		<details class="dropdown">
+		<details class="dropdown" bind:this={menuElement}>
 			<summary class="btn btn-sm 2xl:hidden btn-ghost"> <IoMdMenu /> </summary>
 			<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 border border-accent font-semibold">
 				<li><a href="/">HOME</a></li>
 				<li>
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-					<details class="dropdown" on:click={() => {closeDetailsTag(2)}} bind:this={details1}>
+					<details
+						class="dropdown"
+						on:click={() => {
+							closeDetailsTag(2);
+						}}
+						bind:this={details1}
+					>
 						<summary>ABOUT US</summary>
 						<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-fit border border-accent">
 							<li><a href="/about_us/vision_and_messages">Vision and messages</a></li>
@@ -40,7 +55,13 @@
 				<li>
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-					<details class="dropdown" on:click={() => {closeDetailsTag(1)}} bind:this={details2}>
+					<details
+						class="dropdown"
+						on:click={() => {
+							closeDetailsTag(1);
+						}}
+						bind:this={details2}
+					>
 						<summary>COURSES</summary>
 						<ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-fit border border-accent">
 							<li><a href="/courses/artificial_intelligence">Artificial Intelligence</a></li>
@@ -108,7 +129,7 @@
 	</div>
 </nav>
 <div class="absolute w-full overflow-x-hidden">
-	<main class="w-full">
+	<main class="w-full mt-24">
 		<slot />
 	</main>
 	<Footer />
