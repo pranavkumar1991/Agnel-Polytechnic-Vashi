@@ -110,7 +110,7 @@
 				<button tabindex="0">ABOUT US</button>
 				<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-auto border-accent border-2">
 					<li>
-						<a href="/about_us/vision_and_misson">Vision and mission</a>
+						<a href="/about_us/vision_and_mission">Vision and mission</a>
 						<a href="/about_us/staff_details">Staff details</a>
 						<a href="/about_us/anti_ragging">Anti ragging</a>
 						<a href="/about_us/ladies_grievance">Ladies grievance</a>
