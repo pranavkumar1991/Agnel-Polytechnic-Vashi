@@ -8,11 +8,6 @@ const config = {
 		adapter: adapter(),
 		prerender: {
 			handleHttpError: 'warn'
-		},
-		csp: {
-			directives: {
-				'connect-src': ['vitals.vercel-insights.com']
-			}
 		}
 	},
 	preprocess: [
