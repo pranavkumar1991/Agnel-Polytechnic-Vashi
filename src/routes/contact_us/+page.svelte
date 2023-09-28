@@ -1,7 +1,34 @@
-<script>
+<script lang="ts">
 	import TiLocation from 'svelte-icons/ti/TiLocation.svelte';
 	import TiMail from 'svelte-icons/ti/TiMail.svelte';
 	import TiPhone from 'svelte-icons/ti/TiPhone.svelte';
+
+	let userName = '';
+	let userEmail = '';
+	let userPhone = '';
+	let userCourse = '';
+	let userMessage = '';
+
+	let callingEndpoint = false;
+	async function submitForm() {
+		callingEndpoint = true;
+		const reqBody = {
+			userName,
+			userEmail,
+			userPhone,
+			userCourse,
+			userMessage
+		};
+		const res = await fetch('https://dfv3n2uc00.execute-api.ap-south-1.amazonaws.com/Stage1', {
+			method: 'POST',
+			body: JSON.stringify(reqBody),
+			headers: {
+				'content-type': 'application/json'
+			}
+		});
+		console.log(res);
+		callingEndpoint = false;
+	}
 </script>
 
 <div class="flex mx-auto items-center justify-center flex-wrap gap-10">
@@ -40,13 +67,26 @@
 	</div>
 	<div class="flex flex-col items-center gap-10 w-full max-w-2xl">
 		<h1 class="text-5xl font-bold">Contact Us</h1>
-		<form class="grid lg:grid-cols-2 grid-cols-1 gap-5 w-full">
-			<input type="text" id="name" placeholder="Enter your name" class="input w-full max-w-sm input-bordered" />
-			<input type="email" id="email" placeholder="Enter your email" class="input w-full max-w-sm input-bordered" />
-			<input type="text" id="course" placeholder="Enter your desired course" class="input w-full max-w-sm input-bordered" />
-			<input type="tel" id="phone" placeholder="Enter your phone number" class="input w-full max-w-sm input-bordered" />
-			<textarea class="textarea lg:col-span-2 input-bordered" placeholder="Enter message" />
-			<button class="btn btn-secondary lg:col-span-2 text-white">Send Message</button>
+		<form class="grid lg:grid-cols-2 grid-cols-1 gap-5 w-full" on:submit={submitForm}>
+			<input type="text" id="name" required placeholder="Enter your name" class="input w-full max-w-sm input-bordered" bind:value={userName} />
+			<input type="email" id="email" required placeholder="Enter your email" class="input w-full max-w-sm input-bordered" bind:value={userEmail} />
+			<input type="text" id="course" placeholder="Enter your desired course" class="input w-full max-w-sm input-bordered" bind:value={userCourse} />
+			<input
+				type="tel"
+				id="phone"
+				required
+				placeholder="Enter your phone number"
+				class="input w-full max-w-sm input-bordered"
+				bind:value={userPhone}
+			/>
+			<textarea class="textarea lg:col-span-2 input-bordered" placeholder="Enter message" bind:value={userMessage} required />
+			<button class="btn btn-secondary lg:col-span-2 text-white" disabled={callingEndpoint}>
+				{#if !callingEndpoint}
+					Send Message
+				{:else}
+					<span class="loading loading-spinner" />
+				{/if}
+			</button>
 		</form>
 	</div>
 </div>
