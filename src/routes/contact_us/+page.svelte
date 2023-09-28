@@ -2,6 +2,7 @@
 	import TiLocation from 'svelte-icons/ti/TiLocation.svelte';
 	import TiMail from 'svelte-icons/ti/TiMail.svelte';
 	import TiPhone from 'svelte-icons/ti/TiPhone.svelte';
+	import MyModal from '../../components/MyModal.svelte';
 
 	let userName = '';
 	let userEmail = '';
@@ -9,6 +10,9 @@
 	let userCourse = '';
 	let userMessage = '';
 
+	let modalTitle = '';
+	let modalMessage = '';
+	let modalElement: HTMLDialogElement;
 	let callingEndpoint = false;
 	async function submitForm() {
 		callingEndpoint = true;
@@ -19,18 +23,28 @@
 			userCourse,
 			userMessage
 		};
-		const res = await fetch('https://dfv3n2uc00.execute-api.ap-south-1.amazonaws.com/Stage1', {
+		const res = await fetch('https://b78hfkf3qg.execute-api.ap-south-1.amazonaws.com/submitForm', {
 			method: 'POST',
 			body: JSON.stringify(reqBody),
 			headers: {
 				'content-type': 'application/json'
 			}
 		});
-		console.log(res);
+		if (res.ok) {
+			modalTitle = 'Success';
+			modalMessage = "Data submitted successfully, we'll get back to you shortly!";
+		} else {
+			modalTitle = 'Error';
+			modalMessage = 'An error has occurred, please contact us through other modes';
+		}
+		modalElement.show();
 		callingEndpoint = false;
 	}
 </script>
 
+<MyModal title={modalTitle} bind:dialogElement={modalElement}>
+	<p>{modalMessage}</p>
+</MyModal>
 <div class="flex mx-auto items-center justify-center flex-wrap gap-10">
 	<div class="flex flex-col gap-5 align-center">
 		<div class="card w-96 bg-base-100 shadow-xl border-2 border-accent">
