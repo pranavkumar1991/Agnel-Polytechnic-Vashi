@@ -14,6 +14,6 @@
 				and expertise to the students in a cosmopolitan atmosphere.
 			</p>
 		</div>
-		<img src="/heroImages/Hero1.JPG" alt="campus" />
+		<enhanced:img src="/heroImages/Hero1.JPG" alt="campus" />
 	</div>
 </div>
