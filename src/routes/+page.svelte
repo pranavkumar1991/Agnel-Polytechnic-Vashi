@@ -1,4 +1,5 @@
 <script>
+	import NewsComponent from './NewsComponent.svelte';
 	import Hero from './Hero.svelte';
 	import AllCourses from './AllCourses.svelte';
 	import AboutAgnel from './AboutAgnel.svelte';
@@ -10,6 +11,7 @@
 	<Hero />
 	<AllCourses />
 	<AboutAgnel />
+	<NewsComponent />
 	<Events />
 	<PlacementStats />
 </div>
