@@ -12,7 +12,7 @@
 	</div>
 	<div class="absolute carousel w-full text-white text-opacity-90">
 		<div id="slide1" class="carousel-item relative w-full">
-			<div class="hero min-h-screen" style="background-image: url(/heroImages/Hero1.JPG);">
+			<div class="hero min-h-screen" style="background-image: url(/heroImages/Hero1.jpg);">
 				<div class="hero-overlay bg-opacity-50" />
 			</div>
 			<div class="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-2/3 md:top-1/2">
@@ -21,7 +21,7 @@
 			</div>
 		</div>
 		<div id="slide2" class="carousel-item relative w-full">
-			<div class="hero min-h-screen" style="background-image: url(/heroImages/Hero2.JPG);">
+			<div class="hero min-h-screen" style="background-image: url(/heroImages/Hero2.jpg);">
 				<div class="hero-overlay bg-opacity-50" />
 			</div>
 			<div class="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-2/3 md:top-1/2">
@@ -30,7 +30,7 @@
 			</div>
 		</div>
 		<div id="slide3" class="carousel-item relative w-full">
-			<div class="hero min-h-screen" style="background-image: url(/heroImages/Hero3.JPG);">
+			<div class="hero min-h-screen" style="background-image: url(/heroImages/Hero3.jpg);">
 				<div class="hero-overlay bg-opacity-50" />
 			</div>
 			<div class="absolute flex justify-between transform -translate-y-1/2 left-3 right-3 top-2/3 md:top-1/2">
