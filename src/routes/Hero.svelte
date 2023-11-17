@@ -1,6 +1,6 @@
 <div class="relative h-screen">
 	<div class="flex flex-col items-center text-white h-screen justify-center mx-auto left-16 right-16 z-10 absolute">
-		<enhanced:img src="/apv_logo.png" alt="logo" class="w-32 md:w-48 mx-auto" />
+		<img src="/apv_logo.png" alt="logo" class="w-32 md:w-48 mx-auto" />
 		<h1 class="mb-5 text-4xl md:text-5xl font-bold white text-center">Agnel Polytechnic, Vashi</h1>
 		<p class="mb-5 text-sm md:text-base text-center">
 			( Approved by AICTE | Govt. of Maharashtra | DTE & affiliated to MSBTE )

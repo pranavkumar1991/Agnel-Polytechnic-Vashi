@@ -16,7 +16,7 @@
 		<h3 class="text-center text-4xl font-bold max-w-7xl mx-auto mb-4">{deptData.name}</h3>
 		<div class="card lg:card-side shadow-xl bg-accent max-w-7xl mx-auto pt-2 lg:p-5 items-center justify-center">
 			<div class="card card-compact w-96 shrink-0 grow-0 bg-base-100 shadow-xl rounded-none h-fit my-auto">
-				<figure><enhanced:img src="/courses/{$page.params.course}/HOD.jpg" alt="HOD" /></figure>
+				<figure><img src="/courses/{$page.params.course}/HOD.jpg" alt="HOD" /></figure>
 				<h2 class="card-title p-2.5">{deptData.HOD}</h2>
 			</div>
 			<div class="card-body text-justify text-white">
@@ -62,7 +62,7 @@
 		<div class="flex flex-wrap gap-5 mx-auto justify-center mb-16">
 			{#each deptData.teachingFaculty as name}
 				<div class="card card-compact w-64 shadow-xl">
-					<figure><enhanced:img src="/staff/{name}.jpg" alt={`${name} picture`} class="aspect-square" /></figure>
+					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} class="aspect-square" /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
 					</div>
@@ -75,7 +75,7 @@
 		<div class="flex flex-wrap gap-5 mx-auto justify-center">
 			{#each deptData.nonTeachingFaculty as name}
 				<div class="card card-compact w-64 shadow-xl">
-					<figure><enhanced:img src="/staff/{name}.jpg" alt={`${name} picture`} class="aspect-square" /></figure>
+					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} class="aspect-square" /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
 					</div>
@@ -88,7 +88,7 @@
 		<div class="flex flex-wrap gap-5 mx-auto justify-center">
 			{#each deptData.academicToppers as topper}
 				<div class="card card-compact w-96 bg-base-100 shadow-xl">
-					<figure><enhanced:img src={topper.profilePicture} alt={`${topper.name} picture`} /></figure>
+					<figure><img src={topper.profilePicture} alt={`${topper.name} picture`} /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{topper.name}</h2>
 						<p>{topper.percentage}%</p>
@@ -104,7 +104,7 @@
 				{#each data.items[directory] as item}
 					<div class="card card-compact w-96 shadow-xl {i % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
 						<figure>
-							<enhanced:img src="/courses/{$page.params.course}/{directory}/{item}" alt={`${item} picture`} class="aspect-square" />
+							<img src="/courses/{$page.params.course}/{directory}/{item}" alt={`${item} picture`} class="aspect-square" />
 						</figure>
 						<div class="card-body">
 							<h2 class="card-title text-base">{removeExtension(item)}</h2>

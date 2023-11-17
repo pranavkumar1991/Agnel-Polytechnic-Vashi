@@ -15,7 +15,7 @@
 				<div class="flex items-center space-x-3">
 					<div class="avatar">
 						<div class="mask mask-squircle w-12 h-12">
-							<enhanced:img src="/staff/{member[0]}.jpg" alt="Avatar Tailwind CSS Component" />
+							<img src="/staff/{member[0]}.jpg" alt="Avatar Tailwind CSS Component" />
 						</div>
 					</div>
 					<div class="font-bold">{member[0]}</div>

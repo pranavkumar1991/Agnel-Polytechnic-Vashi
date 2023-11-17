@@ -102,7 +102,7 @@
 			</ul>
 		</details>
 		<a class="btn btn-ghost normal-case text-xl gap-2" href="/">
-			<enhanced:img src="/apv_logo.png" alt="Logo" class="w-12" />
+			<img src="/apv_logo.png" alt="Logo" class="w-12" />
 			<h1 class="text-left 2xl:hidden">APV</h1>
 			<h1 class="text-left hidden 2xl:block">Agnel Polytechnic, Vashi</h1>
 		</a>

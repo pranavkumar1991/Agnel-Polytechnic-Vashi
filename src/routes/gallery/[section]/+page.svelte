@@ -6,7 +6,7 @@
 <ul class="flex flex-wrap mt-10 gap-0.5">
 	{#each data.items[$page.params['section']] as imgName}
 		<li style="height: 40vh;" class="grow">
-			<enhanced:img src="/gallery/{$page.params['section']}/{imgName}" alt={imgName} class="max-h-full min-w-full object-cover align-bottom" />
+			<img src="/gallery/{$page.params['section']}/{imgName}" alt={imgName} class="max-h-full min-w-full object-cover align-bottom" />
 		</li>
 	{/each}
 	<li />

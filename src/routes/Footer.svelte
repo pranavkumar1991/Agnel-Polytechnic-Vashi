@@ -10,7 +10,7 @@
 
 <footer class="footer p-10 bg-accent text-white mt-10">
 	<div class="max-w-sm">
-		<enhanced:img src="/apv_logo.png" alt="Father Agnel Logo" class="w-16" />
+		<img src="/apv_logo.png" alt="Father Agnel Logo" class="w-16" />
 		<h1 class="font-semibold text-lg">Agnel Polytechnic, Vashi</h1>
 		<h2 class="text-justify">
 			What makes Agnel Polytechnic a unique institution in Mumbai is its discipline and culture and the dedication of the faculty imparting knowledge

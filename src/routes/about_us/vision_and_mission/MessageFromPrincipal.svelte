@@ -2,7 +2,7 @@
 	<h2 class="divider-heading">Message from Principal</h2>
 	<div class="card md:card-side shadow-xl bg-accent text-white mt-16">
 		<figure class="basis-1/3 shrink-0 flex flex-col lg:ml-5">
-			<enhanced:img src="/principal.png" alt="Principal madam" />
+			<img src="/principal.png" alt="Principal madam" />
 			<p class="h-fit w-full bg-white text-black font-semibold p-2 text-lg">Ms. Saly Antony</p>
 		</figure>
 		<div class="card-body">

@@ -12,7 +12,7 @@
 <div class="flex flex-col gap-4 mb-8 px-2">
 	<h2 class="divider-heading lg:col-span-2">Institution’s Innovation Council (IIC)</h2>
 	<div class="card lg:card-side bg-base-100 shadow-xl max-w-7xl mx-auto mb-8 p-8">
-		<figure class="basis-1/3 shrink-0"><enhanced:img src="/icc_image.jpg" alt="IIC logo" width="800" /></figure>
+		<figure class="basis-1/3 shrink-0"><img src="/icc_image.jpg" alt="IIC logo" width="800" /></figure>
 		<div class="card-body">
 			<p>
 				Established Institution’s Innovation Council under ‘MHRD’s Innovation Cell (MIC) to systematically foster the culture of Innovation amongst
