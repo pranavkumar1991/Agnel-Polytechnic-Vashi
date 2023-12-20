@@ -9,7 +9,7 @@
 		['Mr. Nitin Kulkarni', 'Member'],
 		['Mr. Upendra Rai', 'Member'],
 		['Mr. Rajan Walinjkar', 'Member'],
-		['Mrs. Saly Antony', '	Member']
+		['Ms. Saly Antony', '	Member']
 	];
 </script>
 

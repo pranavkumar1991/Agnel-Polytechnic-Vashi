@@ -1,7 +1,7 @@
 <script>
 	import StaffMember from './StaffMember.svelte';
 	let staffs = [
-		['Representative Of The Management', 'Principal', 'Mrs. Saly Antony', '9757352380'],
+		['Representative Of The Management', 'Principal', 'Ms. Saly Antony', '9757352380'],
 		['Representative Of The Police Dept.', 'Sr. Police Inspector', 'Mr. Sanjay Dhumal', '27820468'],
 		['Department Representative', 'HOD Mechanical Engg.', 'Mrs. Beenu Johnkutty', '9869441160'],
 		['-Do-', 'HOD Civil Engg.', 'Mr. Manvendra Sinha', '9819763770'],

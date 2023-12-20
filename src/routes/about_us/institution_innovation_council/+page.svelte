@@ -1,7 +1,7 @@
 <script>
 	import Staff from './Staff.svelte';
 	let staff = [
-		['Mrs. Saly Antony', 'Principal'],
+		['Ms. Saly Antony', 'Principal'],
 		['Mrs. Raji MP', 'President'],
 		['Ms. Sonali Sherigar', 'Vice President'],
 		['Mr. Umesh Mhapankar', 'Convener'],
