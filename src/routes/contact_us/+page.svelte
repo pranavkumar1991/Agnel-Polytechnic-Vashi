@@ -16,16 +16,20 @@
 	let modalElement: HTMLDialogElement;
 	let callingEndpoint = false;
 
-	// using email js for form submission
-
-	function sendEmail(e: Event) {
-    emailjs.sendForm('service_e8jn8bp', 'template_a7zupd8', e.target as HTMLFormElement, 'XMR3CYBYU0zrPKVfL')
-      .then((result: { text: any; }) => {
-          console.log('SUCCESS!', result.text);
-      }, (error: { text: any; }) => {
-          console.log('FAILED...', error.text);
-      });
-  }
+	// Using email js for form submission
+	async function sendEmail(e: Event) {
+		callingEndpoint = true;
+		const sendResponse = await emailjs.sendForm('service_e8jn8bp', 'template_a7zupd8', e.target as HTMLFormElement, 'XMR3CYBYU0zrPKVfL');
+		callingEndpoint = false;
+		if (sendResponse.status === 200) {
+			modalTitle = "Success";
+			modalMessage = "Your information has been saved in the database";
+		} else {
+			modalTitle = "Error";
+			modalMessage = sendResponse.text;
+		}
+		modalElement.show();
+	}
 </script>
 
 <MyModal title={modalTitle} bind:dialogElement={modalElement}>
@@ -68,9 +72,32 @@
 	<div class="flex flex-col items-center gap-10 w-full max-w-2xl">
 		<h1 class="text-5xl font-bold">Contact Us</h1>
 		<form class="grid lg:grid-cols-2 grid-cols-1 gap-5 w-full" on:submit={sendEmail}>
-			<input type="text" name="name" id="name" required placeholder="Enter your name" class="input w-full max-w-sm input-bordered" bind:value={userName} />
-			<input type="email" id="email" name="email" required placeholder="Enter your email" class="input w-full max-w-sm input-bordered" bind:value={userEmail} />
-			<input type="text" id="course" name="course" placeholder="Enter your desired course" class="input w-full max-w-sm input-bordered" bind:value={userCourse} />
+			<input
+				type="text"
+				name="name"
+				id="name"
+				required
+				placeholder="Enter your name"
+				class="input w-full max-w-sm input-bordered"
+				bind:value={userName}
+			/>
+			<input
+				type="email"
+				id="email"
+				name="email"
+				required
+				placeholder="Enter your email"
+				class="input w-full max-w-sm input-bordered"
+				bind:value={userEmail}
+			/>
+			<input
+				type="text"
+				id="course"
+				name="course"
+				placeholder="Enter your desired course"
+				class="input w-full max-w-sm input-bordered"
+				bind:value={userCourse}
+			/>
 			<input
 				type="tel"
 				id="phone"
@@ -80,10 +107,8 @@
 				class="input w-full max-w-sm input-bordered"
 				bind:value={userPhone}
 			/>
-			<textarea class="textarea lg:col-span-2 input-bordered" placeholder="Enter message" bind:value={userMessage} required name="message"/>
-			<button class="btn btn-secondary lg:col-span-2 text-white" disabled={callingEndpoint}>
-				Send Message
-			</button>
+			<textarea class="textarea lg:col-span-2 input-bordered" placeholder="Enter message" bind:value={userMessage} required name="message" />
+			<button class="btn btn-secondary lg:col-span-2 text-white" disabled={callingEndpoint}> Send Message </button>
 		</form>
 	</div>
 </div>
