@@ -3,6 +3,7 @@
 	import TiMail from 'svelte-icons/ti/TiMail.svelte';
 	import TiPhone from 'svelte-icons/ti/TiPhone.svelte';
 	import MyModal from '../../components/MyModal.svelte';
+	import emailjs from '@emailjs/browser';
 
 	let userName = '';
 	let userEmail = '';
@@ -14,32 +15,17 @@
 	let modalMessage = '';
 	let modalElement: HTMLDialogElement;
 	let callingEndpoint = false;
-	async function submitForm() {
-		callingEndpoint = true;
-		const reqBody = {
-			userName,
-			userEmail,
-			userPhone,
-			userCourse,
-			userMessage
-		};
-		const res = await fetch('https://b78hfkf3qg.execute-api.ap-south-1.amazonaws.com/submitForm', {
-			method: 'POST',
-			body: JSON.stringify(reqBody),
-			headers: {
-				'content-type': 'application/json'
-			}
-		});
-		if (res.ok) {
-			modalTitle = 'Success';
-			modalMessage = "Data submitted successfully, we'll get back to you shortly!";
-		} else {
-			modalTitle = 'Error';
-			modalMessage = 'An error has occurred, please contact us through other modes';
-		}
-		modalElement.show();
-		callingEndpoint = false;
-	}
+
+	// using email js for form submission
+
+	function sendEmail(e: Event) {
+    emailjs.sendForm('service_e8jn8bp', 'template_a7zupd8', e.target as HTMLFormElement, 'XMR3CYBYU0zrPKVfL')
+      .then((result: { text: any; }) => {
+          console.log('SUCCESS!', result.text);
+      }, (error: { text: any; }) => {
+          console.log('FAILED...', error.text);
+      });
+  }
 </script>
 
 <MyModal title={modalTitle} bind:dialogElement={modalElement}>
@@ -81,25 +67,22 @@
 	</div>
 	<div class="flex flex-col items-center gap-10 w-full max-w-2xl">
 		<h1 class="text-5xl font-bold">Contact Us</h1>
-		<form class="grid lg:grid-cols-2 grid-cols-1 gap-5 w-full" on:submit={submitForm}>
-			<input type="text" id="name" required placeholder="Enter your name" class="input w-full max-w-sm input-bordered" bind:value={userName} />
-			<input type="email" id="email" required placeholder="Enter your email" class="input w-full max-w-sm input-bordered" bind:value={userEmail} />
-			<input type="text" id="course" placeholder="Enter your desired course" class="input w-full max-w-sm input-bordered" bind:value={userCourse} />
+		<form class="grid lg:grid-cols-2 grid-cols-1 gap-5 w-full" on:submit={sendEmail}>
+			<input type="text" name="name" id="name" required placeholder="Enter your name" class="input w-full max-w-sm input-bordered" bind:value={userName} />
+			<input type="email" id="email" name="email" required placeholder="Enter your email" class="input w-full max-w-sm input-bordered" bind:value={userEmail} />
+			<input type="text" id="course" name="course" placeholder="Enter your desired course" class="input w-full max-w-sm input-bordered" bind:value={userCourse} />
 			<input
 				type="tel"
 				id="phone"
 				required
+				name="phone"
 				placeholder="Enter your phone number"
 				class="input w-full max-w-sm input-bordered"
 				bind:value={userPhone}
 			/>
-			<textarea class="textarea lg:col-span-2 input-bordered" placeholder="Enter message" bind:value={userMessage} required />
+			<textarea class="textarea lg:col-span-2 input-bordered" placeholder="Enter message" bind:value={userMessage} required name="message"/>
 			<button class="btn btn-secondary lg:col-span-2 text-white" disabled={callingEndpoint}>
-				{#if !callingEndpoint}
-					Send Message
-				{:else}
-					<span class="loading loading-spinner" />
-				{/if}
+				Send Message
 			</button>
 		</form>
 	</div>
