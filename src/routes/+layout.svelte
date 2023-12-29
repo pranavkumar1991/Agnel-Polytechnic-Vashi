@@ -30,6 +30,7 @@
 		});
 	});
 
+
 	function closeMenu() {
 		menuElement.open = false;
 		details1.open = false;
@@ -142,7 +143,11 @@
 			<li><a href="/contact_us">CONTACT US</a></li>
 		</ul>
 	</div>
-	<div class="navbar-end">
+
+	<div class="navbar-end gap-3">
+    <a class="btn gap-3 rounded-sm btn-accent visible sm: hidden" href="/contact_us">
+      APV Connect
+    </a>
 		<a class="btn gap-3 rounded-sm btn-accent" href="tel:02241611000">
 			<div class="w-5">
 				<FaPhoneAlt />
