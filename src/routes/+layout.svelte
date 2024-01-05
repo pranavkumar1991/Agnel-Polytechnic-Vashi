@@ -30,7 +30,6 @@
 		});
 	});
 
-
 	function closeMenu() {
 		menuElement.open = false;
 		details1.open = false;
@@ -145,9 +144,9 @@
 	</div>
 
 	<div class="navbar-end gap-3">
-    <a class="btn rounded-sm btn-accent hidden sm:flex items-center" href="/contact_us">
-      Connect
-    </a>
+		<a class="btn rounded-sm btn-accent items-center" href="https://connect.apv.ac.in">
+			Connect
+		</a>
 		<a class="btn gap-3 rounded-sm btn-accent" href="tel:02241611000">
 			<div class="w-5">
 				<FaPhoneAlt />
