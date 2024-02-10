@@ -144,14 +144,11 @@
 	</div>
 
 	<div class="navbar-end gap-3">
-		<a class="btn rounded-sm btn-accent items-center" href="https://connect.apv.ac.in">
+		<a class="btn rounded-sm btn-accent items-center hidden md:inline-flex" href="https://connect.apv.ac.in">
 			Connect
 		</a>
-		<a class="btn gap-3 rounded-sm btn-accent" href="tel:02241611000">
-			<div class="w-5">
-				<FaPhoneAlt />
-			</div>
-			022 4161 1000
+		<a class="btn gap-3 rounded-sm btn-accent" href="https://forms.gle/Smb5PLM4RYer4G7o9">
+			Admission enquiry
 		</a>
 	</div>
 </nav>
