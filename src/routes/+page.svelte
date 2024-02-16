@@ -8,10 +8,11 @@
 </script>
 
 <div class="-mt-8">
-	<Hero />
+	<!-- <Hero />
 	<AllCourses />
 	<AboutAgnel />
 	<NewsComponent />
 	<Events />
-	<PlacementStats />
+	<PlacementStats /> -->
+	<h1 class="p-10 font-bold text-5xl w-full text-center">Site Under Maintenance</h1>
 </div>
