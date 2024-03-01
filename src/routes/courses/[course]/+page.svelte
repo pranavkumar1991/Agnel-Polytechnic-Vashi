@@ -65,7 +65,7 @@
 					<figure><img src="/staff/{name}.jpg" alt="{name} picture" class="aspect-square" /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
-						<p>{deptData.teachingFacultyQualifications[index]}</p>
+						<p>{deptData.teachingFacultyQualifications[index]} Engineering</p>
 					</div>
 				</div>
 			{/each}
