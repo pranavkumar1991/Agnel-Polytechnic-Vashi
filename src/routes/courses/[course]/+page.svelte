@@ -60,11 +60,12 @@
 	<section class="flex flex-col gap-6">
 		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Teaching Faculty</h4>
 		<div class="flex flex-wrap gap-5 mx-auto justify-center mb-16">
-			{#each deptData.teachingFaculty as name}
+			{#each deptData.teachingFaculty as name, index}
 				<div class="card card-compact w-64 shadow-xl">
-					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} class="aspect-square" /></figure>
+					<figure><img src="/staff/{name}.jpg" alt="{name} picture" class="aspect-square" /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
+						<p>{deptData.teachingFacultyQualifications[index]}</p>
 					</div>
 				</div>
 			{/each}
