@@ -1,3 +1,7 @@
+<script>
+	import { newsArray } from '../components/news';
+</script>
+
 <h3 class="text-center text-4xl font-bold my-12 divider max-w-7xl mx-auto">All Courses</h3>
 <div class="grid gap-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 max-w-4xl xl:max-w-7xl mx-auto justify-items-center bg-primary">
 	<a class="card w-96 bg-accent text-white shadow-xl" href="/courses/artificial_intelligence">
@@ -35,4 +39,22 @@
 			<p>Intake - 120</p>
 		</div>
 	</a>
+	<div class="card w-96 bg-accent text-white shadow-xl">
+		<div class="card-body">
+			<b class="divider text-4xl">News</b>
+			<ul class="flex flex-wrap items-center justify-center gap-2 font-semibold rounded-md h-20 overflow-y-auto px-2">
+				{#each newsArray as news}
+					{#if news.link}
+						<li class="badge badge-lg badge-primary truncate">
+							<a target="_blank" class="text-blue-800 truncate" href={news.link}>{news.title}</a>
+						</li>
+					{:else}
+						<li class="badge badge-lg badge-primary truncate">
+							<p class="truncate">{news.title}</p>
+						</li>
+					{/if}
+				{/each}
+			</ul>
+		</div>
+	</div>
 </div>
