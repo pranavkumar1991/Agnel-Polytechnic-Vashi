@@ -136,7 +136,7 @@
 					</li>
 				</ul>
 			</li>
-			<li><a href="/campus_life">CAMPUS LIFE</a></li>
+			<!-- <li><a href="/campus_life">CAMPUS LIFE</a></li> -->
 			<li><a href="/gallery/Facilities">GALLERY</a></li>
 			<li><a href="/admissions">ADMISSIONS</a></li>
 			<li><a href="/syllabus">SYLLABUS</a></li>
