@@ -7,6 +7,7 @@ type DeptData = {
 	vision: string;
 	mission: string[];
 	teachingFaculty: string[];
+	teachingFacultyQualifications: string[];
 	nonTeachingFaculty: string[];
 	academicToppers: object;
 };
@@ -27,6 +28,7 @@ export const data: Record<string, DeptData> = {
 			'To develop technical skills in-line with current industry trends through effective teaching and industry-institute interaction'
 		],
 		teachingFaculty: ['Mrs. Raji MP', 'Mr. Pranavkumar Bhadane', 'Mrs. Rashmi Dhake', 'Mrs. Ashwini Baviskar', 'Mrs. Ashwini Patil'],
+		teachingFacultyQualifications: ['M.E Electrical', 'B.E Computer', 'B.E Computer', 'B.E Computer', 'B.E Computer'],
 		nonTeachingFaculty: ['Mrs. Kiran', 'Mr. Sadiq'],
 		academicToppers: []
 	},
@@ -54,6 +56,16 @@ export const data: Record<string, DeptData> = {
 			'Ms. Varsha Meshram',
 			'Mr. Amol Suryavanshi'
 		],
+		teachingFacultyQualifications: [
+			'M.E Electrical',
+			'M.E Electronics',
+			'M.Tech Electronics',
+			'M.E Electronics',
+			'M.E Electronics',
+			'M.Tech Electronics',
+			'M.Tech Electronics',
+			'M.E Electronics'
+		],
 		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge'],
 		academicToppers: []
 	},
@@ -80,6 +92,16 @@ export const data: Record<string, DeptData> = {
 			'Mr. Satish Eandole',
 			'Mr. Syed Mohammed Arif',
 			'Mr. Mahesh Vhanmane'
+		],
+		teachingFacultyQualifications: [
+			'M.E Mechanical',
+			'M.Tech Mechanical',
+			'M.Tech Mechanical',
+			'M.E Electronics',
+			'B.E Production',
+			'B.E Mechanical',
+			'M.E',
+			'B.E Automobile'
 		],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod'],
 		academicToppers: [
@@ -115,6 +137,17 @@ export const data: Record<string, DeptData> = {
 			'Mr. Vishal Dalvi',
 			'Mr. Lewis Anthony',
 			'Ms. Ruchira Shinde'
+		],
+		teachingFacultyQualifications: [
+			'M.Tech Construction Management',
+			'M.Tech Environmental',
+			'M.E Structural',
+			'M.Tech Construction Management',
+			'M.Tech Environmental',
+			'M.E Environmental',
+			'B.E Civil',
+			'M.Tech Strucutual',
+			'B.E Civil'
 		],
 		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi'],
 		academicToppers: [
@@ -153,6 +186,21 @@ export const data: Record<string, DeptData> = {
 			'Mr. Premkumar Joshi',
 			'Mr. Momin Musheer Anwar',
 			'Ms. Suvarchala M.'
+		],
+		teachingFacultyQualifications: [
+			'M.Tech Machine Design',
+			'M.E Automobile',
+			'M.Tech Machine Design',
+			'M.Tech Production',
+			'M.E Manufacturing System',
+			'M.Tech Production',
+			'M.E CAD/CAM',
+			'B.E Mechanical',
+			'B.E Mechanical',
+			'M.E Manufacturing System',
+			'M.Tech Machine Design',
+			'M.E Manufacturing System',
+			'B.Tech Production'
 		],
 		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh'],
 		academicToppers: [
