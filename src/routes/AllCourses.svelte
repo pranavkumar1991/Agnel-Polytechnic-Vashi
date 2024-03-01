@@ -11,10 +11,10 @@
 			<p>Intake - 60</p>
 		</div>
 	</a>
-	<a class="card w-96 bg-accent text-white shadow-xl" href="/courses/electronics_and_computer_engineering">
-		<figure><img src="/dept_thumbnails/TE_logo.jpg" alt="computer engineering" /></figure>
+	<a class="card w-96 bg-accent text-white shadow-xl" href="/courses/automobile_engineering">
+		<figure><img src="/dept_thumbnails/AE_logo.jpg" alt="automobile engineering" /></figure>
 		<div class="card-body">
-			<h2 class="card-title">Electronics & Computer Engineering (TE)</h2>
+			<h2 class="card-title">Automobile Engineering (AE)</h2>
 			<p>Intake - 60</p>
 		</div>
 	</a>
@@ -25,10 +25,10 @@
 			<p>Intake - 60</p>
 		</div>
 	</a>
-	<a class="card w-96 bg-accent text-white shadow-xl" href="/courses/automobile_engineering">
-		<figure><img src="/dept_thumbnails/AE_logo.jpg" alt="automobile engineering" /></figure>
+	<a class="card w-96 bg-accent text-white shadow-xl" href="/courses/electronics_and_computer_engineering">
+		<figure><img src="/dept_thumbnails/TE_logo.jpg" alt="computer engineering" /></figure>
 		<div class="card-body">
-			<h2 class="card-title">Automobile Engineering (AE)</h2>
+			<h2 class="card-title">Electronics & Computer Engineering (TE)</h2>
 			<p>Intake - 60</p>
 		</div>
 	</a>
