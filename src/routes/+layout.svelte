@@ -145,8 +145,8 @@
 	</div>
 
 	<div class="navbar-end gap-3">
-		<a class="btn rounded-sm btn-accent items-center hidden md:inline-flex" href="https://connect.apv.ac.in"> Connect </a>
-		<a class="btn gap-3 rounded-sm btn-accent" href="https://forms.gle/Smb5PLM4RYer4G7o9"> Admission enquiry </a>
+		<a class="btn rounded-sm btn-secondary items-center hidden md:inline-flex" href="https://connect.apv.ac.in"> Connect </a>
+		<a class="btn gap-3 rounded-sm btn-secondary" href="https://forms.gle/Smb5PLM4RYer4G7o9"> Admission enquiry </a>
 	</div>
 </nav>
 <div class="absolute w-full overflow-x-hidden">
