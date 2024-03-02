@@ -28,7 +28,7 @@ export const data: Record<string, DeptData> = {
 			'To develop technical skills in-line with current industry trends through effective teaching and industry-institute interaction'
 		],
 		teachingFaculty: ['Mrs. Raji MP', 'Mr. Pranavkumar Bhadane', 'Mrs. Rashmi Dhake', 'Mrs. Ashwini Baviskar', 'Mrs. Ashwini Patil'],
-		teachingFacultyQualifications: ['M.E Electrical', 'B.E Computer', 'B.E Computer', 'B.E Computer', 'B.E Computer'],
+		teachingFacultyQualifications: ['M.E Electrical', 'M.E Computer', 'M.E Computer', 'B.E Computer', 'B.E Computer'],
 		nonTeachingFaculty: ['Mrs. Kiran', 'Mr. Sadiq'],
 		academicToppers: []
 	},
