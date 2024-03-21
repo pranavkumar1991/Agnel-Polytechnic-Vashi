@@ -26,6 +26,8 @@
 			<li><a class="link link-hover" href="/about_us/vision_and_mission">&gt; Vision & Mission</a></li>
 			<li><a class="link link-hover" href="/contact_us">&gt; Contact us</a></li>
 			<li><a class="link link-hover" href="/about_us/anti_ragging">&gt; Anti-Ragging</a></li>
+			<li><a class="link link-hover" href="https://msbte.org.in/">&gt; MSBTE Website</a></li>
+			<li><a class="link link-hover" href="https://www.dtemaharashtra.gov.in/indexview.html">&gt; DTE Maharashtra</a></li>
 		</ul>
 	</div>
 	<div class="max-w-sm">
