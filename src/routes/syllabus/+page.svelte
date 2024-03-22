@@ -19,16 +19,16 @@
 			<tr>
 				<td>Automobile Engineering (AE)</td>
 				<td rowspan="5" class="border">
-					<a href="/downloads/syllabus/IScheme-1stSemester.pdf" class="btn btn-ghost flex-nowrap gap-2 normal-case">
+					<a href="/downloads/syllabus/KScheme-1stSemester.pdf" class="btn btn-ghost flex-nowrap gap-2 normal-case">
 						<span class="w-6">
 							<FaFilePdf />
 						</span>
-						Common for all I-scheme
+						Common for all K-scheme
 					</a>
 				</td>
-				{#each ['AE-2I', 'AE-3I', 'AE-4I', 'AE-5I', 'AE-6I'] as item}
+				{#each ['AE-2K', 'AE-3I', 'AE-4I', 'AE-5I', 'AE-6I'] as item}
 					<td class="border">
-						<a href="/downloads/syllabus/{item}.pdf" class="btn btn-ghost flex-nowrap gap-2">
+						<a href="https://msbte.org.in/portal/curriculum-search/" class="btn btn-ghost flex-nowrap gap-2">
 							<span class="w-6">
 								<FaFilePdf />
 							</span>
@@ -39,9 +39,9 @@
 			</tr>
 			<tr>
 				<td>Civil Engineering (CE)</td>
-				{#each ['CE-2I', 'CE-3I', 'CE-4I', 'CE-5I', 'CE-6I'] as item}
+				{#each ['CE-2K', 'CE-3I', 'CE-4I', 'CE-5I', 'CE-6I'] as item}
 					<td class="border">
-						<a href="/downloads/syllabus/{item}.pdf" class="btn btn-ghost flex-nowrap gap-2">
+						<a href="https://msbte.org.in/portal/curriculum-search/" class="btn btn-ghost flex-nowrap gap-2">
 							<span class="w-6">
 								<FaFilePdf />
 							</span>
@@ -52,9 +52,9 @@
 			</tr>
 			<tr>
 				<td>Artificial Intelligence & Machine Learning (AN)</td>
-				{#each ['AN-2I', 'AN-3I', 'AN-4I'] as item}
+				{#each ['AN-2K', 'AN-3I', 'AN-4I', 'AN-5I', 'AN-6I'] as item}
 					<td class="border">
-						<a href="/downloads/syllabus/{item}.pdf" class="btn btn-ghost flex-nowrap gap-2">
+						<a href="/downloads/syllabus/{item}.zip" class="btn btn-ghost flex-nowrap gap-2">
 							<span class="w-6">
 								<FaFilePdf />
 							</span>
@@ -65,9 +65,9 @@
 			</tr>
 			<tr>
 				<td>Electronics & Computer Engineering (TE)</td>
-				{#each ['TE-2I', 'TE-3I', 'TE-4I'] as item}
+				{#each ['TE-2K', 'TE-3I', 'TE-4I', 'TE-5I', 'TE-6I'] as item}
 					<td class="border">
-						<a href="/downloads/syllabus/{item}.pdf" class="btn btn-ghost flex-nowrap gap-2">
+						<a href="https://msbte.org.in/portal/curriculum-search/" class="btn btn-ghost flex-nowrap gap-2">
 							<span class="w-6">
 								<FaFilePdf />
 							</span>
@@ -78,9 +78,9 @@
 			</tr>
 			<tr>
 				<td>Mechanical Engineering (ME)</td>
-				{#each ['ME-2I', 'ME-3I', 'ME-4I', 'ME-5I', 'ME-6I'] as item}
+				{#each ['ME-2K', 'ME-3I', 'ME-4I', 'ME-5I', 'ME-6I'] as item}
 					<td class="border">
-						<a href="/downloads/syllabus/{item}.pdf" class="btn btn-ghost flex-nowrap gap-2">
+						<a href="https://msbte.org.in/portal/curriculum-search/" class="btn btn-ghost flex-nowrap gap-2">
 							<span class="w-6">
 								<FaFilePdf />
 							</span>
