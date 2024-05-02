@@ -63,7 +63,9 @@
 	<div class="max-w-sm">
 		<span class="footer-title opacity-100 underline underline-offset-4">Social</span>
 		<div class="grid grid-flow-col grid-rows-2 gap-4">
-			<a class="w-8 cursor-pointer" target="_blank" aria-label="Instagram" href="https://www.instagram.com/fatheragnelpolytechnic"><FaInstagram /></a>
+			<a class="w-8 cursor-pointer" target="_blank" aria-label="Instagram" href="https://www.instagram.com/agnel_polytechnic_official/"
+				><FaInstagram /></a
+			>
 			<a
 				class="w-8 cursor-pointer"
 				target="_blank"
