@@ -27,9 +27,16 @@ export const data: Record<string, DeptData> = {
 			'To inculcate human values and ethical principles to cater to the societal needs.',
 			'To develop technical skills in-line with current industry trends through effective teaching and industry-institute interaction'
 		],
-		teachingFaculty: ['Mrs. Raji MP', 'Mr. Pranavkumar Bhadane', 'Mrs. Rashmi Dhake', 'Mrs. Ashwini Baviskar', 'Mrs. Ashwini Patil'],
-		teachingFacultyQualifications: ['M.E Electrical', 'M.E Computer', 'M.E Computer', 'B.E Computer', 'B.E Computer'],
-		nonTeachingFaculty: ['Mrs. Kiran', 'Mr. Sadiq'],
+		teachingFaculty: [
+			'Mrs. Raji MP',
+			'Mr. Pranavkumar Bhadane',
+			'Mrs. Rashmi Dhake',
+			'Mrs. Ashwini Baviskar',
+			'Mrs. Ashwini Patil',
+			'Mrs. Vidya Ingle'
+		],
+		teachingFacultyQualifications: ['M.E Electrical', 'M.E Computer', 'M.E Computer', 'B.E Computer', 'M.E Computer', 'ME IT'],
+		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq'],
 		academicToppers: []
 	},
 	electronics_and_computer_engineering: {
@@ -66,7 +73,7 @@ export const data: Record<string, DeptData> = {
 			'M.Tech Electronics',
 			'M.E Electronics'
 		],
-		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge'],
+		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge'],
 		academicToppers: []
 	},
 	automobile_engineering: {
@@ -83,26 +90,8 @@ export const data: Record<string, DeptData> = {
 			'Establish and enhance interaction with industries for training, internship and entrepreneurial activities.',
 			'Educate the students for effective communication, teamwork and leadership for their overall development.'
 		],
-		teachingFaculty: [
-			'Mr. Nitin Kulkarni',
-			'Mr. Dinesh Patil',
-			'Ms. Sonal Kapadia',
-			'Mr. Umesh Mhapankar',
-			'Ms. Cige Louis',
-			'Mr. Satish Eandole',
-			'Mr. Syed Mohammed Arif',
-			'Mr. Mahesh Vhanmane'
-		],
-		teachingFacultyQualifications: [
-			'M.E Mechanical',
-			'M.Tech Mechanical',
-			'M.Tech Mechanical',
-			'M.E Electronics',
-			'B.E Production',
-			'B.E Mechanical',
-			'M.E',
-			'B.E Automobile'
-		],
+		teachingFaculty: ['Mr. Nitin Kulkarni', 'Mr. Dinesh Patil', 'Ms. Cige Louis', 'Mr. Satish Eandole', 'Mr. Mahesh Vhanmane'],
+		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'B.E Production', 'B.E Mechanical', 'B.E Automobile'],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod'],
 		academicToppers: [
 			{ name: 'KOTECHA PRATHAMESH', profilePicture: '', percentage: 90.38, semester: 'AE-6-I' },
