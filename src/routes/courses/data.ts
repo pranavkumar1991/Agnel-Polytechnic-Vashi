@@ -65,14 +65,14 @@ export const data: Record<string, DeptData> = {
 			'Mr. Amol Suryavanshi'
 		],
 		teachingFacultyQualifications: [
-			'M.E Electrical',
-			'M.E Electronics',
-			'M.Tech Electronics',
-			'M.E Electronics',
-			'M.E Electronics',
-			'M.Tech Electronics',
-			'M.Tech Electronics',
-			'M.E Electronics'
+			'M.E',
+			'M.E',
+			'M.Tech',
+			'M.E',
+			'M.E',
+			'M.Tech',
+			'M.Tech',
+			'M.E'
 		],
 		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge'],
 		academicToppers: []
