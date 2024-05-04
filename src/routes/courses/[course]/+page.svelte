@@ -65,7 +65,11 @@
 					<figure><img src="/staff/{name}.jpg" alt="{name} picture" class="aspect-square" /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
-						<p>{deptData.teachingFacultyQualifications[index]} Engineering</p>
+						{#if deptData.teachingFacultyQualifications[index] === 'M.Tech' || deptData.teachingFacultyQualifications[index] === 'M.E' || deptData.teachingFacultyQualifications[index] === 'M.Tech Construction Management' || deptData.teachingFacultyQualifications[index] === 'B.E IT' || deptData.teachingFacultyQualifications[index] === 'M.E IT' || deptData.teachingFacultyQualifications[index] === 'M.Tech Machine Design' || deptData.teachingFacultyQualifications[index] === 'M.E Manufacturing System' || deptData.teachingFacultyQualifications[index] === 'M.E CAD/CAM'}
+							<p>{deptData.teachingFacultyQualifications[index]}</p>
+						{:else}
+							<p>{deptData.teachingFacultyQualifications[index]} Engineering</p>
+						{/if}
 					</div>
 				</div>
 			{/each}
