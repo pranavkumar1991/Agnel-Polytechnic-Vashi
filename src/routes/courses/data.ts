@@ -166,8 +166,8 @@ export const data: Record<string, DeptData> = {
 		teachingFaculty: [
 			'Mrs. Beenu Johnkutty',
 			'Mr. Yogesh Vishwakarma',
+			'Mr. Ravindra Dhawale',
 			'Ms. Pratima Kokate',
-			'Mr. Uday Gudsoorkar',
 			'Mr. Vivek Fegade',
 			'Mr. Milind Shrirao',
 			'Mr. Ganesh Gawande',
@@ -180,10 +180,10 @@ export const data: Record<string, DeptData> = {
 		teachingFacultyQualifications: [
 			'M.Tech Machine Design',
 			'M.E Automobile',
+			'M.Tech Production',
 			'M.Tech Machine Design',
-			'M.Tech Production',
 			'M.E Manufacturing System',
-			'M.Tech Production',
+			'B.E Mechanical',
 			'M.E CAD/CAM',
 			'B.E Mechanical',
 			'B.E Mechanical',
