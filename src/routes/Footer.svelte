@@ -41,11 +41,11 @@
 			</div>
 			Agnel Technical Education Complex, Sector 9A, Vashi, Navi Mumbai - 400703
 		</a>
-		<a class="link link-hover flex items-center gap-2" href="tel:02241611000">
+		<a class="link link-hover flex items-center gap-2" href="tel:02227661924">
 			<div class="basis-5 shrink-0">
 				<FaPhoneAlt />
 			</div>
-			022 4161 1000
+			022 2766 1924
 		</a>
 		<a class="link link-hover flex items-center gap-2" href="mailto:423agnel@gmail.com">
 			<div class="basis-5 shrink-0">
@@ -53,11 +53,11 @@
 			</div>
 			423agnel@gmail.com
 		</a>
-		<a class="link link-hover flex items-center gap-2" href="tel:02227771000">
+		<a class="link link-hover flex items-center gap-2" href="tel:02227660619">
 			<div class="basis-5 shrink-0">
 				<FaPhoneAlt />
 			</div>
-			022 2777 1000
+			022 2766 0619
 		</a>
 	</div>
 	<div class="max-w-sm">
