@@ -19,7 +19,7 @@
 			<tr>
 				<td>Automobile Engineering (AE)</td>
 				<td rowspan="5" class="border">
-					<a href="/downloads/syllabus/KScheme-1stSemester.pdf" class="btn btn-ghost flex-nowrap gap-2 normal-case">
+					<a href="/downloads/syllabus/AN-1K.zip" class="btn btn-ghost flex-nowrap gap-2 normal-case">
 						<span class="w-6">
 							<FaFilePdf />
 						</span>
