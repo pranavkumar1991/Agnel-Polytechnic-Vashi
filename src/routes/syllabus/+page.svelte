@@ -65,7 +65,15 @@
 			</tr>
 			<tr>
 				<td>Electronics & Computer Engineering (TE)</td>
-				{#each ['TE-2K', 'TE-3I', 'TE-4I', 'TE-5I', 'TE-6I'] as item}
+				<td class="border">
+					<a href="/downloads/syllabus/TE-2K.zip" class="btn btn-ghost flex-nowrap gap-2">
+						<span class="w-6">
+							<FaFilePdf />
+						</span>
+						TE-2K
+					</a>
+				</td>
+				{#each ['TE-3I', 'TE-4I', 'TE-5I', 'TE-6I'] as item}
 					<td class="border">
 						<a href="https://msbte.org.in/portal/curriculum-search/" class="btn btn-ghost flex-nowrap gap-2">
 							<span class="w-6">
@@ -76,6 +84,7 @@
 					</td>
 				{/each}
 			</tr>
+
 			<tr>
 				<td>Mechanical Engineering (ME)</td>
 				{#each ['ME-2K', 'ME-3I', 'ME-4I', 'ME-5I', 'ME-6I'] as item}
