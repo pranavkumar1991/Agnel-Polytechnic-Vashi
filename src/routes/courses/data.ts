@@ -9,7 +9,6 @@ type DeptData = {
 	teachingFaculty: string[];
 	teachingFacultyQualifications: string[];
 	nonTeachingFaculty: string[];
-	academicToppers: object;
 };
 
 export const data: Record<string, DeptData> = {
@@ -37,8 +36,7 @@ export const data: Record<string, DeptData> = {
 			'Mrs. Samina Siddique'
 		],
 		teachingFacultyQualifications: ['M.E Electrical', 'M.E Computer', 'M.E Computer', 'B.E Computer', 'M.E Computer', 'M.E IT', 'B.E IT'],
-		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq'],
-		academicToppers: []
+		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq']
 	},
 	electronics_and_computer_engineering: {
 		name: 'Electronics & Computer Engineering (TE)',
@@ -64,18 +62,8 @@ export const data: Record<string, DeptData> = {
 			'Ms. Varsha Meshram',
 			'Mr. Amol Suryavanshi'
 		],
-		teachingFacultyQualifications: [
-			'M.E',
-			'M.E',
-			'M.Tech',
-			'M.E',
-			'M.E',
-			'M.Tech',
-			'M.Tech',
-			'M.E'
-		],
-		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge'],
-		academicToppers: []
+		teachingFacultyQualifications: ['M.E', 'M.E', 'M.Tech', 'M.E', 'M.E', 'M.Tech', 'M.Tech', 'M.E'],
+		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge']
 	},
 	automobile_engineering: {
 		name: 'Automobile Engineering (AE)',
@@ -93,15 +81,7 @@ export const data: Record<string, DeptData> = {
 		],
 		teachingFaculty: ['Mr. Nitin Kulkarni', 'Mr. Dinesh Patil', 'Ms. Cige Louis', 'Mr. Satish Eandole', 'Mr. Mahesh Vhanmane'],
 		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'B.E Production', 'B.E Mechanical', 'B.E Automobile'],
-		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod'],
-		academicToppers: [
-			{ name: 'KOTECHA PRATHAMESH', profilePicture: '', percentage: 90.38, semester: 'AE-6-I' },
-			{ name: 'KOLI TANISH', profilePicture: '', percentage: 79.29, semester: 'AE-4-I' },
-			{ name: 'PATIL VIRENDRA', profilePicture: '', percentage: 79.5, semester: 'AE-2-I' },
-			{ name: 'SODHI RAJVEER SINGH', profilePicture: '', percentage: 87.68, semester: 'AE-6-I' },
-			{ name: 'MEHTA SAHIL', profilePicture: '', percentage: 78.71, semester: 'AE-4-I' },
-			{ name: 'POOJARI HARSHITH', profilePicture: '', percentage: 76, semester: 'AE-2-I' }
-		]
+		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod']
 	},
 	civil_engineering: {
 		name: 'Civil Engineering (CE)',
@@ -139,15 +119,7 @@ export const data: Record<string, DeptData> = {
 			'M.Tech Strucutual',
 			'B.E Civil'
 		],
-		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi'],
-		academicToppers: [
-			{ name: 'Raahil Patel', profilePicture: '', percentage: 90.84, semester: 'CE-6-I' },
-			{ name: 'Akash Kaulage', profilePicture: '', percentage: 81.13, semester: 'CE-4-I' },
-			{ name: 'Darsh Bhoir', profilePicture: '', percentage: 84.34, semester: 'AE-2-I' },
-			{ name: 'Anamay Ghangale', profilePicture: '', percentage: 90.63, semester: 'CE-6-I' },
-			{ name: 'Sartak Hande', profilePicture: '', percentage: 81.13, semester: 'CE-4-I' },
-			{ name: 'Sahil Dalvi', profilePicture: '', percentage: 82.32, semester: 'CE-2-I' }
-		]
+		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi']
 	},
 	mechanical_engineering: {
 		name: 'Mechanical Engineering (ME)',
@@ -192,17 +164,6 @@ export const data: Record<string, DeptData> = {
 			'M.E Manufacturing System',
 			'B.Tech Production'
 		],
-		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh'],
-		academicToppers: [
-			{ name: 'Siddik Shingare', profilePicture: '', percentage: 93.33, semester: 'ME-6-I' },
-			{ name: 'Dvij Koli', profilePicture: '', percentage: 89.63, semester: 'ME-4-I' },
-			{ name: 'Varad Yande', profilePicture: '', percentage: 84.0, semester: 'ME-2-I' },
-			{ name: 'Mirdul Date', profilePicture: '', percentage: 91.22, semester: 'ME-6-I' },
-			{ name: 'Naveen Thomas', profilePicture: '', percentage: 87.25, semester: 'ME-4-I' },
-			{ name: 'Kishan Chaoudhari', profilePicture: '', percentage: 81.6, semester: 'ME-2-I' },
-			{ name: 'Pundlik Shinde', profilePicture: '', percentage: 90.78, semester: 'ME-6-I' },
-			{ name: 'Tanmay Ambulkar', profilePicture: '', percentage: 82.75, semester: 'ME-6-I' },
-			{ name: 'Ganesh Jalvi', profilePicture: '', percentage: 81.47, semester: 'ME-6-I' }
-		]
+		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh']
 	}
 };

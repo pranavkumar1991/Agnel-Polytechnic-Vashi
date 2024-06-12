@@ -65,7 +65,7 @@
 					<figure><img src="/staff/{name}.jpg" alt="{name} picture" class="aspect-square" /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
-						{#if deptData.teachingFacultyQualifications[index] === 'M.Tech' || deptData.teachingFacultyQualifications[index] === 'M.E' || deptData.teachingFacultyQualifications[index] === 'M.Tech Construction Management' || deptData.teachingFacultyQualifications[index] === 'B.E IT' || deptData.teachingFacultyQualifications[index] === 'M.E IT' || deptData.teachingFacultyQualifications[index] === 'M.Tech Machine Design' || deptData.teachingFacultyQualifications[index] === 'M.E Manufacturing System' || deptData.teachingFacultyQualifications[index] === 'M.E CAD/CAM'}
+						{#if ['M.Tech', 'M.E', 'M.Tech Construction Management', 'B.E IT', 'M.E IT', 'M.Tech Machine Design', 'M.E Manufacturing System', 'M.E CAD/CAM'].includes(deptData.teachingFacultyQualifications[index])}
 							<p>{deptData.teachingFacultyQualifications[index]}</p>
 						{:else}
 							<p>{deptData.teachingFacultyQualifications[index]} Engineering</p>
@@ -77,7 +77,7 @@
 	</section>
 	<section class="flex flex-col gap-6">
 		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Non-Teaching Faculty</h4>
-		<div class="flex flex-wrap gap-5 mx-auto justify-center">
+		<div class="flex flex-wrap gap-5 mx-auto justify-center items-end">
 			{#each deptData.nonTeachingFaculty as name}
 				<div class="card card-compact w-64 shadow-xl">
 					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} class="aspect-square" /></figure>
@@ -88,28 +88,14 @@
 			{/each}
 		</div>
 	</section>
-	<!-- TODO <section class="flex flex-col gap-6">
-		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">TODO: Academic Toppers</h4>
-		<div class="flex flex-wrap gap-5 mx-auto justify-center">
-			{#each deptData.academicToppers as topper}
-				<div class="card card-compact w-96 bg-base-100 shadow-xl">
-					<figure><img src={topper.profilePicture} alt={`${topper.name} picture`} /></figure>
-					<div class="card-body">
-						<h2 class="card-title">{topper.name}</h2>
-						<p>{topper.percentage}%</p>
-					</div>
-				</div>
-			{/each}
-		</div>
-	</section> -->
 	{#each Object.keys(data.items) as directory, i}
 		<section class="flex flex-col gap-6">
 			<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">{directory}</h4>
-			<div class="flex flex-wrap gap-5 mx-auto justify-center">
+			<div class="flex flex-wrap gap-5 mx-auto justify-center items-end">
 				{#each data.items[directory] as item}
-					<div class="card card-compact w-96 shadow-xl {i % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
+					<div class="card card-compact w-96 shadow-xl h-fit {i % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
 						<figure>
-							<img src="/courses/{$page.params.course}/{directory}/{item}" alt={`${item} picture`} class="aspect-square" />
+							<img src="/courses/{$page.params.course}/{directory}/{item}" alt={`${item} picture`} />
 						</figure>
 						<div class="card-body">
 							<h2 class="card-title text-base">{removeExtension(item)}</h2>
