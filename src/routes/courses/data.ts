@@ -80,7 +80,7 @@ export const data: Record<string, DeptData> = {
 			'Educate the students for effective communication, teamwork and leadership for their overall development.'
 		],
 		teachingFaculty: ['Mr. Nitin Kulkarni', 'Mr. Dinesh Patil', 'Ms. Cige Louis', 'Mr. Satish Eandole', 'Mr. Mahesh Vhanmane'],
-		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'B.E Production', 'B.E Mechanical', 'B.E Automobile'],
+		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile'],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod']
 	},
 	civil_engineering: {

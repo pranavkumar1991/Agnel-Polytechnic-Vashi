@@ -65,7 +65,7 @@
 					<figure><img src="/staff/{name}.jpg" alt="{name} picture" class="aspect-square" /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
-						{#if ['M.Tech', 'M.E', 'M.Tech Construction Management', 'B.E IT', 'M.E IT', 'M.Tech Machine Design', 'M.E Manufacturing System', 'M.E CAD/CAM'].includes(deptData.teachingFacultyQualifications[index])}
+						{#if ['M.Tech', 'M.E', 'M.Tech Construction Management', 'B.E IT', 'M.E IT', 'M.Tech Machine Design', 'M.E Manufacturing System', 'M.E CAD/CAM (Pursuing)'].includes(deptData.teachingFacultyQualifications[index])}
 							<p>{deptData.teachingFacultyQualifications[index]}</p>
 						{:else}
 							<p>{deptData.teachingFacultyQualifications[index]} Engineering</p>
