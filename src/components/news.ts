@@ -11,5 +11,9 @@ export const newsArray: News[] = [
 	{
 		title: "Exit survey 2024",
 		link: "https://forms.gle/vP4KJhzKkb2i8enZA"
+	},
+	{
+		title: "Library",
+		link: "http://122.200.18.76"
 	}
 ];
