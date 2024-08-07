@@ -42,7 +42,7 @@
 	<div class="card w-96 bg-accent text-white shadow-xl">
 		<div class="card-body">
 			<b class="divider text-4xl">News</b>
-			<ul class="flex flex-wrap items-center justify-center gap-2 font-semibold rounded-md h-20 overflow-y-auto px-2">
+			<ul class="flex flex-wrap items-center justify-center gap-2 font-semibold rounded-md h-25 overflow-y-auto px-2">
 				{#each newsArray as news}
 					{#if news.link}
 						<li class="badge badge-lg badge-primary truncate">
