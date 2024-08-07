@@ -15,5 +15,9 @@ export const newsArray: News[] = [
 	{
 		title: "Library",
 		link: "http://122.200.18.76"
+	},
+	{
+		title: "Fee chart",
+		link: "/fee.pdf"
 	}
 ];
