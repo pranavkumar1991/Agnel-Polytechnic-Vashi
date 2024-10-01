@@ -19,5 +19,9 @@ export const newsArray: News[] = [
 	{
 		title: "Fee chart",
 		link: "/fee.pdf"
+	},
+	{
+		title: "Direct Second Year Admission",
+		link: "/Schedule.pdf"
 	}
 ];
