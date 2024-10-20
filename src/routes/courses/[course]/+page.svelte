@@ -16,7 +16,7 @@
 		<h3 class="text-center text-4xl font-bold max-w-7xl mx-auto mb-4">{deptData.name}</h3>
 		<div class="card lg:card-side shadow-xl bg-accent max-w-7xl mx-auto pt-2 lg:p-5 items-center justify-center">
 			<div class="card card-compact w-96 shrink-0 grow-0 bg-base-100 shadow-xl rounded-none h-fit my-auto">
-				<figure><img src="/courses/{$page.params.course}/HOD.jpg" alt="HOD" /></figure>
+				<figure><img src="/courses/{$page.params.course}/HOD.webp" alt="HOD" /></figure>
 				<h2 class="card-title p-2.5">{deptData.HOD}</h2>
 			</div>
 			<div class="card-body text-justify text-white">
@@ -62,7 +62,7 @@
 		<div class="flex flex-wrap gap-5 mx-auto justify-center mb-16">
 			{#each deptData.teachingFaculty as name, index}
 				<div class="card card-compact w-64 shadow-xl">
-					<figure><img src="/staff/{name}.jpg" alt="{name} picture" class="aspect-square" /></figure>
+					<figure><img src="/staff/{name}.webp" alt="{name} picture" class="aspect-square" /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
 						{#if ['M.Tech', 'M.E', 'M.Tech Construction Management', 'B.E IT', 'M.E IT', 'M.Tech Machine Design', 'M.E Manufacturing System', 'M.E CAD/CAM (Pursuing)'].includes(deptData.teachingFacultyQualifications[index])}
@@ -80,7 +80,7 @@
 		<div class="flex flex-wrap gap-5 mx-auto justify-center items-end">
 			{#each deptData.nonTeachingFaculty as name}
 				<div class="card card-compact w-64 shadow-xl">
-					<figure><img src="/staff/{name}.jpg" alt={`${name} picture`} class="aspect-square" /></figure>
+					<figure><img src="/staff/{name}.webp" alt={`${name} picture`} class="aspect-square" /></figure>
 					<div class="card-body">
 						<h2 class="card-title">{name}</h2>
 					</div>
