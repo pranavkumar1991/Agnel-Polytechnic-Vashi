@@ -3,7 +3,6 @@
 		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Admissions Procedure</h1>
 <a href=static/Fee Chart 2025-26.pdf > Fee Chart 2025-26O</a>
 		<p class="text-lg">
-			Hello, 
 			For Admissions to CAP Seats as well as Institutional Quota, it is compulsory for all candidates to purchase an application kit and submit the
 			online application form. Please verify that your name appears in the merit list prepared by the Competent Authority nominated by the Govt. of
 			Maharashtra.
