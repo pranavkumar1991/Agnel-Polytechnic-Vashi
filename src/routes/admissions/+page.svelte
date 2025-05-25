@@ -1,8 +1,8 @@
 <div class="flex flex-col align-center justify-center p-10 gap-20">
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
 		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Admissions Procedure</h1>
-		<a href="/static/FeeChart2025-26.pdf" class="text-lg text-primary hover:underline">Fee Chart 2025-26</a>
-		<a href="/static/FeeChart2025-26.pdf" download class="btn btn-primary">Download Fee Chart</a>
+		<a href="%sveltekit.assets%/FeeChart2025-26.pdf" class="text-lg text-primary hover:underline">Fee Chart 2025-26</a>
+		<a href="%sveltekit.assets%/FeeChart2025-26.pdf" download class="btn btn-primary">Download Fee Chart</a>
 		<p class="text-lg">
 			For Admissions to CAP Seats as well as Institutional Quota, it is compulsory for all candidates to purchase an application kit and submit the
 			online application form. Please verify that your name appears in the merit list prepared by the Competent Authority nominated by the Govt. of
