@@ -1,6 +1,6 @@
 <section class="grid lg:grid-cols-2 gap-y-8 gap-x-8 mx-auto max-w-7xl">
 	<h2 class="divider-heading lg:col-span-2">Vision and Mission</h2>
-	<div class="card shadow-xl bg-secondary text-black">
+	<div class="card shadow-xl bg-secondary text-white">
 		<div class="card-body">
 			<h2 class="card-title mx-auto text-4xl font-bold">Vision</h2>
 			<p class="text-lg text-justify">
