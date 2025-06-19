@@ -9,7 +9,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="card shadow-xl bg-secondary text-black">
+	<div class="card shadow-xl bg-secondary text-white">
 		<div class="card-body">
 			<h2 class="card-title mx-auto text-4xl font-bold">Mission</h2>
 			<ul class="text-lg list-disc mx-auto pl-2">
