@@ -27,7 +27,7 @@
 	<section class="flex justify-around items-center flex-col gap-6 px-2">
 		<div class="grid lg:grid-cols-2 gap-x-8 gap-y-2 max-w-7xl">
 			<h2 class="text-center text-4xl font-bold max-w-7xl mx-auto lg:col-span-2 mb-4">Vision and Mission</h2>
-			<div class="card shadow-xl text-black bg-secondary">
+			<div class="card shadow-xl text-white bg-secondary">
 				<div class="card-body">
 					<h2 class="card-title mx-auto text-4xl font-bold">Vision</h2>
 					<p class="text-lg text-justify">
@@ -35,7 +35,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="card shadow-xl text-black bg-secondary">
+			<div class="card shadow-xl text-white bg-secondary">
 				<div class="card-body">
 					<h2 class="card-title mx-auto text-4xl font-bold">Mission</h2>
 					<ul class="text-lg list-disc mx-auto pl-2">
