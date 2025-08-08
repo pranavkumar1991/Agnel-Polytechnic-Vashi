@@ -96,4 +96,5 @@
 			</li>
 		</ul>
 	</div>
+	<a href="/static/notice.pdf" download class="btn btn-primary">Notice</a>
 </div>
