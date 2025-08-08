@@ -96,5 +96,5 @@
 			</li>
 		</ul>
 	</div>
-	<a href="/static/notice.pdf" download class="btn btn-primary">Notice</a>
+	<a href="https://jumpshare.com/s/gfsq9bBE1SDY4NOyH8dr" download class="btn btn-primary">Notice</a>
 </div>
