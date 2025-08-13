@@ -97,8 +97,8 @@
 		</ul>
 	</div>
 	<a href="/notice.pdf" download class="btn btn-primary">Notice</a>
+	<a href="/First Year Cap Vacancy.jpeg" download class="btn btn-primary">First Year CAP Vacancy</a>
+	<a href="/Second Year Cap Vacancy.jpeg" download class="btn btn-primary">Second Year CAP Vacancy</a>
 </div>
-<a href="/First Year Cap Vacancy.jpeg" download class="btn btn-primary">First Year CAP Vacancy</a>
-<a href="/Second Year Cap Vacancy.jpeg" download class="btn btn-primary">Second Year CAP Vacancy</a>
 </div>
 		
