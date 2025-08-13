@@ -98,3 +98,7 @@
 	</div>
 	<a href="/notice.pdf" download class="btn btn-primary">Notice</a>
 </div>
+<a href="/static/First Year  Cap Vacancy.jpeg" download class="btn btn-primary">First Year CAP Vacancy</a>
+<a href="static/Second Year  Cap Vacancy.jpeg" download class="btn btn-primary">Second Year CAP Vacancy</a>
+</div>
+		
