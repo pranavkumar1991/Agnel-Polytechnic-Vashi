@@ -14,7 +14,7 @@ type DeptData = {
 export const data: Record<string, DeptData> = {
 	artificial_intelligence: {
 		name: 'Artificial Intelligence & Machine Learning (AN)',
-		HOD: 'Mrs. Raji MP',
+		HOD: 'Ms. Sonali Sherigar',
 		intake: 60,
 		duration: 3,
 		about:
@@ -58,11 +58,11 @@ export const data: Record<string, DeptData> = {
 			'Mrs. Suhasini David Sekhar',
 			'Mr. Umesh Mhapankar',
 			'Mrs. Archana Wasule',
-			'Ms. Sonali Sherigar',
 			'Ms. Varsha Meshram',
-			'Mr. Amol Suryavanshi'
+			'Mr. Amol Suryavanshi',
+			'Mr. Mohd Janisar'
 		],
-		teachingFacultyQualifications: ['M.E', 'M.E', 'M.Tech', 'M.E', 'M.E', 'M.Tech', 'M.Tech', 'M.E'],
+		teachingFacultyQualifications: ['M.E', 'M.E', 'M.Tech', 'M.E', 'M.E', 'M.Tech', 'M.Tech', 'B.Tech IT'],
 		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge']
 	},
 	automobile_engineering: {
