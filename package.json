@@ -3,16 +3,16 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
-	},
+	  "dev": "vite dev",
+	  "build": "svelte-kit build",
+	  "preview": "svelte-kit preview",
+	  "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+	  "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+	  "lint": "prettier --plugin-search-dir . --check . && eslint .",
+	  "format": "prettier --plugin-search-dir . --write .",
+	  "vercel-build": "svelte-kit sync && svelte-kit build"
+	}
 	"devDependencies": {
-		"@sveltejs/adapter-vercel":"^5.10.2",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/enhanced-img": "^0.1.4",
 		"@sveltejs/kit": "^1.30.4",
@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-vercel":"5.10.2",
 		"@emailjs/browser": "^3.11.0",
 		"@vercel/analytics": "^1.0.1",
 		"daisyui": "^3.0.0",
