@@ -14,7 +14,6 @@
   },
   "type": "module",
   "devDependencies": {
-  "@sveltejs/adapter-auto": "^3.2.1",
   "@sveltejs/enhanced-img": "^0.2.0",
   "@sveltejs/kit": "^2.37.0",
   "@types/node": "^22.7.4",
