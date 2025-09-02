@@ -14,7 +14,7 @@ type DeptData = {
 export const data: Record<string, DeptData> = {
 	artificial_intelligence: {
 		name: 'Artificial Intelligence & Machine Learning (AN)',
-		HOD: 'Ms. Sonali Sherigar',
+		HOD: 'Ms. Sonali Sherigar (HOD)',
 		intake: 60,
 		duration: 3,
 		about:
@@ -27,7 +27,7 @@ export const data: Record<string, DeptData> = {
 			'To develop technical skills in-line with current industry trends through effective teaching and industry-institute interaction'
 		],
 		teachingFaculty: [
-			'Mrs. Raji MP',
+			'Ms. Sonali Sherigar (HOD)',
 			'Mr. Pranavkumar Bhadane',
 			'Mrs. Rashmi Dhake',
 			'Mrs. Ashwini Baviskar',
@@ -40,7 +40,7 @@ export const data: Record<string, DeptData> = {
 	},
 	electronics_and_computer_engineering: {
 		name: 'Electronics & Computer Engineering (TE)',
-		HOD: 'Mrs. Raji MP',
+		HOD: 'Mrs. Raji MP (HOD)',
 		intake: 60,
 		duration: 3,
 		about:
@@ -53,7 +53,7 @@ export const data: Record<string, DeptData> = {
 			'To inculcate awareness towards societal needs and environmental issues.'
 		],
 		teachingFaculty: [
-			'Mrs. Raji MP',
+			'Mrs. Raji MP (HOD)',
 			'Mrs. Jewel Samantha',
 			'Mrs. Suhasini David Sekhar',
 			'Mr. Umesh Mhapankar',

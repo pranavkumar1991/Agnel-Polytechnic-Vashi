@@ -29,9 +29,9 @@
 		['Mrs. Suhasini David Sekhar', 'Lecturer', ['Masters in Technology', 'Electrical'], '06/01/1998', '22 years'],
 		['Mr. Umesh Mhapankar', 'Lecturer', ['Masters in Engineering', 'Electronics'], '12/01/2003', '17 years'],
 		['Mrs. Archana Wasule', 'Lecturer', ['Masters in Engineering', 'Electronics'], '14/12/2004', '16 years'],
-		['Ms. Sonali Sherigar', 'Lecturer', ['Masters in Technology', 'Electronics'], '07/02/2007', '20 years'],
 		['Ms. Varsha Meshram', 'Lecturer', ['Masters in Technology', 'Electronics'], '14/06/2010', '12 years'],
-		['Mr. Amol Suryavanshi', 'Lecturer', ['Masters in Engineering', 'Electronics'], '18/08/2011', '9 years']
+		['Mr. Amol Suryavanshi', 'Lecturer', ['Masters in Engineering', 'Electronics'], '18/08/2011', '9 years'],
+		['Mr. Mohd Janisar', 'Lecturer', ['Bachelors in Technology', 'IT'], '02/07/2025', '3 years']
 	];
 
 	let mechanical_engineering_teaching_staff = [
