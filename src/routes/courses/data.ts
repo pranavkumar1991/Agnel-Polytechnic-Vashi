@@ -53,7 +53,7 @@ export const data: Record<string, DeptData> = {
 			'To inculcate awareness towards societal needs and environmental issues.'
 		],
 		teachingFaculty: [
-			'Mrs. Raji MP (HOD)',
+			'Mrs. Raji MP ',
 			'Mrs. Jewel Samantha',
 			'Mrs. Suhasini David Sekhar',
 			'Mr. Umesh Mhapankar',
