@@ -26,7 +26,7 @@
 		['Mrs. Raji MP', 'Head of Department', ['Masters in Engineering', 'Electrical'],'Regular', '06/06/1995', '0 years', '30 years'],
 		['Mrs. Jewel Samantha', 'Training and Placement Officer', ['M.Tech', 'Electronics'], 'Regular','07/01/1997','0 years', '28 years'],
 		['Mrs. Suhasini David Sekhar', 'Lecturer', ['Masters in Technology', 'Electrical'], 'Regular','06/01/1998','0 years', '27 years'],
-		['Mr. Umesh Mhapankar', 'Lecturer', ['Masters in Engineering', 'Electronics'],'Regular', '12/01/2003','2 years', '22 years'],
+		['Dr. Umesh Mhapankar', 'Lecturer', ['PhD', 'Electronics'],'Regular', '12/01/2003','2 years', '22 years'],
 		['Mrs. Archana Wasule', 'Lecturer', ['M.Tech', 'Electronics'],'Regular', '14/12/2004', '0years', '21 years'],
 		['Ms. Varsha Meshram', 'Lecturer', ['Masters in Technology', 'Electronics'],'Regular', '14/06/2010', '0 years','17 years'],
 		['Mr. Amol Suryavanshi', 'Lecturer', ['Masters in Engineering', 'Electronics'],'Regular', '18/08/2011', '0 years', '14 years'],
