@@ -34,7 +34,7 @@ export const data: Record<string, DeptData> = {
 			'Ms. Kirti Karande', 
 			'Ms. Namrata Thakur',
 			'Ms. Monali Chandwadkar',
-			'Ms. Susan Sabu Manimala'
+			''
 		],
 		teachingFacultyQualifications: ['M.Tech', 'M.E Computer', 'B.E IT', 'M.Tech Computer (Pursuing)', 'M.E Computer (Pursuing)', 'M.E Computer (Pursuing)', 'B.E IT', 'MA in English Literature'],
 		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq']
@@ -55,18 +55,18 @@ export const data: Record<string, DeptData> = {
 		],
 		teachingFaculty: [
 			'Mrs. Raji MP',
-			'Mrs. Jewel Samantha',
+			'Mrs. Jewel Samanta',
 			'Mrs. Suhasini David Sekhar',
 			'Dr. Umesh Mhapankar',
 			'Mrs. Archana Wasule',
 			'Ms. Varsha Meshram',
 			'Mr. Amol Suryavanshi',
-			'Mr. Mohd Janisar',
+			'',
 			'Ms. Malini Pawnday',
 			'Ms. R.P. Snehalatha'
 
 		],
-		teachingFacultyQualifications: ['M.E Electronics', 'M.E', 'M.Tech', 'PhD', 'M.E', 'M.Tech', 'M.Tech', 'M.Tech Computer Engineering (Pursuing)','M. Sc. Physics', 'M. Sc. Maths'],
+		teachingFacultyQualifications: ['M.E Electronics', 'M.Tech', 'M.Tech', 'PhD', 'M.E', 'M.Tech', 'M.Tech', '','M. Sc. Physics', 'M. Sc. Maths'],
 		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge']
 	},
 	automobile_engineering: {
