@@ -5,11 +5,11 @@ type News = {
 
 export const newsArray: News[] = [
 	{
-		title: 'MSBTE Newsletter Oct 2023 News Issue',
-		link: 'https://msbte.org.in/file/MSBTE_Newsletter_Oct_issue_10112023.pdf'
+		title: 'MSBTE Newsletter',
+		link: 'https://msbte.ac.in/'
 	},
 	{
-		title: "Exit survey 2024",
+		title: "Exit survey",
 		link: "https://forms.gle/vP4KJhzKkb2i8enZA"
 	},
 	{
