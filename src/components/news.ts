@@ -10,7 +10,7 @@ export const newsArray: News[] = [
 	},
 	{
 		title: "Exit survey",
-		link: "https://forms.gle/vP4KJhzKkb2i8enZA"
+		link: "https://forms.gle/Ys8XQVPBB2xxtuT68"
 	},
 	{
 		title: "Library",
