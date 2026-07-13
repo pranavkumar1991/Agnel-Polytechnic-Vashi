@@ -17,8 +17,12 @@ export const newsArray: News[] = [
 		link: "http://122.200.18.76"
 	},
 	{
-		title: "Fee chart",
-		link: "/fee.pdf"
+		title: "College Fees Details",
+		link: "https://drive.google.com/file/d/16dLn2ZSUZVRKNnIKK4XGmmorMHvqvDA-/view?usp=drive_link"
+	},
+	{
+		title: "Exam Fees Details",
+		link: "https://drive.google.com/file/d/1o__6VpKHiTA4zms1jsL3B8RSJwLiHPzw/view?usp=drive_link"
 	},
 	{
 		title: "Direct Second Year Admission",
