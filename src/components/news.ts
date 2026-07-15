@@ -18,7 +18,7 @@ export const newsArray: News[] = [
 	},
 	{
 		title: "College Fees Details",
-		link: "https://drive.google.com/file/d/1G-9HW3lmM4g0bcvd_dHshA6EVZI5SY8G/view?usp=sharing"
+		link: "https://drive.google.com/file/d/17sueNVnuI0Bx56uLNJnqU3RLFpjdxQ6i/view?usp=sharing"
 	},
 	{
 		title: "Exam Fees Details",
