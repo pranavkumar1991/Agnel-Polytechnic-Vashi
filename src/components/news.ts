@@ -18,11 +18,11 @@ export const newsArray: News[] = [
 	},
 	{
 		title: "College Fees Details",
-		link: "https://drive.google.com/file/d/16dLn2ZSUZVRKNnIKK4XGmmorMHvqvDA-/view?usp=drive_link"
+		link: "https://drive.google.com/file/d/1G-9HW3lmM4g0bcvd_dHshA6EVZI5SY8G/view?usp=sharing"
 	},
 	{
 		title: "Exam Fees Details",
-		link: "https://drive.google.com/file/d/1o__6VpKHiTA4zms1jsL3B8RSJwLiHPzw/view?usp=drive_link"
+		link: ""
 	},
 	{
 		title: "Direct Second Year Admission",
