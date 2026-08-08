@@ -2,7 +2,7 @@
 	<div class="card shadow-xl p-10 gap-5 border-2 border-secondary">
 		<h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center">Admission Procedure</h1>
 		<a href="/FeeChart2025-26.pdf" download class="btn btn-primary">Download Fee Chart</a>
-<a href="https://drive.google.com/file/d/1gYcKLIBAuVpMQbsUDDpAH47mkL-Tw3fa/view?usp=drivesdk" download class="btn btn-primary">Institute Detailst</a> 
+<a href="https://drive.google.com/file/d/1gYcKLIBAuVpMQbsUDDpAH47mkL-Tw3fa/view?usp=drivesdk" download class="btn btn-primary">Vacancy Details</a> 
 		<p class="text-lg">
 			For Admissions to CAP Seats as well as Institutional Quota, it is compulsory for all candidates to purchase an application kit and submit the
 			online application form. Please verify that your name appears in the merit list prepared by the Competent Authority nominated by the Govt. of
