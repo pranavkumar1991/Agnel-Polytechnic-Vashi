@@ -24,8 +24,5 @@ export const newsArray: News[] = [
 		title: "Exam Fees Details",
 		link: ""
 	},
-	{
-		title: "Direct Second Year Admission",
-		link: "/Schedule.pdf"
-	}
+	
 ];
