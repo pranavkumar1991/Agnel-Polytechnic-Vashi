@@ -325,8 +325,8 @@
 								<div class="card-body">
 
 									<h2 class="card-title text-base text-center">
-										{removeExtension(pdf)}
-									</h2>
+    The Mechwiz Summer 2026
+</h2>
 
 
 									<!-- Google Drive Button -->
