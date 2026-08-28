@@ -149,34 +149,44 @@
 				</div>
 			</div>
 
-			<!-- Magazine -->
-			<div>
-				<h4 class="text-center text-4xl font-bold mb-4">Magazine</h4>
-				<div class="flex justify-center">
-					{#if data.items['Magazine'] && data.items['Magazine'].length > 0}
-						{#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdf}
-							<div class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto cursor-pointer" on:click={() => openPDF(pdf)}>
-								<figure class="flex justify-center">
-									<img                                   
-										src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`} 
-										alt="Magazine Cover" 
-										class="object-contain max-h-[500px]"
-									/>
-								</figure>
-								<div class="card-body">
-									<h2 class="card-title text-base text-center">{removeExtension(pdf)}</h2>
-									<p class="text-sm text-white text-center">Click to view PDF</p>
-								</div>
-							</div>
-						{/each}
-					{/if}
-				</div>
-			</div>
+		<!-- Magazine -->
+<div>
+    <h4 class="text-center text-4xl font-bold mb-4">Magazine</h4>
 
-		</div>
-	</section>
+    <div class="flex justify-center">
+        {#if data.items['Magazine'] && data.items['Magazine'].length > 0}
+            {#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdf}
+                <div class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto">
+
+                    <figure class="flex justify-center">
+                        <img
+                            src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`}
+                            alt="Magazine Cover"
+                            class="object-contain max-h-[500px]"
+                        />
+                    </figure>
+
+                    <div class="card-body">
+                        <h2 class="card-title text-base text-center">
+                            {removeExtension(pdf)}
+                        </h2>
+
+                        <!-- Open Magazine Button -->
+                        <a
+                            href="https://drive.google.com/file/d/1eNpWbDXeuZQnO-RSrn-X7gYF_GI0TCGk/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-primary w-full"
+                        >
+                            Open Magazine
+                        </a>
+                    </div>
+
+                </div>
+            {/each}
+        {/if}
+    </div>
 </div>
-
 <!-- PDF Viewer Modal -->
 {#if showPDF}
 	<div class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
