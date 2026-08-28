@@ -4,51 +4,77 @@
 
 	import { page } from '$app/stores';
 
-	let showPDF: string | null = null; // store the selected PDF path
-
 	function removeExtension(filename: string) {
-		var lastDotPosition = filename.lastIndexOf('.');
+		const lastDotPosition = filename.lastIndexOf('.');
 		if (lastDotPosition === -1) return filename;
-		else return filename.substring(0, lastDotPosition);
-	}
-
-	function openPDF(pdf: string) {
-		showPDF = `/courses/${$page.params.course}/Magazine/${pdf}`;
-	}
-
-	function closePDF() {
-		showPDF = null;
+		return filename.substring(0, lastDotPosition);
 	}
 </script>
 
 <div class="flex flex-col gap-12">
+
 	<!-- Department Name + HOD -->
 	<section class="px-2">
-		<h3 class="text-center text-4xl font-bold max-w-7xl mx-auto mb-4">{deptData.name}</h3>
-		<div class="card lg:card-side shadow-xl bg-accent max-w-7xl mx-auto pt-2 lg:p-5 items-center justify-center">
-			<div class="card card-compact w-96 shrink-0 grow-0 bg-base-100 shadow-xl rounded-none h-fit my-auto">
-				<figure><img src="/courses/{$page.params.course}/HOD.webp" alt="HOD" /></figure>
-				<h2 class="card-title p-2.5">{deptData.HOD}</h2>
+		<h3 class="text-center text-4xl font-bold max-w-7xl mx-auto mb-4">
+			{deptData.name}
+		</h3>
+
+		<div
+			class="card lg:card-side shadow-xl bg-accent max-w-7xl mx-auto pt-2 lg:p-5 items-center justify-center"
+		>
+			<div
+				class="card card-compact w-96 shrink-0 grow-0 bg-base-100 shadow-xl rounded-none h-fit my-auto"
+			>
+				<figure>
+					<img
+						src={`/courses/${$page.params.course}/HOD.webp`}
+						alt="HOD"
+					/>
+				</figure>
+
+				<h2 class="card-title p-2.5">
+					{deptData.HOD}
+				</h2>
 			</div>
+
 			<div class="card-body text-justify text-white">
 				<p>{deptData.about}</p>
 			</div>
 		</div>
 	</section>
 
+
 	<!-- Vision and Mission -->
 	<section class="flex justify-around items-center flex-col gap-6 px-2">
+
 		<div class="grid lg:grid-cols-2 gap-x-8 gap-y-2 max-w-7xl">
-			<h2 class="text-center text-4xl font-bold max-w-7xl mx-auto lg:col-span-2 mb-4">Vision and Mission</h2>
+
+			<h2
+				class="text-center text-4xl font-bold max-w-7xl mx-auto lg:col-span-2 mb-4"
+			>
+				Vision and Mission
+			</h2>
+
+			<!-- Vision -->
 			<div class="card shadow-xl text-white bg-secondary">
 				<div class="card-body">
-					<h2 class="card-title mx-auto text-4xl font-bold">Vision</h2>
-					<p class="text-lg text-justify">{deptData.vision}</p>
+					<h2 class="card-title mx-auto text-4xl font-bold">
+						Vision
+					</h2>
+
+					<p class="text-lg text-justify">
+						{deptData.vision}
+					</p>
 				</div>
 			</div>
+
+			<!-- Mission -->
 			<div class="card shadow-xl text-white bg-secondary">
 				<div class="card-body">
-					<h2 class="card-title mx-auto text-4xl font-bold">Mission</h2>
+					<h2 class="card-title mx-auto text-4xl font-bold">
+						Mission
+					</h2>
+
 					<ul class="text-lg list-disc mx-auto pl-2">
 						{#each deptData.mission as point}
 							<li>{point}</li>
@@ -56,143 +82,292 @@
 					</ul>
 				</div>
 			</div>
+
 		</div>
+
+
+		<!-- Intake and Duration -->
 		<div class="stats shadow h-fit border-2 border-accent">
+
 			<div class="stat">
-				<div class="stat-title text-black font-semibold">Intake</div>
-				<div class="stat-value font-bold">{deptData.intake} students</div>
+				<div class="stat-title text-black font-semibold">
+					Intake
+				</div>
+
+				<div class="stat-value font-bold">
+					{deptData.intake} students
+				</div>
 			</div>
+
 			<div class="stat">
-				<div class="stat-title text-black font-semibold">Duration</div>
-				<div class="stat-value font-bold">{deptData.duration} years</div>
+				<div class="stat-title text-black font-semibold">
+					Duration
+				</div>
+
+				<div class="stat-value font-bold">
+					{deptData.duration} years
+				</div>
 			</div>
+
 		</div>
+
 	</section>
+
 
 	<!-- Teaching Faculty -->
 	<section class="flex flex-col gap-6">
-		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Teaching Faculty</h4>
+
+		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">
+			Teaching Faculty
+		</h4>
+
 		<div class="flex flex-wrap gap-5 mx-auto justify-center mb-16">
+
 			{#each deptData.teachingFaculty as name, index}
+
 				<div class="card card-compact w-64 shadow-xl">
-					<figure><img src="/staff/{name}.webp" alt="{name} picture" class="aspect-square" /></figure>
+
+					<figure>
+						<img
+							src={`/staff/${name}.webp`}
+							alt={`${name} picture`}
+							class="aspect-square"
+						/>
+					</figure>
+
 					<div class="card-body">
-						<h2 class="card-title">{name}</h2>
-						<p>{deptData.teachingFacultyQualifications[index]}</p>
+
+						<h2 class="card-title">
+							{name}
+						</h2>
+
+						<p>
+							{deptData.teachingFacultyQualifications[index]}
+						</p>
+
 					</div>
+
 				</div>
+
 			{/each}
+
 		</div>
+
 	</section>
+
 
 	<!-- Non-Teaching Faculty -->
 	<section class="flex flex-col gap-6">
-		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">Non-Teaching Faculty</h4>
+
+		<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">
+			Non-Teaching Faculty
+		</h4>
+
 		<div class="flex flex-wrap gap-5 mx-auto justify-center items-end">
+
 			{#each deptData.nonTeachingFaculty as name}
+
 				<div class="card card-compact w-64 shadow-xl">
-					<figure><img src="/staff/{name}.webp" alt={`${name} picture`} class="aspect-square" /></figure>
+
+					<figure>
+						<img
+							src={`/staff/${name}.webp`}
+							alt={`${name} picture`}
+							class="aspect-square"
+						/>
+					</figure>
+
 					<div class="card-body">
-						<h2 class="card-title">{name}</h2>
+
+						<h2 class="card-title">
+							{name}
+						</h2>
+
 					</div>
+
 				</div>
+
 			{/each}
+
 		</div>
+
 	</section>
 
-	<!-- Dynamic Sections (excluding Toppers & Magazine) -->
+
+	<!-- Dynamic Sections -->
 	{#each Object.keys(data.items) as directory, i}
-		{#if directory !== "Toppers" && directory !== "Magazine"}
+
+		{#if directory !== 'Toppers' && directory !== 'Magazine'}
+
 			<section class="flex flex-col gap-6">
-				<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">{directory}</h4>
+
+				<h4 class="text-center text-4xl font-bold max-w-7xl mx-auto">
+					{directory}
+				</h4>
+
 				<div class="flex flex-wrap gap-5 mx-auto justify-center items-start">
+
 					{#each data.items[directory] as item}
-						<div class="card card-compact w-96 shadow-xl h-fit {i % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
+
+						<div
+							class="card card-compact w-96 shadow-xl h-fit
+							{i % 2 === 0
+								? 'bg-accent text-white'
+								: 'bg-secondary text-black'}"
+						>
+
 							<figure>
-								<img src={`/courses/${$page.params.course}/${directory}/${item}`} alt={`${item} picture`} />
+								<img
+									src={`/courses/${$page.params.course}/${directory}/${item}`}
+									alt={`${item} picture`}
+								/>
 							</figure>
+
 							<div class="card-body">
-								<h2 class="card-title text-base">{removeExtension(item)}</h2>
+
+								<h2 class="card-title text-base">
+									{removeExtension(item)}
+								</h2>
+
 							</div>
+
 						</div>
+
 					{/each}
+
 				</div>
+
 			</section>
+
 		{/if}
+
 	{/each}
+
 
 	<!-- Combined Section: Toppers + Magazine -->
 	<section class="max-w-7xl mx-auto px-2">
+
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-			
+
+
 			<!-- Toppers -->
 			<div>
-				<h4 class="text-center text-4xl font-bold mb-4">Toppers</h4>
+
+				<h4 class="text-center text-4xl font-bold mb-4">
+					Toppers
+				</h4>
+
 				<div class="flex justify-center">
+
 					{#if data.items['Toppers']}
+
 						{#each data.items['Toppers'] as topper, idx}
-							<div class="card card-compact w-80 shadow-xl h-fit mx-auto 
-								{idx % 2 === 0 ? 'bg-accent text-white' : 'bg-secondary text-black'}">
+
+							<div
+								class="card card-compact w-80 shadow-xl h-fit mx-auto
+								{idx % 2 === 0
+									? 'bg-accent text-white'
+									: 'bg-secondary text-black'}"
+							>
+
 								<figure class="flex justify-center">
-									<img 
-										src={`/courses/${$page.params.course}/Toppers/${topper}`} 
-										alt={`${topper} picture`} 
+
+									<img
+										src={`/courses/${$page.params.course}/Toppers/${topper}`}
+										alt={`${topper} picture`}
 										class="object-contain max-h-[500px]"
 									/>
+
 								</figure>
+
 								<div class="card-body">
-									<h2 class="card-title text-base text-center">{removeExtension(topper)}</h2>
+
+									<h2 class="card-title text-base text-center">
+										{removeExtension(topper)}
+									</h2>
+
 								</div>
+
 							</div>
+
 						{/each}
+
 					{/if}
+
 				</div>
+
 			</div>
 
-		<!-- Magazine -->
-<div>
-    <h4 class="text-center text-4xl font-bold mb-4">Magazine</h4>
 
-    <div class="flex justify-center">
-        {#if data.items['Magazine'] && data.items['Magazine'].length > 0}
-            {#each data.items['Magazine'].filter(file => file.endsWith('.pdf')) as pdf}
-                <div class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto">
+			<!-- Magazine -->
+			<div>
 
-                    <figure class="flex justify-center">
-                        <img
-                            src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`}
-                            alt="Magazine Cover"
-                            class="object-contain max-h-[500px]"
-                        />
-                    </figure>
+				<h4 class="text-center text-4xl font-bold mb-4">
+					Magazine
+				</h4>
 
-                    <div class="card-body">
-                        <h2 class="card-title text-base text-center">
-                            {removeExtension(pdf)}
-                        </h2>
+				<div class="flex justify-center">
 
-                        <!-- Open Magazine Button -->
-                        <a
-                            href="https://drive.google.com/file/d/1eNpWbDXeuZQnO-RSrn-X7gYF_GI0TCGk/view?usp=sharing"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="btn btn-primary w-full"
-                        >
-                            Open Magazine
-                        </a>
-                    </div>
+					{#if data.items['Magazine'] && data.items['Magazine'].length > 0}
 
-                </div>
-            {/each}
-        {/if}
-    </div>
-</div>
-<!-- PDF Viewer Modal -->
-{#if showPDF}
-	<div class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
-		<div class="relative bg-white w-11/12 h-5/6 rounded-lg shadow-xl flex flex-col">
-			<button class="absolute top-2 right-2 bg-red-500 text-white rounded-full px-3 py-1 text-lg font-bold" on:click={closePDF}>×</button>
-			<iframe src={showPDF} class="w-full h-full rounded-lg"></iframe>
+						{#each data.items['Magazine'].filter(
+							(file) => file.toLowerCase().endsWith('.pdf')
+						) as pdf}
+
+							<div
+								class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto"
+							>
+
+								<!-- Magazine Cover -->
+								<figure class="flex justify-center">
+
+									<img
+										src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`}
+										alt="Magazine Cover"
+										class="object-contain max-h-[500px]"
+									/>
+
+								</figure>
+
+
+								<!-- Magazine Details -->
+								<div class="card-body">
+
+									<h2 class="card-title text-base text-center">
+										{removeExtension(pdf)}
+									</h2>
+
+
+									<!-- Google Drive Button -->
+									<a
+										href="https://drive.google.com/file/d/1eNpWbDXeuZQnO-RSrn-X7gYF_GI0TCGk/view?usp=sharing"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="btn btn-primary w-full"
+									>
+										Open Magazine
+									</a>
+
+								</div>
+
+							</div>
+
+						{/each}
+
+					{:else}
+
+						<p class="text-center">
+							No magazine available.
+						</p>
+
+					{/if}
+
+				</div>
+
+			</div>
+
 		</div>
-	</div>
-{/if}
+
+	</section>
+
+</div>
