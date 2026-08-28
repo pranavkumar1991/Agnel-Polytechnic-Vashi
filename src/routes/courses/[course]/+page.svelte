@@ -318,16 +318,7 @@
 								class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto"
 							>
 
-								<!-- Magazine Cover -->
-								<figure class="flex justify-center">
-
-									<img
-										src={`/courses/${$page.params.course}/Magazine/${removeExtension(pdf)}.webp`}
-										alt="Magazine Cover"
-										class="object-contain max-h-[500px]"
-									/>
-
-								</figure>
+								
 
 
 								<!-- Magazine Details -->
