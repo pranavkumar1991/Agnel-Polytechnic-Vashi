@@ -42,7 +42,10 @@ export const data: Record<string, DeptData> = {
 			''
 		],
 		teachingFacultyQualifications: ['M.Tech', 'M.E Computer', 'B.E IT', 'M.Tech Computer (Pursuing)', 'M.E Computer (Pursuing)', 'M.E Computer (Pursuing)', 'B.E IT', 'MA in English Literature'],
-		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq']
+		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq'], magazine: {
+    title: 'The Mechwiz Summer 2026',
+    link: 'https://drive.google.com/file/d/YOUR_MECHANICAL_ID/view'
+}
 	},
 	electronics_and_computer_engineering: {
 		name: 'Electronics & Computer Engineering (TE)',
@@ -72,7 +75,10 @@ export const data: Record<string, DeptData> = {
 
 		],
 		teachingFacultyQualifications: ['M.E Electronics', 'M.Tech', 'M.Tech', 'PhD', 'M.E', 'M.Tech', 'M.Tech', '','M. Sc. Physics', 'M. Sc. Maths'],
-		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge']
+		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge'], magazine: {
+    title: 'The Mechwiz Summer 2026',
+    link: 'https://drive.google.com/file/d/YOUR_MECHANICAL_ID/view'
+}
 	},
 	automobile_engineering: {
 		name: 'Automobile Engineering (AE)',
@@ -99,7 +105,10 @@ export const data: Record<string, DeptData> = {
 		    'Ms. Shalvi Bahadur'],
 			 
 		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','M. Sc. Physics','B.E Civil','M. Sc. Maths M. Phil. ' ],
-		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod']
+		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod'], magazine: {
+    title: 'The Mechwiz Summer 2026',
+    link: 'https://drive.google.com/file/d/YOUR_MECHANICAL_ID/view'
+}
 	},
 	civil_engineering: {
 		name: 'Civil Engineering (CE)',
@@ -139,7 +148,10 @@ export const data: Record<string, DeptData> = {
 			'M. A. English',
 			'M. Sc. Chemistry'
 		],
-		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi']
+		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi'], magazine: {
+    title: 'The Mechwiz Summer 2026',
+    link: 'https://drive.google.com/file/d/YOUR_MECHANICAL_ID/view'
+}
 	},
 	mechanical_engineering: {
 		name: 'Mechanical Engineering (ME)',
@@ -187,6 +199,9 @@ export const data: Record<string, DeptData> = {
 			'M. Sc. Maths',
 			'M. Sc. Chemistry'
 		],
-		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh']
+		nonTeachingFaculty: ['Mr. Mahesh Salunkhe', 'Mr. Avinash Jage', 'Mr. Shailesh Gawand', 'Mr. Mangesh Deshmukh'], magazine: {
+    title: 'The Mechwiz Summer 2026',
+    link: 'https://drive.google.com/file/d/YOUR_MECHANICAL_ID/view'
+}
 	}
 };
