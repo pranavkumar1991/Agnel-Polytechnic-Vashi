@@ -9,6 +9,11 @@ type DeptData = {
 	teachingFaculty: string[];
 	teachingFacultyQualifications: string[];
 	nonTeachingFaculty: string[];
+
+	magazine: {
+		title: string;
+		link: string;
+	};
 };
 
 export const data: Record<string, DeptData> = {
