@@ -43,8 +43,8 @@ export const data: Record<string, DeptData> = {
 		],
 		teachingFacultyQualifications: ['M.Tech', 'M.E Computer', 'B.E IT', 'M.Tech Computer (Pursuing)', 'M.E Computer (Pursuing)', 'M.E Computer (Pursuing)', 'B.E IT', 'MA in English Literature'],
 		nonTeachingFaculty: ['Mr. Vishwas Patil', 'Mrs. Kiran', 'Mr. Sadiq'], magazine: {
-    title: 'The Mechwiz Summer 2026',
-    link: 'https://drive.google.com/file/d/YOUR_MECHANICAL_ID/view'
+    title: 'Meta Verse Summer 2026',
+    link: 'https://drive.google.com/file/d/1JgsDTIFrcIWrQpbSDFDRsn4qq9fTs7GJ/view?usp=sharing'
 }
 	},
 	electronics_and_computer_engineering: {
@@ -76,8 +76,8 @@ export const data: Record<string, DeptData> = {
 		],
 		teachingFacultyQualifications: ['M.E Electronics', 'M.Tech', 'M.Tech', 'PhD', 'M.E', 'M.Tech', 'M.Tech', '','M. Sc. Physics', 'M. Sc. Maths'],
 		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge'], magazine: {
-    title: 'The Mechwiz Summer 2026',
-    link: 'https://drive.google.com/file/d/YOUR_MECHANICAL_ID/view'
+    title: 'Magzine Summer 2026',
+    link: 'https://drive.google.com/'
 }
 	},
 	automobile_engineering: {
@@ -106,8 +106,8 @@ export const data: Record<string, DeptData> = {
 			 
 		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','M. Sc. Physics','B.E Civil','M. Sc. Maths M. Phil. ' ],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod'], magazine: {
-    title: 'The Mechwiz Summer 2026',
-    link: 'https://drive.google.com/file/d/YOUR_MECHANICAL_ID/view'
+    title: 'Magzine Summer 2026',
+    link: 'https://drive.google.com/'
 }
 	},
 	civil_engineering: {
@@ -149,8 +149,8 @@ export const data: Record<string, DeptData> = {
 			'M. Sc. Chemistry'
 		],
 		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi'], magazine: {
-    title: 'The Mechwiz Summer 2026',
-    link: 'https://drive.google.com/file/d/YOUR_MECHANICAL_ID/view'
+   title: 'Magzine Summer 2026',
+    link: 'https://drive.google.com/'
 }
 	},
 	mechanical_engineering: {
