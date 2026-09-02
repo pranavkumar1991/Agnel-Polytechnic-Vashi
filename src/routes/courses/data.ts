@@ -15,7 +15,7 @@ export const data: Record<string, DeptData> = {
 	artificial_intelligence: {
 		name: 'Artificial Intelligence & Machine Learning (AN)',
 		HOD: 'Ms. Sonali Sherigar (HOD)',
-		intake: 60,
+		intake: 120,
 		duration: 3,
 		about:
 			'Artificial Intelligence and Machine Learning is transforming the global technology market and creating numerous jobs in the industry. AI & ML Engineering is an engineering discipline that involves learning how machines can have the ability to solve problems by using some complex algorithms which a human brain solves using natural intelligence. This specialization will help in building intelligent machines through advanced software with machine learning, analytics and visualization. This programme lays an emphasis on understanding concepts of Computer programming, Algorithms in AI, Data Structure and Algorithms, Algorithms in ML, Deep Learning Techniques involving Artificial Neural Networks, Python Programming, Natural Language Processing etc. Some of the applications of AI & ML are in speech recognition, facial recognition, language translations, robotics, healthcare, banking, E-commerce etc. With an increase in popularity, the demand for AI and Machine Learning professionals has also increased. This specialization further offers the perfect chance for students to build a career in the most demanding profession of the world.',
