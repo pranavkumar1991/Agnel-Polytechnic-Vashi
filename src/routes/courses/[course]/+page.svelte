@@ -302,63 +302,45 @@
 			<!-- Magazine -->
 			<div>
 
-				<h4 class="text-center text-4xl font-bold mb-4">
-					Magazine
-				</h4>
+	<h4 class="text-center text-4xl font-bold mb-4">
+		Magazine
+	</h4>
 
-				<div class="flex justify-center">
+	<div class="flex justify-center">
 
-					{#if data.items['Magazine'] && data.items['Magazine'].length > 0}
+		{#if deptData.magazine}
 
-						{#each data.items['Magazine'].filter(
-							(file) => file.toLowerCase().endsWith('.pdf')
-						) as pdf}
+			<div
+				class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto"
+			>
 
-							<div
-								class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto"
-							>
+				<div class="card-body">
 
-								
+					<h2 class="card-title text-base text-center">
+						{deptData.magazine.title}
+					</h2>
 
-
-								<!-- Magazine Details -->
-								<div class="card-body">
-
-									<h2 class="card-title text-base text-center">
-    The Mechwiz Summer 2026
-</h2>
-
-
-									<!-- Google Drive Button -->
-									<a
-										href="https://drive.google.com/file/d/1eNpWbDXeuZQnO-RSrn-X7gYF_GI0TCGk/view?usp=sharing"
-										target="_blank"
-										rel="noopener noreferrer"
-										class="btn btn-primary w-full"
-									>
-										Open Magazine
-									</a>
-
-								</div>
-
-							</div>
-
-						{/each}
-
-					{:else}
-
-						<p class="text-center">
-							No magazine available.
-						</p>
-
-					{/if}
+					<a
+						href={deptData.magazine.link}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="btn btn-primary w-full"
+					>
+						Open Magazine
+					</a>
 
 				</div>
 
 			</div>
 
-		</div>
+		{:else}
 
-	</section>
+			<p class="text-center">
+				No magazine available.
+			</p>
+
+		{/if}
+
+	</div>
 
 </div>
