@@ -107,7 +107,13 @@
 				class="input w-full max-w-sm input-bordered"
 				bind:value={userPhone}
 			/>
-			<textarea class="textarea lg:col-span-2 input-bordered" placeholder="Enter message" bind:value={userMessage} required name="message" />
+			<textarea
+  class="textarea lg:col-span-2 input-bordered"
+  placeholder="Enter message"
+  bind:value={userMessage}
+  required
+  name="message"
+></textarea>
 			<button class="btn btn-secondary lg:col-span-2 text-white" disabled={callingEndpoint}> Send Message </button>
 		</form>
 <a 
