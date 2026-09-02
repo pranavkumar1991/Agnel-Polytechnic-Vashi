@@ -299,48 +299,41 @@
 			</div>
 
 
-			<!-- Magazine -->
+						<!-- Magazine -->
 			<div>
+				<h4 class="text-center text-4xl font-bold mb-4">
+					Magazine
+				</h4>
 
-	<h4 class="text-center text-4xl font-bold mb-4">
-		Magazine
-	</h4>
+				<div class="flex justify-center">
+					{#if deptData.magazine}
+						<div
+							class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto"
+						>
+							<div class="card-body">
+								<h2 class="card-title text-base text-center">
+									{deptData.magazine.title}
+								</h2>
 
-	<div class="flex justify-center">
-
-		{#if deptData.magazine}
-
-			<div
-				class="card card-compact w-80 shadow-xl h-fit bg-secondary text-black mx-auto"
-			>
-
-				<div class="card-body">
-
-					<h2 class="card-title text-base text-center">
-						{deptData.magazine.title}
-					</h2>
-
-					<a
-						href={deptData.magazine.link}
-						target="_blank"
-						rel="noopener noreferrer"
-						class="btn btn-primary w-full"
-					>
-						Open Magazine
-					</a>
-
+								<a
+									href={deptData.magazine.link}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="btn btn-primary w-full"
+								>
+									Open Magazine
+								</a>
+							</div>
+						</div>
+					{:else}
+						<p class="text-center">
+							No magazine available.
+						</p>
+					{/if}
 				</div>
-
 			</div>
 
-		{:else}
-
-			<p class="text-center">
-				No magazine available.
-			</p>
-
-		{/if}
-
-	</div>
+		</div>
+	</section>
 
 </div>
