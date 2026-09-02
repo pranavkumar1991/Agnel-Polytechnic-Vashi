@@ -77,7 +77,7 @@ export const data: Record<string, DeptData> = {
 		teachingFacultyQualifications: ['M.E Electronics', 'M.Tech', 'M.Tech', 'PhD', 'M.E', 'M.Tech', 'M.Tech', '','M. Sc. Physics', 'M. Sc. Maths'],
 		nonTeachingFaculty: ['Mr. Manoj Parthe', 'Mr. Kishor Barve', 'Mr. Avadhut Ghadge'], magazine: {
     title: 'Magzine Summer 2026',
-    link: 'https://drive.google.com/'
+    link: ''
 }
 	},
 	automobile_engineering: {
@@ -107,7 +107,7 @@ export const data: Record<string, DeptData> = {
 		teachingFacultyQualifications: ['M.E Mechanical', 'M.Tech Mechanical', 'M.E Mechanical', 'M.E CAD/CAM (Pursuing)', 'B.E Automobile','M. Sc. Physics','B.E Civil','M. Sc. Maths M. Phil. ' ],
 		nonTeachingFaculty: ['Mr. Paresh Ranpura', 'Mr. Ganesh Rathod'], magazine: {
     title: 'Magzine Summer 2026',
-    link: 'https://drive.google.com/'
+    link: ''
 }
 	},
 	civil_engineering: {
@@ -150,7 +150,7 @@ export const data: Record<string, DeptData> = {
 		],
 		nonTeachingFaculty: ['Mr. Shrikant Shinde', 'Mr. Lahu Surve', 'Mr. Mahesh Suryavanshi'], magazine: {
    title: 'Magzine Summer 2026',
-    link: 'https://drive.google.com/'
+    link: ''
 }
 	},
 	mechanical_engineering: {
